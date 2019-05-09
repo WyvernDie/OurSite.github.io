@@ -1,0 +1,372 @@
+
+html {
+    height: 100%;
+    width: 100%
+}
+body {
+    height: 100%;
+    font: 14px/24px Arial, Tahoma, sans-serif;
+    background-color: #ebebeb;
+    width: 100%;
+}
+ol, ul {list-style: none; width: 80%}
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*! width: 100%; */
+}
+
+a, a:hover {text-decoration: none;}
+
+
+
+
+/* Description of styles to a menu when you scroll */
+
+.js-global-header-scrolling {
+    top: -20em; /* Height of the header */
+}
+
+
+header{ /*Задаем тот же фон для выпрыгивающего меню*/
+    /*background: rgba(5, 2, 2, 0.91);!*Фон для меню*!*/
+    padding:10px;
+    position: fixed;
+    top:-10px;
+    width: 100%;
+    z-index: 1000000000000000;
+    height: 149px;
+}
+#fon-menu{
+    margin: 0 auto;
+    margin-left: -12px;
+    position: absolute;
+    height: 186px;
+    left: 0;
+    right: 0;
+    width: 1585px;
+}
+.header-block{
+    height: 90px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    /*! justify-content: right; */
+    top:9px;
+    /*! right: 0; */
+    flex-basis: 1013px;
+}
+#imm{
+    height: 150px;
+    z-index: 3;
+    margin-top: 15px;
+    margin-left: 13px;
+    flex-basis: 170px;
+    flex: 0.3;
+    margin-right: 11%;
+    max-width: 175px;
+}
+.graficlogo:not(:hover) {
+    transform: rotate(0deg);
+    transition: 4s;
+}
+.graficlogo:hover{
+    transition: 4s;
+    transform: rotate(360deg);
+     
+}
+.punkt{
+    color: white;
+    margin-right: 11%;
+    z-index: 2;
+    width: 20px;
+    position: relative;
+    padding: 7px;
+    flex: 1;
+}
+.punkt:nth-child(6){
+    display: none;
+    width: 0;
+}
+#nas
+{
+   display: ruby;
+}
+.imag-m{
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    height: 135px;
+    flex: 1;
+    /*! right: 0; */
+}
+
+@media (max-width:876px){ /*Медиа-запрос*/
+    html{
+        width: 100%;
+        height: 100%;
+    }
+    body{
+        width: 100%;
+    }
+    header{
+        width: 130%;
+        height: 54%;
+        position: fixed;
+    }
+    #imm{
+        position: initial;
+        flex-basis: 0px;
+        height: 110px;
+        top: 0;
+        left: 0;
+        margin-top:10px;
+        margin-left: 3px;
+        max-width: 110px;
+        margin-right: 7%;
+        /*! min-width: 130px; */
+    }
+   .graficlogo:not(:hover) {
+    transform: rotate(0deg);
+    transition: 4s;
+}
+.graficlogo:hover{
+    transition: 4s;
+    transform: rotate(360deg);
+     
+}
+    .header-block{
+        position: relative;
+        display: flex;        
+        top: 0;
+        right: 0;
+        z-index: 120;
+        flex-basis: 40%;
+        margin-right: -100px;
+        margin-top: -5px;
+    }
+    #fon-menu{
+        margin-left: -12px;
+        position: absolute;
+        height: 138px;
+        left: 0;
+        right: 0;
+        width: 1120px;
+        z-index: -10;
+    }
+    .punkt{
+        margin-right: 9%;
+    }
+    .slide-container{
+        display: none;
+    }
+}
+
+.slide-container {
+    left: 0;
+    position: fixed;
+    top: 133px;
+}
+
+.slide-container .slide {
+    background-color: #232323;
+    color: #fff;
+    border-width: 2px 2px 2px 0;
+    border-image: linear-gradient(to right, #232323 , rgba(67, 67, 67, 0.79));
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #232323 , rgba(68, 68, 68, 0.79));
+    -moz-border-image: -moz-linear-gradient(right, #232323 , rgba(69, 69, 69, 0.81));
+    -webkit-border-image: -webkit-linear-gradient(left, #232323 , rgba(57, 57, 57, 0.84));
+    border-image-slice: 1%;
+    height: 48px;
+    line-height: 48px;
+    margin: 50px 0 0 -170px;
+    position: relative;
+    width: 200px;
+    padding-left: 10px;
+    -moz-transition: margin 1s;
+    -o-transition: margin 1s;
+    -webkit-transition: margin 1s;
+    transition: margin 1s;
+}
+
+.slide-container .slide:hover {
+    margin-left: 0;
+}
+
+.slide-container .slide .slide-content {
+    float: left;
+    width: 170px;
+}
+
+.slide-container .slide .slide-header {
+    float: left;
+    width: 30px;
+    -moz-transition: opacity 2s;
+    -o-transition: opacity 2s;
+    -webkit-transition: opacity 2s;
+    transition: opacity 2s;
+}
+
+
+.slide-content
+{
+    float: left;
+}
+.s
+{
+    transition: all .4s ease;
+    position: absolute;
+    right: -8px;
+}
+.p
+{
+    position: absolute;
+    right: -8px;
+    transform: translateX(-100%);
+    transition: all .4s ease;
+}
+.slide
+{
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+.slide:hover .p {
+    transform: translateX(0);
+    transition: all .4s ease;
+}
+.slide:hover .s {
+    transform: translateX(100%);
+    transition: all .4s ease;
+}
+
+/* СКРЫТЫЙ БЛОК */
+#hidden_panel {
+    position: fixed; /* положение */
+    top: 230px; /* отступ сверху */
+    left: -220px; /* отступ слева */
+    background: lavender; /* цвет фона */
+    color: #000; /* цвет текста */
+    width: 198px; /* ширина блока */
+    height: 153px; /* высота блока */
+    /*padding: 0px 6px 0 6px; !* отступы от границ внутри блока *!*/
+    text-align: center; /* выравнивание текста */
+    -webkit-transition-duration: 1s; /* анимационное выдвижение для всех браузеров*/
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+
+}
+ .slide-container
+{
+    z-index: 1000000000000;
+}
+.slide:hover #hidden_panel {
+    left: 0; /* отступ слева */
+}
+#hidden_panel2
+{
+    width: 198px; /* ширина блока */
+    height: 30px; /* высота блока */
+    position: relative; /* положение */
+    text-align: center;
+}
+#hidden_panel2 a
+{
+    color: green;
+}
+#hidden_panel2 a:hover
+{
+    color: rgba(179, 12, 49, 0.76);
+}
+/*слайдеры*/
+.slider
+{
+    width: 500px;
+    height: 400px;
+    margin: 10px 10px;
+    position: relative;
+    display: flex;
+}
+.slider .img
+{
+    display: block;
+    position: absolute;
+    width: 700px;
+}
+.novosti
+{
+    width: 500px;
+    height: 400px;
+    margin: 10px 100px;
+    position: relative;
+    /*display: block;*/
+}
+.novosti .img
+{
+    display: none;
+    position: absolute;
+    width: 700px;
+}
+.curry
+{
+display: block;
+}
+.img:first-child
+{
+    width: 100px;
+    height: 250px;
+    /*background: #ebebeb;*/
+}
+.img:nth-child(2){
+    width: 700px;
+    width: 100px;
+    height: 250px;
+}
+.img:nth-child(3){
+    width: 700px;
+    width: 100px;
+    height: 250px;
+}
+.img:nth-child(4){
+    width: 700px;
+    width: 100px;
+    height: 250px;
+}
+
+#next1
+{
+    position: relative;
+    display: none;
+}
+
+
+#prev1
+{
+    position: relative;
+    display: none;
+}
+/*ment - menu js*/
+.ment{
+    color: rgba(185, 92, 255, 0.51);
+    padding: 10px;
+    border: 5px;
+}
+
+/*Подвал Сайта*/
+
+.contact {
+        padding: 10px;
+        opacity: .7;
+   
+        border-top: 20px solid #131313;
+        border-image: url(../Image/border.jpg) 50 round round;
+    }
+.contact span {
+        color: #ffcc33;
+    }

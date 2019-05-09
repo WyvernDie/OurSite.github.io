@@ -1,0 +1,54 @@
+.swiper-container {
+    text-align: center;
+    color: #fff;
+}
+
+.sliderContainer{
+    padding: 15px;
+    width: 90%;
+    background: #333333;
+    border: 3px solid #212121;
+}
+.sliderContainer img{
+    float: left;
+    width: 50%;
+    max-height: 400px;
+}
+.sliderContainer div{
+    float: right;
+    width: 40%;
+    margin-right: 5%;
+}
+.swiper-slide {
+    text-align: center;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    margin: 10px 0 ;
+}
+@media (max-width: 755px){
+    .infoGame{
+        display: none;
+    }
+    .sliderContainer img{
+        width: 100%;
+    }
+    .sliderContainer{
+        padding:0;
+        border: none;
+        width: 100%;
+    }
+    .swiper-slide{
+        margin: 0;
+    }
+}

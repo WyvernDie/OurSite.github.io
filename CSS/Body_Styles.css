@@ -1,0 +1,24 @@
+.map_container{
+    background: url("../Image/bMap.jpg") center;
+    text-align: center;
+    border-top: 20px solid #131313;
+    border-image: url(../Image/border.jpg) 50 round round;
+    padding-bottom: 30px;
+}
+
+.map{
+    margin: 5px 40px 0px 40px;
+    border: 3px solid #282934;
+}
+
+.map_container h1{
+    color:#DDD;
+    font-size:3em;
+    font-stretch:ultra-expanded;
+    line-height: 100px;
+}
+
+.price{
+    border-bottom: 20px solid #131313;
+    border-image: url(../Image/border.jpg) 50 round round;
+}
