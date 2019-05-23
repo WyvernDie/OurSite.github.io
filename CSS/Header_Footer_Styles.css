@@ -105,66 +105,7 @@ header{ /*Задаем тот же фон для выпрыгивающего м
     /*! right: 0; */
 }
 
-@media (max-width:876px){ /*Медиа-запрос*/
-    html{
-        width: 100%;
-        height: 100%;
-    }
-    body{
-        width: 100%;
-    }
-    header{
-        width: 130%;
-        height: 54%;
-        position: fixed;
-    }
-    #imm{
-        position: initial;
-        flex-basis: 0px;
-        height: 110px;
-        top: 0;
-        left: 0;
-        margin-top:10px;
-        margin-left: 3px;
-        max-width: 110px;
-        margin-right: 7%;
-        /*! min-width: 130px; */
-    }
-   .graficlogo:not(:hover) {
-    transform: rotate(0deg);
-    transition: 4s;
-}
-.graficlogo:hover{
-    transition: 4s;
-    transform: rotate(360deg);
-     
-}
-    .header-block{
-        position: relative;
-        display: flex;        
-        top: 0;
-        right: 0;
-        z-index: 120;
-        flex-basis: 40%;
-        margin-right: -100px;
-        margin-top: -5px;
-    }
-    #fon-menu{
-        margin-left: -12px;
-        position: absolute;
-        height: 138px;
-        left: 0;
-        right: 0;
-        width: 1120px;
-        z-index: -10;
-    }
-    .punkt{
-        margin-right: 9%;
-    }
-    .slide-container{
-        display: none;
-    }
-}
+
 
 .slide-container {
     left: 0;
