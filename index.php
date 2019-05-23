@@ -9,24 +9,9 @@ while ($d < $m) {
     $d++;
 }
 ?>
-    <div class="slide-container">
-        <div class="slide">
-            <div class="slide-content">Переход</div>
-            <img src="../Image/block_r.png" height="48px" class="s">
-            <img src="../Image/block_l.png" height="48px" class="p">
-            <div id="hidden_panel">
-                <div id="hidden_panel2"><a href="#map">как добраться</a></div>
-                <div id="hidden_panel2"><a> якорь </a></div>
-                <div id="hidden_panel2"><a> якорь </a></div>
-                <div id="hidden_panel2"><a> якорь </a></div>
-                <div id="hidden_panel2"><a> якорь </a></div>
-                <? if ($ses) {
-                    ?>
-                    <a class="editing" href="../Admin/adminSite/linkEditing.php">Редактировать Блок</a>
-                <? } ?>
-            </div>
-        </div>
-    </div>
+
+
+
 
     <div class="price">
         <img src="Image/background.jpg" width="100%" height="auto">
