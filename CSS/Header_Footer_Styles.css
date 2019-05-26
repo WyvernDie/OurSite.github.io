@@ -254,10 +254,9 @@ header{ /*Задаем тот же фон для выпрыгивающего м
     .header-block{
         width: 8px;
         height: 10px;
-        flex-flow: row-reverse;
         /*! margin: 0 auto; */
         margin-top: 30px;
-        margin-left: 107px;
+        margin-left: -9px;
 
     }
     .punkt{
