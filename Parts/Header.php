@@ -54,23 +54,25 @@ while ($i < $k) {
         <img src="../Image/menuBackground.png" alt="menu" id="fon-menu">
         <img src="../Image/shelt.png" class="graficlogo" id="imm">
         <nav class="header-block">
-            <div class="punkt"><a href="../index.php">главная</a></div>
-            <div class="punkt"><a href="news.php">новости</a></div>
-            <div class="punkt"><a href="#">цены</a></div>
-            <div class="punkt"><a href="#" id="nas">о нас</a></div>
-            <div class="punkt"><a href="../Admin/admin.php">Администратор</a></div>
+            <?foreach ($menuDatas as $menuData){?>
+            <div class="punkt"><a href="<? echo $menuData['link']; ?>" class="menu-mini"><? echo $menuData['name']; ?></a></div>
+            <?}?>
             <button  type="button" id="elem" class="punkt punktz"><a href="#free">&#9776</a></button>
             <div id="phone-menu" class="menu-block">
-                <h4 class="h4"><a href="#" class="menu-mini">Главная</a></h4>
+                <?foreach ($menuDatas as $menuData){?>
+                <h4 class="h4"><a href="<? echo $menuData['link']; ?>" class="menu-mini"><? echo $menuData['name']; ?></a></h4>
                 <hr class="hr">
-                <h4 class="h4"><a href="#" class="menu-mini">Цены</a></h4>
-                <hr class="hr">
-                <h4 class="h4"><a href="../news.php" class="menu-mini">Новости</a></h4>
-                <hr class="hr">
-                <h4 class="h4"><a href="#" class="menu-mini">О нас</a></h4>
-                <hr class="hr">
-                <h4 class="h4"><a href="../Admin/admin.php" class="menu-mini">Администратор</a></h4>
-                <hr class="hr">
+<!--                <h4 class="h4"><a href="#" class="menu-mini">Главная</a></h4>-->
+<!--                <hr class="hr">-->
+<!--                <h4 class="h4"><a href="#" class="menu-mini">Цены</a></h4>-->
+<!--                <hr class="hr">-->
+<!--                <h4 class="h4"><a href="../news.php" class="menu-mini">Новости</a></h4>-->
+<!--                <hr class="hr">-->
+<!--                <h4 class="h4"><a href="#" class="menu-mini">О нас</a></h4>-->
+<!--                <hr class="hr">-->
+<!--                <h4 class="h4"><a href="../Admin/admin.php" class="menu-mini">Администратор</a></h4>-->
+<!--                <hr class="hr">-->
+                <?}?>
             </div>
         </nav>
 
