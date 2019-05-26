@@ -8,6 +8,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -105,6 +110,8 @@
         <option value="$PROJECT_DIR$/Admin/adminSite/gameBanner/Editing.php" />
         <option value="$PROJECT_DIR$/Admin/adminSite/gameBanner/infoEditing.php" />
         <option value="$PROJECT_DIR$/Admin/adminSite/header/headerEditing.php" />
+        <option value="$PROJECT_DIR$/CSS/Header_Footer_Styles.css" />
+
         <option value="$USER_HOME$/Desktop/Site/Parts/Header.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/CSS/Header_Footer_Styles.css" />
@@ -149,6 +156,7 @@
               <item name="OurSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="OurSite" type="462c0819:PsiDirectoryNode" />
               <item name="Parts" type="462c0819:PsiDirectoryNode" />
+
             </path>
           </expand>
           <select />
@@ -240,19 +248,25 @@
       <workItem from="1556790816795" duration="16949000" />
       <workItem from="1557339235877" duration="3431000" />
       <workItem from="1557411263022" duration="1348000" />
+
       <workItem from="1558632779180" duration="157000" />
       <workItem from="1558798894613" duration="445000" />
+
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+
     <option name="totallyTimeSpent" value="169609000" />
+
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
+
       <window_info content_ui="combo" id="Project" order="0" weight="0.24630873" />
+
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -339,7 +353,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/sliders.js" />
+
     <entry file="file://$PROJECT_DIR$/../Test/index.php" />
+
     <entry file="file://$PROJECT_DIR$/Parts/Footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -373,6 +389,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Lesson-4-DataType/index.php" />
+    <entry file="file://$PROJECT_DIR$/CSS/sliderStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="159" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
+
     <entry file="file://$PROJECT_DIR$/CSS/admin.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -436,23 +460,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Site/Parts/Header.php" />
-    <entry file="file://$PROJECT_DIR$/../siteMy/Parts/Header.php" />
-    <entry file="file://$PROJECT_DIR$/CSS/Header_Footer_Styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10540">
-          <caret line="620" selection-start-line="620" selection-end-line="620" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/game.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/sliderStyle.css">
+    <entry file="file://$PROJECT_DIR$/Admin/adminSite/header/headerEditing.php">
+
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2312">
           <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
@@ -460,13 +469,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS/Global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="27" />
@@ -480,10 +483,12 @@
         </state>
       </provider>
     </entry>
+
     <entry file="file://$PROJECT_DIR$/news.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1394">
           <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+
         </state>
       </provider>
     </entry>
