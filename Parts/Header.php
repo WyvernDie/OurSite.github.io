@@ -22,7 +22,7 @@ while ($i < $k) {
     <link rel="stylesheet" href="../CSS/game.css"/>
     <link rel="stylesheet" href="../CSS/admin.css"/>
     <link rel="stylesheet" href="../CSS/sliderStyle.css">
-    <link rel="stylesheet" href="../CSS/adaptiv.css"/>
+    <link rel="stylesheet" href="../CSS/responsiveDesign.css"/>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="../JavaScript/hearerMenu.js" type="text/javascript"></script>
