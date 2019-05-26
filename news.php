@@ -1,5 +1,5 @@
 <?php
-require 'Header.php';
+require 'Parts/Header.php';
 ?>
 <div class="novosti-on">
 <div class="novosti-icon">
@@ -80,6 +80,6 @@ require 'Header.php';
     </div>
 <div>
 <?php
-require 'Footer.php';
+require 'Parts/Footer.php';
 ?>
 

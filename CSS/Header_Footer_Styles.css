@@ -383,12 +383,12 @@ header{ /*Задаем тот же фон для выпрыгивающего м
         margin: 5px -4px 5px -7px;
         height: 0;
     }
-    .menu-block h4:first-child {  margin-left: 31px;}
+    .menu-block h4:first-child {  margin-left: 15px;}
     .menu-block h4:nth-child(2){  margin-left: 118px;}
-    .menu-block h4:nth-child(3){  margin-left: 40px;}
-    .menu-block h4:nth-child(7){  margin-left: 38px;}
-    .menu-block h4:nth-child(5){  margin-left: 30px;}
-    .menu-block h4:nth-child(9){margin-left: 6px; width: 170px;}
+    .menu-block h4:nth-child(3){  margin-left: 14px;}
+    .menu-block h4:nth-child(7){  margin-left: 14px;}
+    .menu-block h4:nth-child(5){  margin-left: 16px;}
+    .menu-block h4:nth-child(9){margin-left: -11px; width: 170px;}
 }
 @media (max-width:320px){
     .gameBan{
@@ -421,12 +421,12 @@ header{ /*Задаем тот же фон для выпрыгивающего м
     .menu-block{
         width: 127px;
     }
-    .menu-block h4:first-child {  margin-left: 0px;}
+    .menu-block h4:first-child {  margin-left: -7px;}
     /* .menu-block h4:nth-child(2){  margin-left: px;} */
-    .menu-block h4:nth-child(3){  margin-left: -2px;}
-    .menu-block h4:nth-child(7){  margin-left: -3px;}
-    .menu-block h4:nth-child(5){  margin-left: -3px;}
-    .menu-block h4:nth-child(9){margin-left: -7px; width: 170px;}
+    .menu-block h4:nth-child(3){  margin-left: -8px;}
+    .menu-block h4:nth-child(7){  margin-left: -8px;}
+    .menu-block h4:nth-child(5){  margin-left: -8px;}
+    .menu-block h4:nth-child(9){margin-left: -10px; width: 170px;}
     .punkt:nth-child(6){
         display: block;
         position:fixed;
