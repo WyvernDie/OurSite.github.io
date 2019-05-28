@@ -13,6 +13,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
+
             <state relative-caret-position="17">
               <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="27" />
             </state>
@@ -24,6 +25,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="369">
               <caret line="44" column="34" lean-forward="true" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+
             </state>
           </provider>
         </entry>
@@ -31,6 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news.php">
           <provider selected="true" editor-type-id="text-editor">
+
             <state>
               <caret lean-forward="true" />
             </state>
@@ -51,6 +54,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" selection-start-line="4" selection-end-line="17" selection-end-column="1" />
+
             </state>
           </provider>
         </entry>
@@ -114,13 +118,19 @@
         <option value="$PROJECT_DIR$/Admin/adminSite/gameBanner/Editing.php" />
         <option value="$PROJECT_DIR$/Admin/adminSite/gameBanner/infoEditing.php" />
         <option value="$PROJECT_DIR$/Admin/adminSite/header/headerEditing.php" />
+
+
         <option value="$USER_HOME$/Desktop/Site/Parts/Header.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/news.php" />
+        <option value="$PROJECT_DIR$/CSS/Header_Footer_Styles.css" />
         <option value="$PROJECT_DIR$/CSS/Header_Footer_Styles.css" />
         <option value="$PROJECT_DIR$/news.php" />
         <option value="$PROJECT_DIR$/Parts/Header.php" />
         <option value="$PROJECT_DIR$/Parts/Header.php" />
+
         <option value="$PROJECT_DIR$/CSS/Header_Footer_Styles.css" />
+
       </list>
     </option>
   </component>
@@ -132,6 +142,7 @@
     <option name="x" value="950" />
     <option name="width" value="979" />
     <option name="height" value="1040" />
+
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -148,12 +159,12 @@
             <path>
               <item name="OurSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="OurSite" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="Actions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OurSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="OurSite" type="462c0819:PsiDirectoryNode" />
-              <item name="Image" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OurSite" type="b2602c69:ProjectViewProjectNode" />
@@ -171,6 +182,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
@@ -252,18 +266,24 @@
       <workItem from="1557411263022" duration="1348000" />
       <workItem from="1558632779180" duration="157000" />
       <workItem from="1558798894613" duration="445000" />
+
       <workItem from="1558938040586" duration="580000" />
+
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+
     <option name="totallyTimeSpent" value="170189000" />
+
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="936" extended-state="6" />
+
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24630873" />
+
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -311,6 +331,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../Lesson-5-Array-and-Connecting/php3.php" />
     <entry file="file://$PROJECT_DIR$/../Lesson-5-Array-and-Connecting/php4.php" />
     <entry file="file://$PROJECT_DIR$/../Lesson-6-Operator/index.php" />
     <entry file="file://$PROJECT_DIR$/../Lesson-7/works.php" />
@@ -350,7 +371,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/sliders.js" />
+
     <entry file="file://$PROJECT_DIR$/../Test/index.php" />
+
     <entry file="file://$PROJECT_DIR$/Parts/Footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -433,13 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Actions/check.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Actions/dbConnecting.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -451,6 +467,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2312">
           <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+
         </state>
       </provider>
     </entry>
@@ -465,18 +482,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="17" selection-end-column="1" />
+
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Parts/Header.php">
       <provider selected="true" editor-type-id="text-editor">
+
         <state relative-caret-position="369">
           <caret line="44" column="34" lean-forward="true" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/news.php">
       <provider selected="true" editor-type-id="text-editor">
+
         <state>
           <caret lean-forward="true" />
         </state>
@@ -486,6 +507,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="506" column="15" lean-forward="true" selection-start-line="506" selection-start-column="15" selection-end-line="506" selection-end-column="15" />
+
         </state>
       </provider>
     </entry>

@@ -270,6 +270,7 @@ header{ /*Задаем тот же фон для выпрыгивающего м
     height: 97px;
     max-width: 100px;
   }
+
 }
 @media (max-width:480px){
   .gameBan{
