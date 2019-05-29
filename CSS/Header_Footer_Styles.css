@@ -655,7 +655,6 @@ header{ /*Задаем тот же фон для выпрыгивающего м
 
 .contact {
   padding: 10px;
-  opacity: .7;
   /*! position: absolute; */
   bottom: 0;
   left: 0;
@@ -663,8 +662,6 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   text-align: left;
   border-top: 20px solid #131313;
   border-image: url(../Image/border.jpg) 50 round round;
-  /*! height: 20px; */
-  margin-top: 50px;
 }
 .contact span {
   color: #ffcc33;

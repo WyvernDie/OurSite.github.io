@@ -1,25 +1,27 @@
-.swiper-container {
+
+.game .swiper-container {
     text-align: center;
     color: #fff;
+
 }
 
-.sliderContainer{
+.game .sliderContainer{
     padding: 15px;
     width: 90%;
     background: #333333;
     border: 3px solid #212121;
 }
-.sliderContainer img{
+.game .sliderContainer img{
     float: left;
     width: 50%;
     max-height: 400px;
 }
-.sliderContainer div{
+.game .sliderContainer div{
     float: right;
     width: 40%;
     margin-right: 5%;
 }
-.swiper-slide {
+.game .swiper-slide {
     text-align: center;
     /* Center slide text vertically */
     display: -webkit-box;
@@ -37,18 +39,21 @@
     margin: 10px 0 ;
 }
 @media (max-width: 755px){
-    .infoGame{
+    .game .infoGame{
         display: none;
     }
-    .sliderContainer img{
+    .game .sliderContainer img{
         width: 100%;
     }
-    .sliderContainer{
+    .game .sliderContainer{
         padding:0;
         border: none;
         width: 100%;
     }
-    .swiper-slide{
+    .game .swiper-slide{
         margin: 0;
+    }
+    .game{
+        background: #000000;
     }
 }
