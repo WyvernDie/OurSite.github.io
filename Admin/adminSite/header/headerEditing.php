@@ -21,6 +21,7 @@ if (isset($_FILES) && $_FILES['inputfile']['error'] == 0) { // Проверяе�
 <head>
     <link href="../../../CSS/admin.css" rel="stylesheet">
     <link href="../../../CSS/Header_Footer_Styles.css" rel="stylesheet">
+    <link href="../../../CSS/Global.css" rel="stylesheet">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 </head>
 <body>
