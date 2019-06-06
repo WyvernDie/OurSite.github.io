@@ -24,6 +24,7 @@ while ($i < $k) {
         <link rel="stylesheet" href="../CSS/admin.css"/>
         <link rel="stylesheet" href="../CSS/sliderStyle.css">
         <link rel="stylesheet" href="../CSS/responsiveDesign.css"/>
+        <link rel="stylesheet" href="../CSS/aboutUsStyles.css"/>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
         <script src="js/jquery-3.1.1.min.js"></script>
         <script src="../JavaScript/hearerMenu.js" type="text/javascript"></script>
@@ -33,7 +34,7 @@ while ($i < $k) {
 
     </head>
     <body>
-    <header class="vezde">
+    <header class="vezde global-header">
         <div class="imag-m">
             <img src="../Image/menuBackground.png" alt="menu" id="fon-menu">
             <img src="../Image/shelt.png" class="graficlogo" id="imm">
