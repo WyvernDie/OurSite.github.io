@@ -15,25 +15,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/Body_Styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+            <state relative-caret-position="663">
+              <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="515">
+              <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS/game.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+        <entry file="file://$PROJECT_DIR$/Parts/Header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+            <state relative-caret-position="578">
+              <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -125,6 +129,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,11 +142,20 @@
               <item name="OurSite" type="462c0819:PsiDirectoryNode" />
               <item name="CSS" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OurSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OurSite" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OurSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OurSite" type="462c0819:PsiDirectoryNode" />
+              <item name="Parts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,12 +254,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181378000" />
+    <option name="totallyTimeSpent" value="181977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="936" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26213592" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2961165" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -417,8 +431,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Parts/Header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="64" />
+        <state relative-caret-position="578">
+          <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -469,8 +483,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        <state relative-caret-position="515">
+          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -479,8 +493,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS/Body_Styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        <state relative-caret-position="663">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
         </state>
       </provider>
     </entry>
