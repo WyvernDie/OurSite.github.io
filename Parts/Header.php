@@ -34,7 +34,7 @@ while ($i < $k) {
 
     </head>
     <body>
-    <header class="vezde">
+    <header class="vezde global-header">
         <div class="imag-m">
             <img src="../Image/menuBackground.png" alt="menu" id="fon-menu">
             <img src="../Image/shelt.png" class="graficlogo" id="imm">
