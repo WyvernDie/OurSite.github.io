@@ -61,6 +61,7 @@
       <find>co</find>
       <find>@</find>
       <find>contact</find>
+      <find>global-header</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -261,16 +262,15 @@
       <workItem from="1559132379359" duration="95000" />
       <workItem from="1559843857491" duration="33000" />
       <workItem from="1559843898727" duration="566000" />
-      <workItem from="1559844792249" duration="282000" />
+      <workItem from="1559844792249" duration="736000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182858000" />
+    <option name="totallyTimeSpent" value="183312000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="936" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3106796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
