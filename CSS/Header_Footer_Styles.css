@@ -24,7 +24,7 @@ html {
   width: 100%
 }
 body {
-  height: 100%;
+  height: 61%;
   font: 14px/24px Arial, Tahoma, sans-serif;
   background-color: #ebebeb;
   width: 100%;
@@ -168,7 +168,7 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   display: flex;
   justify-content: left;
   align-content: center;
-  height: 135px;
+  height: 0;
   flex: 1;
 }
 @media (max-width:1700px){.price{padding-top: 85px;}}
@@ -234,6 +234,9 @@ header{ /*Задаем тот же фон для выпрыгивающего м
     padding-top: 70px;
     border-bottom: 0px solid #131313;
     /*border-image: url(../Image/border.jpg) 50 round round;*/
+   }
+  .news-block{
+    width: 50%;
   }
 }
 @media (max-width:640px){
@@ -269,6 +272,9 @@ header{ /*Задаем тот же фон для выпрыгивающего м
 
     height: 97px;
     max-width: 100px;
+  }
+  .novocti-block{
+    width: 50%;
   }
 }
 @media (max-width:480px){
@@ -383,12 +389,12 @@ header{ /*Задаем тот же фон для выпрыгивающего м
     margin: 5px -4px 5px -7px;
     height: 0;
   }
-  .menu-block h4:first-child {  margin-left: 31px;}
+  .menu-block h4:first-child {  margin-left: 16px;}
   .menu-block h4:nth-child(2){  margin-left: 118px;}
-  .menu-block h4:nth-child(3){  margin-left: 40px;}
-  .menu-block h4:nth-child(7){  margin-left: 38px;}
-  .menu-block h4:nth-child(5){  margin-left: 30px;}
-  .menu-block h4:nth-child(9){margin-left: 6px; width: 170px;}
+  .menu-block h4:nth-child(3){  margin-left: 16px;}
+  .menu-block h4:nth-child(7){  margin-left: 16px;}
+  .menu-block h4:nth-child(5){  margin-left: 17px;}
+  .menu-block h4:nth-child(9){margin-left: -3px; width: 170px;}
 }
 @media (max-width:320px){
   .gameBan{
@@ -397,7 +403,7 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   }
   #elem{
     margin-right: 20px;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
   }
   .price{
     border: none;
@@ -425,12 +431,12 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   .menu-block{
     width: 127px;
   }
-  .menu-block h4:first-child {  margin-left: 12px;}
+  .menu-block h4:first-child {  margin-left: -4px;}
   /* .menu-block h4:nth-child(2){  margin-left: px;} */
-  .menu-block h4:nth-child(3){  margin-left: 22px;}
-  .menu-block h4:nth-child(7){  margin-left: 20px;}
-  .menu-block h4:nth-child(5){  margin-left: 12px;}
-  .menu-block h4:nth-child(9){margin-left: -7px; width: 170px;}
+  .menu-block h4:nth-child(3){  margin-left: -5px;}
+  .menu-block h4:nth-child(7){  margin-left: -6px;}
+  .menu-block h4:nth-child(5){  margin-left: -5px;}
+  .menu-block h4:nth-child(9){margin-left: -11px; width: 170px;}
   .punkt:nth-child(6){
     display: block;
     position:fixed;
@@ -488,7 +494,10 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   -webkit-transition: opacity 2s;
   transition: opacity 2s;
 }
-
+.game-slider{
+  font-size: 47px;
+  color: rgba(158, 72, 255, 0.67);
+}
 
 .slide-content
 {
@@ -590,6 +599,120 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   position: absolute;
   width: 700px;
 }
+.overlay{
+  background-color: rgba(10, 180, 185, 0.9);
+  position: absolute;
+  display: none;
+  z-index: 2;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  min-height: 780px;
+}
+.overlay-open{
+  display: block;
+  transition: 2s;
+}
+.wrapp-img{
+  background-image: url(//OurSite/Image/Games/GTA5.jpg);
+  width: 45%;
+  height: 100%;
+  border-radius: 6%;
+}
+.news-block{
+  width: 45%;
+  height: 50%;
+  position: absolute;
+  margin-top: 14%;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+  margin-left: 26%;
+  border-radius: 16px;
+  min-height: 380px;
+  max-height: 340px;
+  max-width: 70%;
+  min-width: 30%;
+}
+.news-button{
+background: #ff7f50;
+  width: 19%;
+  height: 13%;
+  position: absolute;
+padding: 10px 0 0 4px;
+top: 3%;
+right: 2%;
+border-radius: 5px;
+}
+#news-button-a{
+color: white;
+  text-decoration: white;
+}
+.news-element-image{
+  position: relative;
+  height: 0px;
+}
+.news-element-image img{
+
+  width: 40%;
+  display: block;
+  position: inherit;
+}
+.news-elements-h1{
+
+  width: 100%;
+  position: static;
+  padding: 0 17% 0 0;
+}
+.news-elements-h1 h1{
+
+  padding: 20px;
+  font-size: 2rem;
+}
+.news-element-text{
+
+  float: right;
+  width: 58%;
+  padding: 4px;
+}
+.content-news img{
+
+  position: relative;
+  float: left;
+  padding: 3px;
+}
+.news-element-text h2{
+
+  font-size: 16px;
+  margin-bottom: 15px;
+  word-break: break-all;
+}
+.news-element-text p{
+
+  word-break: break-all;
+  max-width: 100%;
+  width: 100%;
+  overflow: auto;
+  max-height: 128px;
+}
+.news-text-data{
+
+  width: 28%;
+  font-size: 14px;
+  position: absolute;
+  float: right;
+  right: -5%;
+  bottom: 2%;
+}
+.content-news{
+
+  width: 100%;
+  position: relative;
+  height: 81%;
+  display: flex;
+  padding: 1%;
+}
 .curry
 {
   display: block;
@@ -639,43 +762,171 @@ header{ /*Задаем тот же фон для выпрыгивающего м
 .novosti-on{
   position: static;
   width: 75%;
-  height: 401px;
+  /*! height: 401px; */
   /*! z-index: 10; */
-  background-color: aquamarine;
+  /*! background-color: aquamarine; */
   margin: auto;
-  margin-top: 226px;
+  margin-top: 164px;
   padding: 30px;
+  /*! margin-bottom: 82px; */
 }
-.novosti-icon
-{
-  font-size: 45px;
-  text-align: right;
+.novosti-icon {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  display: inline-block;
+  border: 21px double rgba(255,255,255,.25);
+  border-width: 0 0 6px 0;
+  padding: 1em 0em 0 4em;
+  position: absolute;
+  top: 19%;
+  left: 81%;
+  width: 22em;
+  margin: 0 0 0 -21em;}
+
+.x {
+  font: 700 3em/1 "Oswald", sans-serif;
+  letter-spacing: 0;
+  /*! padding: 1.25em 0 0.em; */
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 800px rgba(255,255,255,.5);
+
+  /* Clip Background Image */
+
+  background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
+  -webkit-background-clip: text;
+  /*background-clip: text;*/
+
+  /* Animate Background Image */
+
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 80s linear infinite;
+
+  /* Activate hardware acceleration for smoother animations */
+
+  -webkit-transform: translate3d(0,0,0);
+  -webkit-backface-visibility: hidden;
+}
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
 }
 .novosti-big-block{
-
-  width: 1078px;
-  height: 302px;
-  background-color: antiquewhite;
+  display: flex;
+  width: 100%;
   padding: 12px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
 }
-
+.data{
+  width: 200px;
+  background: aqua;
+  height: 26px;
+}
+.text-big{
+position: relative;
+height: 124px;
+}
+.text-hover{
+background: #ebebeb;
+  opacity: 0;
+  height: 140px;
+}
+.text-hover:hover{
+   background: #ebebeb;
+  opacity: .6;
+  height: 80px;
+  position: absolute;
+  width: 200px;
+  bottom: -2px;
+  transition: 1s; 
+}
+.novocti-text:hover{
+   background: #ebebeb;
+  opacity: .6;
+  height: 80px;
+  position: absolute;
+  width: 200px;
+  bottom: -2px;
+  transition: 1s; 
+}
+.text-hover-mous{
+  background: #ebebeb;
+  opacity: .6;
+  height: 80px;
+  position: absolute;
+  width: 200px;
+  bottom: -2px;
+  transition: 1s; 
+}
+/* .text-hover:hover{
+  background: #ebebeb;
+  opacity: .6;
+  height: 80px;
+  position: absolute;
+  width: 200px;
+  bottom: -2px;
+  transition: 1s;
+} */
 .novosti-text{
-
-  height: 150px;
+  height: 125px;
   width: 200px;
   background-color: brown;
+  opacity: 1;
+  position: absolute;
 }
-
+.novosti-text+ .novosti-hover{
+  opacity:1;
+  transition: 1s;
+}
+/*.novosti-text:active{*/
+  /*background: #414141;*/
+  /*opacity: .6;*/
+  /*height: 100px;*/
+  /*transition: 2s;*/
+  /*bottom: 0;*/
+  /*position: relative;*/
+  /*display: block;*/
+/*}*/
+.slovo hr{
+  width: 285px;
+  float: right;
+}
 .novocti-block
 {
 
   width: 200px;
   height: 278px;
   background-color: blue;
+  /*! margin-right: 18px; */
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+.slovo li{
+  list-style-type: none;
+}
+.slovo li:hover{
+  color: #ff025a;
+  transition: 3s;
+
+}
+.n5{
+  /*display: none;*/
+}
+#image-news{
+  width: 200px;
 }
 /*конец новостей, вххы/
 /*Подвал Сайта*/
-
+footer{
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
 .contact {
   padding: 10px;
   opacity: .7;
@@ -687,7 +938,7 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   border-top: 20px solid #131313;
   border-image: url(../Image/border.jpg) 50 round round;
   /*! height: 20px; */
-  margin-top: 50px;
+  /*! margin-top: 50px; */
 }
 .contact span {
   color: #ffcc33;

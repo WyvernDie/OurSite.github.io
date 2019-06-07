@@ -31,7 +31,7 @@ while ($d < $m) {
     <div class="price">
         <img src="Image/background.jpg" width="100%" height="auto">
     </div>
-
+<div><h1 class="game-slider">Игры</h1><div>
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <?php foreach ($gameDatas as $gameData){?>
