@@ -206,7 +206,9 @@
     transition: .3s opacity;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-    z-index: 10
+    z-index: 10;
+    width: 100%;
+
 }
 
 .swiper-pagination.swiper-pagination-hidden {
@@ -268,12 +270,11 @@
 }
 
 .swiper-pagination-bullet {
-    width: 8px;
-    height: 8px;
+
     display: inline-block;
-    border-radius: 100%;
+
     background: #000;
-    opacity: .2
+
 }
 
 button.swiper-pagination-bullet {

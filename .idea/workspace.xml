@@ -8,6 +8,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -96,6 +101,7 @@
               <caret line="4" selection-start-line="4" selection-end-line="17" selection-end-column="1" />
 
 
+
             </state>
           </provider>
         </entry>
@@ -116,6 +122,8 @@
       <find>img</find>
       <find>co</find>
       <find>@</find>
+      <find>contact</find>
+      <find>global-header</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -124,9 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CSS/Body.css" />
-        <option value="$PROJECT_DIR$/JavaScript/headerScrolling.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/JavaScript/cycle2.js" />
         <option value="$PROJECT_DIR$/Links/adminNav.php" />
         <option value="$PROJECT_DIR$/Links/adminPanel.php" />
@@ -153,32 +158,27 @@
         <option value="$PROJECT_DIR$/Admin/adminSite/linkEditing.php" />
         <option value="$PROJECT_DIR$/../Test/index.php" />
         <option value="$PROJECT_DIR$/CSS/Global.css" />
-        <option value="$PROJECT_DIR$/CSS/Body_Styles.css" />
         <option value="$PROJECT_DIR$/Admin/adminSite/gameEditing.php" />
         <option value="$PROJECT_DIR$/Admin/adminSite/headerEditing.php" />
         <option value="$PROJECT_DIR$/Admin/adminSite/addNewBanner.php" />
         <option value="$PROJECT_DIR$/Admin/adminSite/header/menuEditing.php" />
-        <option value="$PROJECT_DIR$/CSS/admin.css" />
-        <option value="$PROJECT_DIR$/CSS/game.css" />
-        <option value="$PROJECT_DIR$/Admin/adminSite/gameBanner/gameEditing.php" />
         <option value="$PROJECT_DIR$/Admin/adminSite/gameBanner/addNewBanner.php" />
         <option value="$PROJECT_DIR$/Admin/adminSite/gameBanner/Editing.php" />
         <option value="$PROJECT_DIR$/Admin/adminSite/gameBanner/infoEditing.php" />
-        <option value="$PROJECT_DIR$/Admin/adminSite/header/headerEditing.php" />
-
-
         <option value="$USER_HOME$/Desktop/Site/Parts/Header.php" />
+
         <option value="$PROJECT_DIR$/Parts/Header.php" />
         <option value="$PROJECT_DIR$/Parts/Header.php" />
         <option value="$PROJECT_DIR$/Parts/Footer.php" />
         <option value="$PROJECT_DIR$/index.php" />
+
         <option value="$PROJECT_DIR$/news.php" />
-        <option value="$PROJECT_DIR$/CSS/Header_Footer_Styles.css" />
-        <option value="$PROJECT_DIR$/CSS/Header_Footer_Styles.css" />
         <option value="$PROJECT_DIR$/news.php" />
+
 
         <option value="$PROJECT_DIR$/CSS/Header_Footer_Styles.css" />
         <option value="$PROJECT_DIR$/JavaScript/news-js.js" />
+
 
       </list>
     </option>
@@ -188,10 +188,12 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="6">
+
     <option name="x" value="710" />
     <option name="y" value="35" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
+
 
 
   </component>
@@ -225,12 +227,13 @@
               <item name="OurSite" type="462c0819:PsiDirectoryNode" />
               <item name="Admin" type="462c0819:PsiDirectoryNode" />
               <item name="adminSite" type="462c0819:PsiDirectoryNode" />
-              <item name="gameBanner" type="462c0819:PsiDirectoryNode" />
+
             </path>
             <path>
               <item name="OurSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="OurSite" type="462c0819:PsiDirectoryNode" />
               <item name="CSS" type="462c0819:PsiDirectoryNode" />
+
 
             </path>
             <path>
@@ -257,7 +260,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../domains/Site" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -342,9 +345,8 @@
       <workItem from="1557411263022" duration="1348000" />
       <workItem from="1558632779180" duration="157000" />
       <workItem from="1558798894613" duration="445000" />
-
-
       <workItem from="1558938040586" duration="580000" />
+
 
       <workItem from="1559132806634" duration="1710000" />
       <workItem from="1559135546557" duration="1489000" />
@@ -366,19 +368,24 @@
       <workItem from="1559863794230" duration="1478000" />
       <workItem from="1559866428646" duration="1439000" />
 
+
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 
+
     <option name="totallyTimeSpent" value="196296000" />
+
 
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="936" extended-state="7" />
+    <frame x="-8" y="-8" width="1296" height="936" extended-state="6" />
     <layout>
 
+
       <window_info content_ui="combo" id="Project" order="0" weight="0.56778526" />
+
 
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -401,7 +408,7 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1859375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2540453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -413,7 +420,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32916147" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="12" />
@@ -427,9 +434,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Lesson-5-Array-and-Connecting/php3.php" />
-    <entry file="file://$PROJECT_DIR$/../Lesson-5-Array-and-Connecting/php4.php" />
-    <entry file="file://$PROJECT_DIR$/../Lesson-6-Operator/index.php" />
     <entry file="file://$PROJECT_DIR$/../Lesson-7/works.php" />
     <entry file="file://$PROJECT_DIR$/../Lesson-7/index.php" />
     <entry file="file://$PROJECT_DIR$/../template-mushroomshop/cart.php" />
@@ -468,23 +472,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/sliders.js" />
 
+
     <entry file="file://$PROJECT_DIR$/../Test/index.php" />
 
     <entry file="file://$PROJECT_DIR$/CSS/Body_Styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Admin/adminSite/gameEditing.php" />
-    <entry file="file://$PROJECT_DIR$/Admin/adminSite/linkEditing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Admin/adminSite/headerEditing.php" />
     <entry file="file://$PROJECT_DIR$/Admin/adminSite/menuEditing.php" />
     <entry file="file://$PROJECT_DIR$/Admin/adminSite/addNewBanner.php" />
@@ -496,20 +495,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Lesson-4-DataType/index.php" />
-    <entry file="file://$PROJECT_DIR$/CSS/sliderStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="159" selection-end-line="159" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Admin/adminSite/gameBanner/infoEditing.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -517,32 +502,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/adminSite/gameBanner/gameEditing.php">
+    <entry file="file://$PROJECT_DIR$/Admin/adminSite/gameBanner/Editing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="88" />
+        <state relative-caret-position="207">
+          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/adminSite/header/menuEditing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Actions/dbConnecting.php">
+
+    <entry file="file://$PROJECT_DIR$/Admin/adminSite/gameBanner/infoEditing.php">
+
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="104" lean-forward="true" selection-start-line="5" selection-start-column="104" selection-end-line="5" selection-end-column="104" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/adminSite/header/headerEditing.php">
+    <entry file="file://$PROJECT_DIR$/CSS/Global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2312">
-          <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
 
+    <entry file="file://$PROJECT_DIR$/Admin/adminSite/header/menuEditing.php">
+
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="81" selection-start-line="81" selection-end-line="83" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aboutUs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -566,11 +568,13 @@
         <state relative-caret-position="238">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
 
+
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Parts/Header.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
+
 
         <state relative-caret-position="374">
           <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
@@ -596,11 +600,13 @@
         <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="17" selection-end-column="1" />
 
+
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news.php">
+    <entry file="file://$PROJECT_DIR$/CSS/sliderStyle.css">
       <provider selected="true" editor-type-id="text-editor">
+
 
         <state relative-caret-position="221">
           <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
@@ -611,6 +617,7 @@
     <entry file="file://$PROJECT_DIR$/CSS/Header_Footer_Styles.css">
       <provider selected="true" editor-type-id="text-editor">
 
+
         <state relative-caret-position="287">
           <caret line="851" column="14" selection-start-line="851" selection-start-column="14" selection-end-line="851" selection-end-column="14" />
         </state>
@@ -620,6 +627,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+=
         </state>
       </provider>
     </entry>

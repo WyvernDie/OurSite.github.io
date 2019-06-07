@@ -21,19 +21,20 @@ if (isset($_FILES) && $_FILES['inputfile']['error'] == 0) { // Проверяе�
 <head>
     <link href="../../../CSS/admin.css" rel="stylesheet">
     <link href="../../../CSS/Header_Footer_Styles.css" rel="stylesheet">
+    <link href="../../../CSS/Global.css" rel="stylesheet">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 </head>
 <body>
-<header class="container global-header clearfix">
-    <div class="gorMid">
-        <img src="../../../Image/shelter.png" class="logo">
-        <a href="#" id="touch-menu">Меню</a> <!-- Ссылка, которая вылезает при сужение страницы-->
-        <nav>
-            <ul class="nav clearfix">
-                <? foreach ($menuDatas as $menuData) { ?>
-                    <li><a href="../../<? echo $menuData['link']; ?>"> <? echo $menuData['name']; ?></a></li>
-                <? } ?>
-            </ul>
+<header class="vezde">
+    <div class="imag-m">
+        <img src="../../../Image/menuBackground.png" alt="menu" id="fon-menu">
+        <img src="../../../Image/shelter.png" class="graficlogo" id="imm">
+        <nav class="header-block">
+            <?foreach ($menuDatas as $menuData){?>
+                <div class="punkt" id="parth-menu1">
+                    <a href="../../../<? echo $menuData['link']; ?>"> <p><? echo $menuData['name']; ?></p> </a>
+                </div>
+            <?}?>
         </nav>
     </div>
 </header>
