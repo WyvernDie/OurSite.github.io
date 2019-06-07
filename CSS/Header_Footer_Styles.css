@@ -273,9 +273,13 @@ header{ /*Задаем тот же фон для выпрыгивающего м
     height: 97px;
     max-width: 100px;
   }
+ 
   .novocti-block{
     width: 50%;
   }
+
+
+
 }
 @media (max-width:480px){
   .gameBan{
