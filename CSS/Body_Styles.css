@@ -9,6 +9,7 @@
 .price{
     border-bottom: 20px solid #131313;
     border-image: url(../Image/border.jpg) 50 round round;
+    background: #000000;
 }
 
 .map_container .swiper-slide {
