@@ -16,18 +16,18 @@ while ($d < $m) {
     <div class="price">
         <img src="Image/background.jpg" width="100%" height="auto">
     </div>
-<div><h1 class="game-slider">Игры</h1><div>
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <?php foreach ($gameDatas as $gameData){?>
-                <div class="swiper-slide" >
-                <div class="sliderContainer" >
-                    <img class="imageGame" src = "Image/Games/<? echo $gameData['linkName'];?>" >
-                    <div class="infoGame">
-                        <h2> <? echo $gameData['gameName'];?> </h2>
-                        <p> <? echo $gameData['description'];?> </p>
-                    </div>
-
+    <div class="game">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <?php foreach ($gameDatas as $gameData){?>
+                    <div class="swiper-slide" >
+                    <div class="sliderContainer" >
+                        <img class="imageGame" src = "Image/Games/<? echo $gameData['linkName'];?>" >
+                        <div class="infoGame">
+                            <h2> <? echo $gameData['gameName'];?> </h2>
+                            <p> <? echo $gameData['description'];?> </p>
+                        </div>
+                    </div >
                 </div >
                 <?}?>
             </div>

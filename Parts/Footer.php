@@ -1,4 +1,4 @@
- <footer>
+    <footer>
         <div class="contact">
             <span>
                 <ul> Позвонить конторе:</ul>
