@@ -1,24 +1,4 @@
-/*Шапка Сайта*/
-/*html, body, div, span, applet, object, iframe,*/
-/*h1, h2, h3, h4, h5, h6, p, blockquote, pre,*/
-/*a, abbr, acronym, address, big, cite, code,*/
-/*del, dfn, em, img, ins, kbd, q, s, samp,*/
-/*small, strike, strong, sub, sup, tt, var,*/
-/*b, u, i, center,*/
-/*dl, dt, dd, ol, ul, li,*/
-/*fieldset, form, label, legend,*/
-/*table, caption, tbody, tfoot, thead, tr, th, td,*/
-/*article, aside, canvas, details, embed,*/
-/*figure, figcaption, footer, header, hgroup,*/
-/*menu, nav, output, ruby, section, summary,*/
-/*time, mark, audio, video {*/
-/*margin: 0;*/
-/*padding: 0;*/
-/*border: 0;*/
-/*font-size: 100%;*/
-/*font: inherit;*/
-/*vertical-align: baseline;*/
-/*}*/
+
 html {
   height: 100%;
   width: 100%
@@ -45,7 +25,9 @@ a, a:hover {text-decoration: none;color: white;/*! z-index: 20; */}
 
 
 /* Description of styles to a menu when you scroll */
-
+.global-header{
+  transition: 1000ms;
+}
 .js-global-header-scrolling {
   top: -20em; /* Height of the header */
 }
@@ -94,10 +76,6 @@ header{ /*Задаем тот же фон для выпрыгивающего м
 .graficlogo:hover{
   transition: 4s;
   transform: rotate(360deg);
-}
-.punkt a{
-  color: white;
-  font-size: 15px;
 }
 .punkt{
   color: white;
@@ -932,7 +910,6 @@ footer{
 }
 .contact {
   padding: 10px;
-  opacity: .7;
   /*! position: absolute; */
   bottom: 0;
   left: 0;
@@ -940,8 +917,6 @@ footer{
   text-align: left;
   border-top: 20px solid #131313;
   border-image: url(../Image/border.jpg) 50 round round;
-  /*! height: 20px; */
-  /*! margin-top: 50px; */
 }
 .contact span {
   color: #ffcc33;
