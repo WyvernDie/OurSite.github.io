@@ -24,7 +24,6 @@ html {
   width: 100%
 }
 body {
-  height: 61%;
   font: 14px/24px Arial, Tahoma, sans-serif;
   background-color: #ebebeb;
   width: 100%;
@@ -644,10 +643,11 @@ background: #ff7f50;
   width: 19%;
   height: 13%;
   position: absolute;
-padding: 10px 0 0 4px;
+padding: 12px 0 0 4px;
 top: 3%;
 right: 2%;
 border-radius: 5px;
+/*! z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999; */
 }
 #news-button-a{
 color: white;
@@ -770,7 +770,7 @@ color: white;
   /*! z-index: 10; */
   /*! background-color: aquamarine; */
   margin: auto;
-  margin-top: 164px;
+  margin-top: 7%;
   padding: 30px;
   /*! margin-bottom: 82px; */
 }
@@ -780,17 +780,16 @@ color: white;
   display: inline-block;
   border: 21px double rgba(255,255,255,.25);
   border-width: 0 0 6px 0;
-  padding: 1em 0em 0 4em;
-  position: absolute;
+  padding: 0em 0em 0 4em;
+  position: unset;
   top: 19%;
-  left: 81%;
+  left: 0;
   width: 22em;
-  margin: 0 0 0 -21em;}
+  margin: 0 0 0 62%;}
 
 .x {
   font: 700 3em/1 "Oswald", sans-serif;
   letter-spacing: 0;
-  /*! padding: 1.25em 0 0.em; */
   display: block;
   margin: 0 auto;
   text-shadow: 0 0 800px rgba(255,255,255,.5);
@@ -799,7 +798,7 @@ color: white;
 
   background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
   -webkit-background-clip: text;
-  /*background-clip: text;*/
+  background-clip: text;
 
   /* Animate Background Image */
 
