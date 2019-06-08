@@ -23,8 +23,7 @@ while ($i < $k) {
         <link rel="stylesheet" href="../CSS/game.css"/>
         <link rel="stylesheet" href="../CSS/admin.css"/>
         <link rel="stylesheet" href="../CSS/sliderStyle.css">
-        <link rel="stylesheet" href="../CSS/responsiveDesign.css"/>
-        <link rel="stylesheet" href="../CSS/aboutUsStyles.css"/>
+        <link rel="stylesheet" href="../CSS/adaptiv.css"/>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
         <script src="js/jquery-3.1.1.min.js"></script>
         <script src="../JavaScript/hearerMenu.js" type="text/javascript"></script>
@@ -34,28 +33,28 @@ while ($i < $k) {
 
     </head>
     <body>
-    <header class="vezde global-header">
+    <header class="vezde">
         <div class="imag-m">
             <img src="../Image/menuBackground.png" alt="menu" id="fon-menu">
             <img src="../Image/shelt.png" class="graficlogo" id="imm">
             <nav class="header-block">
-                <?foreach ($menuDatas as $menuData){?>
-                    <div class="punkt" id="parth-menu1">
-                        <a href="<? echo $menuData['link']; ?>"> <p><? echo $menuData['name']; ?></p> </a>
-                    </div>
-                <?}
-                 if ($ses){?>
-                     <div class="punkt" id="parth-menu1"><a class="editing" href="../Admin/adminSite/header/headerEditing.php"><p>Редактировать Блок</p></a></div>
-                     <div class="punkt" id="parth-menu1"><a href="../Admin/adminExit.php">Выход</a></div>
-                <?}?>
+                <div class="punkt" id="parth-menu1"><a href="../index.php">главная</a></div>
+                <div class="punkt" id="parth-menu2"><a href="news.php">новости</a></div>
+                <div class="punkt" id="parth-menu3"><a href="#">цены</a></div>
+                <div class="punkt" id="parth-menu4"><a href="#" id="nas">о нас</a></div>
+                <div class="punkt" id="parth-menu5"><a href="../Admin/admin.php">Администратор</a></div>
                 <button  type="button" id="elem" class="punkt punktz"><a href="#free">&#9776</a></button>
                 <div id="phone-menu" class="menu-block">
-                    <?foreach ($menuDatas as $menuData){?>
-                        <h4 class="h4">
-                            <a href="<? echo $menuData['link']; ?>"> <p><? echo $menuData['name']; ?></p> </a>
-                        </h4>
-                        <hr class="hr">
-                    <?}?>
+                    <h4 class="h4"><a href="#" class="menu-mini">Главная</a></h4>
+                    <hr class="hr">
+                    <h4 class="h4"><a href="#" class="menu-mini">Цены</a></h4>
+                    <hr class="hr">
+                    <h4 class="h4"><a href="../news.php" class="menu-mini">Новости</a></h4>
+                    <hr class="hr">
+                    <h4 class="h4"><a href="#" class="menu-mini">О нас</a></h4>
+                    <hr class="hr">
+                    <h4 class="h4"><a href="../Admin/admin.php" class="menu-mini">Администратор</a></h4>
+                    <hr class="hr">
                 </div>
             </nav>
         </div>
