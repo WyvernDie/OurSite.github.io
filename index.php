@@ -44,8 +44,8 @@ while ($d < $m) {
         </div>
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="Image/Games/GTA%205.jpg" width="100%"></div>
-                <div class="swiper-slide"><img src="Image/Games/GTA%205.jpg" width="100%"></div>
+                <div class="swiper-slide"><img src="Image/Games/c.jpg" width="100%"></div>
+                <div class="swiper-slide"><img src="Image/Games/c.jpg" width="100%"></div>
 
             </div>
         </div>
