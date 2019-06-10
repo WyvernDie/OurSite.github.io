@@ -46,10 +46,18 @@ while ($i < $k) {
                     </div>
                 <?}
                  if ($ses){?>
-                     <div class="punkt" id="parth-menu1"><a class="editing" href="../Admin/adminSite/header/headerEditing.php"><p>Редактировать Блок</p></a></div>
-                     <div class="punkt" id="parth-menu1"><a href="../Admin/adminExit.php">Выход</a></div>
+                     <div class="punkt" id="parth-menu1">
+                         <a class="editing" href="../Admin/adminSite/header/headerEditing.php">
+                             <p>Редактировать Блок</p>
+                         </a>
+                     </div>
+                     <div class="punkt" id="parth-menu1">
+                         <a href="../Admin/adminExit.php">Выход</a>
+                     </div>
                 <?}?>
-                <button  type="button" id="elem" class="punkt punktz"><a href="#free">&#9776</a></button>
+                <button  type="button" id="elem" class="punkt punktz">
+                    <a href="#free">&#9776</a>
+                </button>
                 <div id="phone-menu" class="menu-block">
                     <?foreach ($menuDatas as $menuData){?>
                         <h4 class="h4">

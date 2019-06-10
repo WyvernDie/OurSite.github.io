@@ -59,6 +59,7 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   align-items: center;
   top:9px;
   flex-basis: 1013px;
+  margin-top: -9px;
 }
 #imm{
   height: 150px;
@@ -80,12 +81,12 @@ header{ /*Задаем тот же фон для выпрыгивающего м
 }
 .punkt{
   color: white;
-  margin-right: 9%;
+  margin-right: 7%;
   z-index: 2;
-  width: 20px;
+  width: 21%;
   position: relative;
-  padding: 7px;
-  flex: 1;
+  /*! padding: 7px; */
+  /*! flex: 1; */
 }
 #elem{
   display: none;
@@ -114,7 +115,7 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   width: 100px;
   height: 37px;
   margin: 5px auto;
-  padding: 7px 0 0 9px;
+  padding: 7px 10px 0 0;
 }
 .hr{
   width: 180px;
@@ -190,9 +191,10 @@ header{ /*Задаем тот же фон для выпрыгивающего м
     top: 0;
     right: 0;
     z-index: 120;
-    flex-basis: 40%;
+    flex-basis: 60%;
     margin-right: -100px;
-    margin-top: -5px;
+    margin-top: 0;
+    height: 72px;
   }
   #fon-menu{
     margin-left: -12px;
@@ -230,12 +232,13 @@ header{ /*Задаем тот же фон для выпрыгивающего м
 
   .header-block{
     width: 8px;
-    height: 10px;
+    height: 61px;
     /*! flex-flow: row-reverse; */
     /*! margin: 0 auto; */
-    margin-top: 30px;
+    margin-top: 0;
     margin-left: -9px;
 
+    flex-basis: 57%;
   }
   .punkt{
     margin-right: 4%;
@@ -302,9 +305,10 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   .header-block{
     width: 10px;
     height: 10px;
-    flex-flow: row-reverse;
     margin: 0 auto;
     margin-top: 18px;
+    margin-right: -25%;
+    position: static;
   }
   #parth-menu1{
     display: none;
@@ -324,7 +328,7 @@ header{ /*Задаем тот же фон для выпрыгивающего м
 
   #elem{
     display: block;
-    position:fixed;
+    position:absolute;
     margin-top: 4px;
     margin-right: 30px;
     height: 34px;
@@ -334,7 +338,7 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   }
   .menu-block{
     transition: 0.5s;
-    position: absolute;
+    position: fixed;
     top: 19px;
     width: 168px;
     height: 810px;
@@ -344,7 +348,6 @@ header{ /*Задаем тот же фон для выпрыгивающего м
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    right: 180px;
   }
   .menu-block a{
     font-size: 14px;
@@ -359,7 +362,7 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   .hr{
     width: 145px;
     /*! margin-bottom: 11px; */
-    margin: 5px -4px 5px -7px;
+    margin: 5px -7px 5px -7px;
     height: 0;
   }
   .menu-block h4:first-child {  margin-left: 31px;}
@@ -375,8 +378,8 @@ header{ /*Задаем тот же фон для выпрыгивающего м
     padding-top: 10px;
   }
   #elem{
+    margin-bottom: 5px;
     margin-right: 20px;
-    margin-bottom: 4px;
   }
   .price{
     border: none;
@@ -387,6 +390,9 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   }
   #imm{
     height: 60px;
+    max-width: 63px;
+    margin-top: 6px;
+   margin-left: -4px;
   }
   .graficlogo:not(:hover) {
     transform: rotate(0deg);
@@ -403,6 +409,11 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   }
   .menu-block{
     width: 127px;
+    margin-top: 43px;
+  }
+  .header-block{
+    z-index: 10;
+/*     position: absolute; */
   }
   .menu-block h4:first-child {  margin-left: 12px;}
   /* .menu-block h4:nth-child(2){  margin-left: px;} */
@@ -420,6 +431,9 @@ header{ /*Задаем тот же фон для выпрыгивающего м
     /*! border: ; */
     width: 36px;
     padding: 0;
+  }
+  .header-block{
+    margin-right: -22%;
   }
 }
 .slide-container {
