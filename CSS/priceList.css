@@ -1,0 +1,12 @@
+.priceList {
+    width: 80%;
+    background: #007aff;
+    margin: 0 10%;
+    padding: 160px 0 40px 0;
+    border-right: 15px solid #131313;
+    border-left: 15px solid #131313;
+    background: repeating-linear-gradient(0deg, #282934 0%, #333333 50%, #282934 100%);
+}
+.priceList img{
+    border: 8px solid #1a1a1a;
+}
