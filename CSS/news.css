@@ -1,0 +1,161 @@
+.novosti-on{
+    position: static;
+    width: 75%;
+    /*! height: 401px; */
+    /*! z-index: 10; */
+    /*! background-color: aquamarine; */
+    margin: auto;
+    margin-top: 164px;
+    padding: 30px;
+    /*! margin-bottom: 82px; */
+}
+.novosti-icon {
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    display: inline-block;
+    border: 21px double rgba(255,255,255,.25);
+    border-width: 0 0 6px 0;
+    padding: 1em 0em 0 4em;
+    position: absolute;
+    top: 19%;
+    left: 81%;
+    width: 22em;
+    margin: 0 0 0 -21em;}
+
+.x {
+    font: 700 3em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    /*! padding: 1.25em 0 0.em; */
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 800px rgba(255,255,255,.5);
+
+    /* Clip Background Image */
+
+    background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
+    -webkit-background-clip: text;
+    /*background-clip: text;*/
+
+    /* Animate Background Image */
+
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+
+    /* Activate hardware acceleration for smoother animations */
+
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+}
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+.novosti-big-block{
+    display: flex;
+    width: 100%;
+    padding: 12px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.data{
+    width: 200px;
+    background: aqua;
+    height: 26px;
+}
+.text-big{
+    position: relative;
+    height: 124px;
+}
+.text-hover{
+    background: #ebebeb;
+    opacity: 0;
+    height: 140px;
+}
+.text-hover:hover{
+    background: #ebebeb;
+    opacity: .6;
+    height: 80px;
+    position: absolute;
+    width: 200px;
+    bottom: -2px;
+    transition: 1s;
+}
+.novocti-text:hover{
+    background: #ebebeb;
+    opacity: .6;
+    height: 80px;
+    position: absolute;
+    width: 200px;
+    bottom: -2px;
+    transition: 1s;
+}
+.text-hover-mous{
+    background: #ebebeb;
+    opacity: .6;
+    height: 80px;
+    position: absolute;
+    width: 200px;
+    bottom: -2px;
+    transition: 1s;
+}
+/* .text-hover:hover{
+  background: #ebebeb;
+  opacity: .6;
+  height: 80px;
+  position: absolute;
+  width: 200px;
+  bottom: -2px;
+  transition: 1s;
+} */
+.novosti-text{
+    height: 125px;
+    width: 200px;
+    background-color: brown;
+    opacity: 1;
+    position: absolute;
+}
+.novosti-text+ .novosti-hover{
+    opacity:1;
+    transition: 1s;
+}
+/*.novosti-text:active{*/
+/*background: #414141;*/
+/*opacity: .6;*/
+/*height: 100px;*/
+/*transition: 2s;*/
+/*bottom: 0;*/
+/*position: relative;*/
+/*display: block;*/
+/*}*/
+.slovo hr{
+    width: 285px;
+    float: right;
+}
+.novocti-block
+{
+
+    width: 200px;
+    height: 278px;
+    background-color: blue;
+    /*! margin-right: 18px; */
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.slovo li{
+    list-style-type: none;
+}
+.slovo li:hover{
+    color: #ff025a;
+    transition: 3s;
+
+}
+.n5{
+    /*display: none;*/
+}
+#image-news{
+    width: 200px;
+}
