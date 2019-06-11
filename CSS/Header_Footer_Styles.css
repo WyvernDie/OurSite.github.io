@@ -147,7 +147,6 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   display: flex;
   justify-content: left;
   align-content: center;
-  height: 135px;
   flex: 1;
 }
 @media (max-width:1700px){.price{padding-top: 85px;}}
@@ -392,6 +391,7 @@ header{ /*Задаем тот же фон для выпрыгивающего м
     max-width: 63px;
     margin-top: 6px;
    margin-left: -4px;
+    z-index: 999;
   }
   .graficlogo:not(:hover) {
     transform: rotate(0deg);
@@ -405,11 +405,12 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   #fon-menu{
     height: 80px;
     width: 650px;
+    z-index: 100;
   }
   .menu-block{
     width: 127px;
-    margin-top: 0px;
-    z-index: 50;
+    margin-top: 0;
+    z-index: 2;
   }
   .header-block{
     z-index: 10;
@@ -434,6 +435,7 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   }
   .header-block{
     margin-right: -22%;
+    z-index: 120;
   }
 }
 .slide-container {
