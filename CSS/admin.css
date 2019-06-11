@@ -23,6 +23,7 @@ table{
     background: #c2c3b9;
     border: 2px solid #333;
     color: #000000;
+    margin-top: 220px;
 }
 td{
     text-align: center;
@@ -36,8 +37,4 @@ td{
     height: 40px;
     width: 80%;
     line-height: 20px;
-}
-.main{
-    text-decoration: none;
-    color: #5558ef;
 }
