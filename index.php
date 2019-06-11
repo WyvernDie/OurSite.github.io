@@ -16,6 +16,7 @@ while ($d < $m) {
     <div class="price">
         <img src="Image/background.jpg" width="100%" height="auto">
     </div>
+
     <div class="game">
         <div class="swiper-container">
             <div class="swiper-wrapper">
@@ -28,17 +29,23 @@ while ($d < $m) {
                             <p> <? echo $gameData['description'];?> </p>
                         </div>
                     </div >
+
                 </div >
-                <?}?>
-            </div>
-            <? if ($ses) {
-                ?>
-                <a class="editing" href="/Admin/adminSite/gameBanner/gameEditing.php">Редактировать Блок</a>
-            <? } ?>
+            </div >
+            <?}?>
         </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <? if ($ses) {
+            ?>
+            <a class="editing" href="/Admin/adminSite/gameBanner/gameEditing.php">Редактировать Блок</a>
+        <? } ?>
     </div>
 
     <div class="map_container">
+         src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad83165488faa5d5956658404a24158ca77258dccd8f43adaa56aa4e38d4307e7&amp;width50%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+
         <div class="button">
             <div class="swiper-pagination"></div>
         </div>
@@ -48,7 +55,12 @@ while ($d < $m) {
                 <div class="swiper-slide"><img src="Image/Games/c.jpg" width="100%"></div>
 
             </div>
+
         </div>
+        <? if ($ses) {
+            ?>
+            <a class="editing" href="#">Редактировать Блок</a>
+        <? } ?>
     </div>
 
 
@@ -60,15 +72,6 @@ while ($d < $m) {
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
-            },
-        });
-        var swiper1 = new Swiper('.swiper-container', {
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-                renderBullet: function (index, className) {
-                    return '<span class="' + className + '">' + (index + 1) + '</span>';
-                },
             },
         });
     </script>

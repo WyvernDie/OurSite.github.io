@@ -22,7 +22,7 @@ while ($i < $k) {
 </head>
 <body>
 <a href="../../../index.php" class="main"> <h1>На Главную</h1></a>
-<div class="game">
+<div>
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <?php foreach ($gameDatas as $gameData) { ?>
