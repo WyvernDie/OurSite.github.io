@@ -8,18 +8,88 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
-  </component>
   <component name="FileEditorManager">
-    <leaf>
+
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CSS/priceList.css">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin/adminSite/gameBanner/addNewBanner.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Parts/Header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS/Header_Footer_Styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14144">
+              <caret line="832" column="14" selection-start-line="832" selection-start-column="14" selection-end-line="832" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/news.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript/news-js.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript/menu-block.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Parts/Footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS/Global.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="17" selection-end-column="1" />
+
+
             </state>
           </provider>
         </entry>
@@ -33,8 +103,6 @@
       <find>img</find>
       <find>co</find>
       <find>@</find>
-      <find>contact</find>
-      <find>global-header</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -43,6 +111,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+
+        <option value="$PROJECT_DIR$/CSS/Body.css" />
+        <option value="$PROJECT_DIR$/JavaScript/headerScrolling.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/JavaScript/cycle2.js" />
+        <option value="$PROJECT_DIR$/Links/adminNav.php" />
+        <option value="$PROJECT_DIR$/Links/adminPanel.php" />
+        <option value="$PROJECT_DIR$/Links/adminIn.php" />
+        <option value="$PROJECT_DIR$/../Test/css.css" />
+        <option value="$PROJECT_DIR$/Parts/Button.php" />
+        <option value="$PROJECT_DIR$/CSS/button.css" />
+        <option value="$PROJECT_DIR$/Links/Contacts.php" />
+
         <option value="$PROJECT_DIR$/Admin/.htaccess" />
         <option value="$PROJECT_DIR$/Admin/admin" />
         <option value="$PROJECT_DIR$/Admin/adminPanel.php" />
@@ -61,39 +142,38 @@
         <option value="$PROJECT_DIR$/Admin/adminSite/imageEditing.php" />
         <option value="$PROJECT_DIR$/Admin/adminSite/linkEditing.php" />
         <option value="$PROJECT_DIR$/../Test/index.php" />
+
+        <option value="$PROJECT_DIR$/CSS/Global.css" />
+        <option value="$PROJECT_DIR$/CSS/Body_Styles.css" />
+
         <option value="$PROJECT_DIR$/Admin/adminSite/gameEditing.php" />
         <option value="$PROJECT_DIR$/Admin/adminSite/headerEditing.php" />
         <option value="$PROJECT_DIR$/Admin/adminSite/addNewBanner.php" />
         <option value="$PROJECT_DIR$/Admin/adminSite/header/menuEditing.php" />
+        <option value="$PROJECT_DIR$/CSS/admin.css" />
+        <option value="$PROJECT_DIR$/CSS/game.css" />
+        <option value="$PROJECT_DIR$/Admin/adminSite/gameBanner/gameEditing.php" />
         <option value="$PROJECT_DIR$/Admin/adminSite/gameBanner/addNewBanner.php" />
         <option value="$PROJECT_DIR$/Admin/adminSite/gameBanner/Editing.php" />
         <option value="$PROJECT_DIR$/Admin/adminSite/gameBanner/infoEditing.php" />
-        <option value="$PROJECT_DIR$/../../../../Site/Parts/Header.php" />
-        <option value="$PROJECT_DIR$/news.php" />
-        <option value="$PROJECT_DIR$/news.php" />
-        <option value="$PROJECT_DIR$/Admin/adminSite/header/headerEditing.php" />
-        <option value="$PROJECT_DIR$/CSS/admin.css" />
-        <option value="$PROJECT_DIR$/aboutUs.php" />
-        <option value="$PROJECT_DIR$/CSS/aboutUsStyles.css" />
-        <option value="$PROJECT_DIR$/CSS/sliderStyle.css" />
-        <option value="$PROJECT_DIR$/CSS/game.css" />
-        <option value="$PROJECT_DIR$/CSS/Header_Footer_Styles.css" />
-        <option value="$PROJECT_DIR$/CSS/Header_Footer_Styles.css" />
-        <option value="$PROJECT_DIR$/CSS/Header_Footer_Styles.css" />
-        <option value="$PROJECT_DIR$/Admin/adminSite/gameBanner/gameEditing.php" />
-        <option value="$PROJECT_DIR$/CSS/Body_Styles.css" />
+
+
+
+        <option value="$USER_HOME$/Desktop/Site/Parts/Header.php" />
+        <option value="$PROJECT_DIR$/Parts/Header.php" />
+        <option value="$PROJECT_DIR$/Parts/Header.php" />
+        <option value="$PROJECT_DIR$/Parts/Footer.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/price.php" />
-        <option value="$PROJECT_DIR$/CSS/pricelist.CSS" />
-        <option value="$PROJECT_DIR$/CSS/Global.css" />
-        <option value="$PROJECT_DIR$/CSS/priceList.css" />
-        <option value="$PROJECT_DIR$/CSS/element-menu.scss" />
-        <option value="$PROJECT_DIR$/JavaScript/menu-block.js" />
-        <option value="$PROJECT_DIR$/JavaScript/headerScrolling.js" />
-        <option value="$PROJECT_DIR$/Parts/Header.php" />
-        <option value="$PROJECT_DIR$/Parts/Header.php" />
-        <option value="$PROJECT_DIR$/../localhost/probnik.css" />
-        <option value="$PROJECT_DIR$/../localhost/index.php" />
+
+        <option value="$PROJECT_DIR$/news.php" />
+        <option value="$PROJECT_DIR$/CSS/Header_Footer_Styles.css" />
+        <option value="$PROJECT_DIR$/CSS/Header_Footer_Styles.css" />
+        <option value="$PROJECT_DIR$/news.php" />
+
+        <option value="$PROJECT_DIR$/CSS/Header_Footer_Styles.css" />
+        <option value="$PROJECT_DIR$/JavaScript/news-js.js" />
+
+
       </list>
     </option>
   </component>
@@ -101,11 +181,11 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="951" />
-    <option name="y" value="1" />
-    <option name="width" value="978" />
-    <option name="height" value="1035" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="710" />
+    <option name="y" value="35" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -122,24 +202,37 @@
             <path>
               <item name="OurSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="OurSite" type="462c0819:PsiDirectoryNode" />
+
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OurSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OurSite" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="adminSite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OurSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OurSite" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="adminSite" type="462c0819:PsiDirectoryNode" />
+
+            </path>
+            <path>
+              <item name="OurSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OurSite" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+
+            </path>
+            <path>
+              <item name="OurSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OurSite" type="462c0819:PsiDirectoryNode" />
+
               <item name="CSS" type="462c0819:PsiDirectoryNode" />
             </path>
-<<<<<<< HEAD
-=======
-            <path>
-              <item name="OurSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurSite" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurSite" type="462c0819:PsiDirectoryNode" />
-              <item name="Parts" type="462c0819:PsiDirectoryNode" />
-            </path>
-<<<<<<< HEAD
->>>>>>> parent of f0008a3... Merge branch 'master' of https://github.com/WyvernDie/OurSite
-=======
->>>>>>> parent of f0008a3... Merge branch 'master' of https://github.com/WyvernDie/OurSite
+
+
+
           </expand>
           <select />
         </subPane>
@@ -150,7 +243,9 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/domains/Site" />
+
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -235,30 +330,48 @@
       <workItem from="1557411263022" duration="1348000" />
       <workItem from="1558632779180" duration="157000" />
       <workItem from="1558798894613" duration="445000" />
+
       <workItem from="1558938040586" duration="580000" />
-      <workItem from="1559037809908" duration="2483000" />
-      <workItem from="1559122887596" duration="1371000" />
-      <workItem from="1559132379359" duration="95000" />
-      <workItem from="1559843857491" duration="33000" />
-      <workItem from="1559843898727" duration="566000" />
-      <workItem from="1559844792249" duration="736000" />
-      <workItem from="1559866418025" duration="1045000" />
-      <workItem from="1560200312702" duration="1019000" />
-      <workItem from="1560224271624" duration="1714000" />
-      <workItem from="1560226201596" duration="1767000" />
-      <workItem from="1560228184541" duration="1705000" />
-      <workItem from="1560230478384" duration="350000" />
+
+
+      <workItem from="1559132806634" duration="1710000" />
+      <workItem from="1559135546557" duration="1489000" />
+      <workItem from="1559218064126" duration="844000" />
+      <workItem from="1559251452781" duration="1281000" />
+      <workItem from="1559291491325" duration="885000" />
+      <workItem from="1559295281110" duration="674000" />
+      <workItem from="1559297435053" duration="1758000" />
+      <workItem from="1559299286303" duration="589000" />
+      <workItem from="1559410638004" duration="1286000" />
+      <workItem from="1559416113464" duration="1755000" />
+      <workItem from="1559419512463" duration="957000" />
+      <workItem from="1559476342562" duration="1580000" />
+      <workItem from="1559478646812" duration="1927000" />
+      <workItem from="1559660651408" duration="995000" />
+      <workItem from="1559812053378" duration="1026000" />
+      <workItem from="1559814279224" duration="1929000" />
+      <workItem from="1559816395833" duration="1780000" />
+      <workItem from="1559863794230" duration="1478000" />
+      <workItem from="1559866428646" duration="1439000" />
+
+      <workItem from="1559908213263" duration="201000" />
+
+
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191791000" />
+
+
+    <option name="totallyTimeSpent" value="196497000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="936" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.28590605" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.56778526" />
+
+
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -280,7 +393,7 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28590605" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1859375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -292,7 +405,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32916147" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="12" />
@@ -306,6 +419,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../Lesson-5-Array-and-Connecting/php3.php" />
+    <entry file="file://$PROJECT_DIR$/../Lesson-5-Array-and-Connecting/php4.php" />
+    <entry file="file://$PROJECT_DIR$/../Lesson-6-Operator/index.php" />
+    <entry file="file://$PROJECT_DIR$/../Lesson-7/works.php" />
+    <entry file="file://$PROJECT_DIR$/../Lesson-7/index.php" />
+    <entry file="file://$PROJECT_DIR$/../template-mushroomshop/cart.php" />
+    <entry file="file://$PROJECT_DIR$/../template-mushroomshop/Data Base/Data_Base.php" />
+    <entry file="file://$PROJECT_DIR$/../template-mushroomshop/product.php" />
+    <entry file="file://$PROJECT_DIR$/../template-mushroomshop/Parts/Header.php" />
+    <entry file="file://$PROJECT_DIR$/../template-mushroomshop/actions/add.php" />
+    <entry file="file://$PROJECT_DIR$/Admin/adminPanel.php" />
     <entry file="file://$PROJECT_DIR$/Admin/adminSite/adminParts/adminHeader.php" />
     <entry file="file://$PROJECT_DIR$/Admin/adminSite/adminIndex.php" />
     <entry file="file://$PROJECT_DIR$/Actions/.php" />
@@ -335,15 +459,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/sliders.js" />
-    <entry file="file://$PROJECT_DIR$/../test/index.php" />
-    <entry file="file://$PROJECT_DIR$/Parts/Footer.php">
+
+
+    <entry file="file://$PROJECT_DIR$/../Test/index.php" />
+    <entry file="file://$PROJECT_DIR$/CSS/Body_Styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="391">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Admin/adminSite/gameEditing.php" />
+    <entry file="file://$PROJECT_DIR$/Admin/adminSite/linkEditing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Admin/adminSite/headerEditing.php" />
     <entry file="file://$PROJECT_DIR$/Admin/adminSite/menuEditing.php" />
     <entry file="file://$PROJECT_DIR$/Admin/adminSite/addNewBanner.php" />
@@ -355,21 +489,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Lesson-4-DataType/index.php" />
-    <entry file="file://$PROJECT_DIR$/Admin/adminSite/gameBanner/infoEditing.php">
+    <entry file="file://$PROJECT_DIR$/CSS/sliderStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+
+        <state relative-caret-position="85">
+          <caret line="5" column="104" lean-forward="true" selection-start-line="5" selection-start-column="104" selection-end-line="5" selection-end-column="104" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/adminSite/gameBanner/Editing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/adminSite/header/menuEditing.php">
+
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
@@ -378,36 +506,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Actions/dbConnecting.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="104" lean-forward="true" selection-start-line="5" selection-start-column="104" selection-end-line="5" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/adminSite/linkEditing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Admin/adminSite/header/headerEditing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="81" selection-start-line="81" selection-end-line="83" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aboutUs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        <state relative-caret-position="2312">
+          <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+
         </state>
       </provider>
     </entry>
@@ -418,70 +524,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Image/Games/GTA 5.jpg" />
-    <entry file="file://$PROJECT_DIR$/JavaScript/hearerMenu.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/sliderStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1057">
-          <caret line="209" column="15" selection-start-line="209" selection-start-column="15" selection-end-line="209" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/Header_Footer_Styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/adminSite/gameBanner/gameEditing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-287">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+
     <entry file="file://$PROJECT_DIR$/Admin/adminSite/gameBanner/addNewBanner.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="119" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/Body_Styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Image/oS29SRtOYwY.jpg" />
-    <entry file="file://$PROJECT_DIR$/CSS/game.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/../../../../OurSite/CSS/Header_Footer_Styles.css" />
-=======
-=======
->>>>>>> parent of f0008a3... Merge branch 'master' of https://github.com/WyvernDie/OurSite
-    <entry file="file://$PROJECT_DIR$/../../../../OurSite/CSS/Header_Footer_Styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1763">
-          <caret line="502" column="1" lean-forward="true" selection-start-line="502" selection-start-column="1" selection-end-line="502" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
->>>>>>> parent of f0008a3... Merge branch 'master' of https://github.com/WyvernDie/OurSite
+        <state relative-caret-position="238">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+
+
     <entry file="file://$PROJECT_DIR$/JavaScript/menu-block.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -499,53 +548,47 @@
     <entry file="file://$PROJECT_DIR$/price.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+
+          <caret line="4" selection-start-line="4" selection-end-line="17" selection-end-column="1" />
+
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/Global.css">
+    <entry file="file://$PROJECT_DIR$/news.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+
+        <state relative-caret-position="221">
+          <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS/priceList.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+
+        <state relative-caret-position="14144">
+          <caret line="832" column="14" selection-start-line="832" selection-start-column="14" selection-end-line="832" selection-end-column="14" />
+
+
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/headerScrolling.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+
+
+        <state relative-caret-position="204">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../localhost/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../localhost/probnik.css" />
-    <entry file="file://$PROJECT_DIR$/Parts/Header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+
+
         </state>
       </provider>
     </entry>
