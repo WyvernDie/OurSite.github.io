@@ -44,8 +44,6 @@ while ($d < $m) {
     </div>
 
     <div class="map_container">
-         src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad83165488faa5d5956658404a24158ca77258dccd8f43adaa56aa4e38d4307e7&amp;width50%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
-
         <div class="button">
             <div class="swiper-pagination"></div>
         </div>
