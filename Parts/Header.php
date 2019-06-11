@@ -34,6 +34,7 @@ while ($i < $k) {
     <script src="../JavaScript/menu-block.js" type="text/javascript"></script>
 
 
+
 </head>
 <body>
 <header class="vezde global-header">
@@ -44,30 +45,32 @@ while ($i < $k) {
             <?foreach ($menuDatas as $menuData){?>
                 <div class="punkt" id="parth-menu1">
                     <a href="<? echo $menuData['link']; ?>"> <p><? echo $menuData['name']; ?></p> </a>
-                </div>
-            <?}
-            if ($ses){?>
-                <div class="punkt" id="parth-menu1">
-                    <a class="editing" href="../Admin/adminSite/header/headerEditing.php">
-                        <p>Редактировать Блок</p>
-                    </a>
-                </div>
-                <div class="punkt" id="parth-menu1">
-                    <a href="../Admin/adminExit.php">Выход</a>
-                </div>
-            <?}?>
-            <button  type="button" id="elem" class="punkt punktz">
-                <a href="#free">&#9776</a>
-            </button>
-            <div id="phone-menu" class="menu-block">
-                <?foreach ($menuDatas as $menuData){?>
-                    <h4 class="h4">
-                        <a href="<? echo $menuData['link']; ?>"> <p><? echo $menuData['name']; ?></p> </a>
-                    </h4>
-                    <hr class="hr">
+             
+                    </div>
+                <?}
+                 if ($ses){?>
+                     <div class="punkt" id="parth-menu1">
+                         <a class="editing" href="../Admin/adminSite/header/headerEditing.php">
+                             <p>Редактировать Блок</p>
+                         </a>
+                     </div>
+                     <div class="punkt" id="parth-menu1">
+                         <a href="../Admin/adminExit.php">Выход</a>
+                     </div>
                 <?}?>
-            </div>
-        </nav>
-    </div>
-</header>
+                <button  type="button" id="elem" class="punkt punktz">
+                    <a href="#free">&#9776</a>
+                </button>
+                <div id="phone-menu" class="menu-block">
+                    <?foreach ($menuDatas as $menuData){?>
+                        <h4 class="h4">
+                            <a href="<? echo $menuData['link']; ?>"> <p><? echo $menuData['name']; ?></p> </a>
+                        </h4>
+                        <hr class="hr">
+                    <?}?>
+                </div>
+            </nav>
+        </div>
+    </header>
+
 

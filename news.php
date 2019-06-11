@@ -6,29 +6,29 @@ require 'Parts/Header.php';
         <div class="news-elements-h1">
             <h1>орошее название новости</h1>
         </div>
-            <div class="news-button">
-                <a id="#news-button-a" src="#">Закрыть</a>
-            </div>
+        <div class="news-button">
+            <a id="#news-button-a" src="#">Закрыть</a>
+        </div>
         <div class="content-news">
-                <div class="wrapp-img">
-                    <img  alt="эта игра просто шик" class="">
-                </div>
+            <div class="wrapp-img">
+                <img  alt="эта игра просто шик" class="">
+            </div>
             <div class="news-element-text">
                 <h2> хорошее название подновости</h2>
                 <p>а тут хороший дня него текст</p>
-                    <div class="news-text-data">
-                        <b>21.21.21</b>
-                    </div>
+                <div class="news-text-data">
+                    <b>21.21.21</b>
+                </div>
             </div>
         </div>
     </div>
 </div>
 <div class="novosti-on">
-<p class="novosti-icon">
+    <p class="novosti-icon">
   <span class="x">
     новости
   </span>
-</p>
+    </p>
 
     <div class="novosti-big-block">
         <div class="novocti-block n1">
@@ -37,9 +37,9 @@ require 'Parts/Header.php';
             </div>
             <hr>
             <div class="text-big">
-            <div class="novosti-text">
-                <p>хорошая завлекающая игра</p>
-            </div>
+                <div class="novosti-text">
+                    <p>хорошая завлекающая игра</p>
+                </div>
                 <div class="text-hover">
                     <p>а это при наведении</p>
                 </div>
