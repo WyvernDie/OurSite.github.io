@@ -136,6 +136,9 @@
               <item name="OurSite" type="462c0819:PsiDirectoryNode" />
               <item name="Parts" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+>>>>>>> parent of f0008a3... Merge branch 'master' of https://github.com/WyvernDie/OurSite
+=======
 >>>>>>> parent of f0008a3... Merge branch 'master' of https://github.com/WyvernDie/OurSite
           </expand>
           <select />
@@ -466,8 +469,11 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/../../../../OurSite/CSS/Header_Footer_Styles.css" />
 =======
+=======
+>>>>>>> parent of f0008a3... Merge branch 'master' of https://github.com/WyvernDie/OurSite
     <entry file="file://$PROJECT_DIR$/../../../../OurSite/CSS/Header_Footer_Styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1763">
