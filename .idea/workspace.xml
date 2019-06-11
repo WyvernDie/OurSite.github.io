@@ -124,6 +124,19 @@
               <item name="OurSite" type="462c0819:PsiDirectoryNode" />
               <item name="CSS" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="OurSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OurSite" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OurSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OurSite" type="462c0819:PsiDirectoryNode" />
+              <item name="Parts" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> parent of f0008a3... Merge branch 'master' of https://github.com/WyvernDie/OurSite
           </expand>
           <select />
         </subPane>
@@ -452,7 +465,17 @@
     <entry file="file://$PROJECT_DIR$/CSS/game.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/../../../../OurSite/CSS/Header_Footer_Styles.css" />
+=======
+    <entry file="file://$PROJECT_DIR$/../../../../OurSite/CSS/Header_Footer_Styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1763">
+          <caret line="502" column="1" lean-forward="true" selection-start-line="502" selection-start-column="1" selection-end-line="502" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> parent of f0008a3... Merge branch 'master' of https://github.com/WyvernDie/OurSite
     <entry file="file://$PROJECT_DIR$/JavaScript/menu-block.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
