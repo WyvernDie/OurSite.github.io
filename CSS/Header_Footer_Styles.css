@@ -52,7 +52,9 @@ a, a:hover {text-decoration: none;color: white;/*! z-index: 20; */}
 .js-global-header-scrolling {
   top: -20em; /* Height of the header */
 }
-
+.global-header{
+  transition: 1s;
+}
 
 header{ /*Задаем тот же фон для выпрыгивающего меню*/
   /*background: rgba(5, 2, 2, 0.91);!*Фон для меню*!*/
