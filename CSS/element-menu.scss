@@ -1,0 +1,28 @@
+.btn-6 {
+  $btn-color:rgba(10, 90, 90, 0,7)($max:200);
+  $btn-color-dark: shade($btn-color, 40%);
+  color: tint($btn-color);
+
+  span {
+    @include absolute();
+    display: block;
+    @include size(0);
+    border-radius: 50%;
+    background-color: $btn-color-dark;
+    transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+
+  &:hover {
+    color: tint($btn-color, 75%);
+
+    span {
+      @include size(225%, $btn-width*2.25);
+    }
+  }
+
+  &:active {
+    background-color: $btn-color;
+  }
+}
