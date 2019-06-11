@@ -377,7 +377,7 @@ header{ /*Задаем тот же фон для выпрыгивающего м
     padding-top: 10px;
   }
   #elem{
-    margin-bottom: 5px;
+    margin-bottom: 9px;
     margin-right: 20px;
   }
   .price{
@@ -409,6 +409,7 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   .menu-block{
     width: 127px;
     margin-top: 0px;
+    z-index: 50;
   }
   .header-block{
     z-index: 10;
