@@ -1,6 +1,6 @@
 .novosti-on{
     position: static;
-    width: 75%;
+    width: 100%;
     margin: auto;
     margin-top: 100px;
     padding: 30px;
@@ -73,7 +73,7 @@
     opacity: 0;
     height: 140px;
 }
-.text-hover:hover{
+.text-hover2{
     background: #ebebeb;
     opacity: .6;
     height: 80px;
@@ -141,7 +141,8 @@
     background-color: blue;
     /*! margin-right: 18px; */
     margin-top: 2%;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
+    margin-right: 2%;
 }
 .slovo li{
     list-style-type: none;
@@ -178,12 +179,14 @@
     width: 45%;
     height: 100%;
     border-radius: 6%;
+    min-width: 250px;
+    max-height: 300px;
 }
 .news-block{
     width: 45%;
     height: 50%;
     position: absolute;
-    margin-top: 14%;
+    margin-top: 200px;
     background-color: rgb(255, 255, 255);
     z-index: 2;
     margin-left: 26%;
@@ -191,21 +194,23 @@
     min-height: 380px;
     max-height: 340px;
     max-width: 70%;
-    min-width: 30%;
+    min-width: 500px;
 }
 .news-button{
     background: #ff7f50;
     width: 19%;
     height: 13%;
-    position: absolute;
-    padding: 10px 0 0 4px;
-    top: 3%;
-    right: 2%;
+    position: relative;
+    padding: 12px 0 12px 0;
     border-radius: 5px;
+    top: 10px;
+    right: 16px;
+    float: right;
 }
 #news-button-a{
     color: white;
     text-decoration: white;
+    margin: 0 16% 0 16%;
 }
 .news-element-image{
     position: relative;
@@ -219,14 +224,15 @@
 }
 .news-elements-h1{
 
-    width: 100%;
+    width: 80%;
     position: static;
-    padding: 0 17% 0 0;
 }
 .news-elements-h1 h1{
 
-    padding: 20px;
+    padding: 0;
     font-size: 2rem;
+    margin: 20px 0 15px 0;
+    position: relative;
 }
 .news-element-text{
 
@@ -252,7 +258,7 @@
     max-width: 100%;
     width: 100%;
     overflow: auto;
-    max-height: 128px;
+    max-height: 207px;
 }
 .news-text-data{
 
@@ -270,4 +276,8 @@
     height: 81%;
     display: flex;
     padding: 1%;
+}
+
+#news-button-a1{
+    display: none;
 }

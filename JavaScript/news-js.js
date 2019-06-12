@@ -12,7 +12,4 @@ $(document).ready(function() {
     $('.news-block').click(function (e){
         e.stopPropagation();
     });
-    $('.novosti-block').onmousemove(function () {
-       $('.novosti-block').addClass('.text-hover-mous');
-    });
 });

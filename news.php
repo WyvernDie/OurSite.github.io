@@ -3,19 +3,20 @@ require 'Parts/Header.php';
 ?>
 <div class="overlay">
     <div class="news-block">
-        <div class="news-elements-h1">
-            <h1>орошее название новости</h1>
+        <div class="news-button">
+            <a id="news-button-a" src="#">Закрыть</a>
+            <a id="news-button-a1" src="#">&times;</a>
         </div>
-            <div class="news-button">
-                <a id="#news-button-a" src="#">Закрыть</a>
-            </div>
+        <div class="news-elements-h1">
+            <h1>название новости</h1>
+        </div>
         <div class="content-news">
                 <div class="wrapp-img">
                     <img  alt="эта игра просто шик" class="">
                 </div>
             <div class="news-element-text">
                 <h2> хорошее название подновости</h2>
-                <p>а тут хороший дня него текст</p>
+                <p>а тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текст</p>
                     <div class="news-text-data">
                         <b>21.21.21</b>
                     </div>
