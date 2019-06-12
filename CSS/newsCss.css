@@ -1,3 +1,177 @@
+.novosti
+{
+    width: 500px;
+    height: 400px;
+    margin: 10px 100px;
+    position: relative;
+    /*display: block;*/
+}
+.novosti .img
+{
+    display: none;
+    position: absolute;
+    width: 700px;
+}
+.overlay{
+    background-color: rgba(10, 180, 185, 0.9);
+    position: absolute;
+    display: none;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    min-height: 780px;
+}
+.overlay-open{
+    display: block;
+    transition: 2s;
+}
+.wrapp-img{
+    background-image: url(//OurSite/Image/Games/GTA5.jpg);
+    width: 45%;
+    height: 100%;
+    border-radius: 6%;
+}
+.news-block{
+    width: 45%;
+    height: 50%;
+    position: absolute;
+    margin-top: 14%;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    margin-left: 26%;
+    border-radius: 16px;
+    min-height: 380px;
+    max-height: 340px;
+    max-width: 70%;
+    min-width: 30%;
+}
+.news-button{
+    background: #ff7f50;
+    width: 19%;
+    height: 13%;
+    position: absolute;
+    padding: 10px 0 0 4px;
+    top: 3%;
+    right: 2%;
+    border-radius: 5px;
+}
+#news-button-a{
+    color: white;
+    text-decoration: white;
+}
+.news-element-image{
+    position: relative;
+    height: 0px;
+}
+.news-element-image img{
+
+    width: 40%;
+    display: block;
+    position: inherit;
+}
+.news-elements-h1{
+
+    width: 100%;
+    position: static;
+    padding: 0 17% 0 0;
+}
+.news-elements-h1 h1{
+
+    padding: 20px;
+    font-size: 2rem;
+}
+.news-element-text{
+
+    float: right;
+    width: 58%;
+    padding: 4px;
+}
+.content-news img{
+
+    position: relative;
+    float: left;
+    padding: 3px;
+}
+.news-element-text h2{
+
+    font-size: 16px;
+    margin-bottom: 15px;
+    word-break: break-all;
+}
+.news-element-text p{
+
+    word-break: break-all;
+    max-width: 100%;
+    width: 100%;
+    overflow: auto;
+    max-height: 128px;
+}
+.news-text-data{
+
+    width: 28%;
+    font-size: 14px;
+    position: absolute;
+    float: right;
+    right: -5%;
+    bottom: 2%;
+}
+.content-news{
+
+    width: 100%;
+    position: relative;
+    height: 81%;
+    display: flex;
+    padding: 1%;
+}
+.curry
+{
+    display: block;
+}
+.img:first-child
+{
+    width: 100px;
+    height: 250px;
+
+}
+.img:nth-child(2){
+    width: 700px;
+    width: 100px;
+    height: 250px;
+}
+.img:nth-child(3){
+    width: 700px;
+    width: 100px;
+    height: 250px;
+}
+.img:nth-child(4){
+    width: 700px;
+    width: 100px;
+    height: 250px;
+}
+
+#next1
+{
+    position: relative;
+    display: none;
+}
+
+
+#prev1
+{
+    position: relative;
+    display: none;
+}
+/*ment - menu js*/
+.ment{
+    color: rgba(185, 92, 255, 0.51);
+    padding: 10px;
+    border: 5px;
+}
+
+/*новости, ехали*/
 .novosti-on{
     position: static;
     width: 75%;
@@ -5,7 +179,7 @@
     /*! z-index: 10; */
     /*! background-color: aquamarine; */
     margin: auto;
-    margin-top: 164px;
+    margin-top: 120px;
     padding: 30px;
     /*! margin-bottom: 82px; */
 }
@@ -15,10 +189,10 @@
     display: inline-block;
     border: 21px double rgba(255,255,255,.25);
     border-width: 0 0 6px 0;
-    padding: 1em 0em 0 4em;
-    position: absolute;
-    top: 19%;
-    left: 81%;
+    padding: 1em 0em 0 6em;
+    position: relative;
+    top: -8%;
+    left: 47%;
     width: 22em;
     margin: 0 0 0 -21em;}
 

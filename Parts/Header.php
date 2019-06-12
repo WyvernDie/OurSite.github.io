@@ -61,10 +61,13 @@ while ($i < $k) {
             </button>
             <div id="phone-menu" class="menu-block">
                 <?foreach ($menuDatas as $menuData){?>
-                    <h4 class="h4">
-                        <a href="<? echo $menuData['link']; ?>"> <p><? echo $menuData['name']; ?></p> </a>
-                    </h4>
+<!--                    <h4 class="h4">-->
+<!--                        <a href="--><?// echo $menuData['link']; ?><!--"> <p>--><?// echo $menuData['name']; ?><!--</p> </a>-->
+<!--                    </h4>-->
+                    <a class="h4" href="<? echo $menuData['link']; ?>"><? echo $menuData['name']; ?><span></span></a>
                     <hr class="hr">
+
+<!--                    <a class="h4" href="--><?// echo $menuData['link']; ?><!--">--><?// echo $menuData['name']; ?><!--<span></span></a>-->
                 <?}?>
             </div>
         </nav>
