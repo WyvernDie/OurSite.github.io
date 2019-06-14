@@ -14,6 +14,17 @@
     .novosti-icon{
         
     }
+    .data b{
+
+    }
+    #dateActive1{
+        display: block;
+        flex: 2;
+        font-size: 17px;
+    }
+    #dateActive2{
+     display: none;   
+    }
 }
 
 @media (max-width:876px){ /*Медиа-запрос*/
@@ -85,14 +96,12 @@
         
     }
     .novosti-icon{
-        
     font-size: 19px;
-    width: 16em;
-    padding: 0px 0 0 0em;
-    margin-right: -1em;
+    width: 100%;
+    padding: 0;
     }
     .overlay{
-    min-height: 160vh;
+    min-height: 430vh;
     }
     .overlay-open{
         
@@ -110,6 +119,15 @@
     max-width: 600px;
     min-width: 460px;
     }
+    .novosti-big-block{
+        margin-bottom:50px;
+        padding: 0;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
     .news-block{
         
     }
@@ -121,6 +139,7 @@
     }
     .news-text-data{
         
+    bottom: -2%;
     }
     
     .news-button{
@@ -173,7 +192,7 @@
         
     }
     .overlay{
-        min-height: 227vh;
+        min-height: 403vh;
     }
     .overlay-open{
 
@@ -190,6 +209,7 @@
         max-height: 340px;
         max-width: 600px;
         min-width: 460px;
+        position: fixed;
     }
     .news-block{
 
@@ -202,6 +222,8 @@
     }
     .news-text-data{
 
+    bottom: -3%;
+    font-size: 16px;
     }
     .news-button{
         display: flex;
@@ -309,6 +331,7 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        z-index: -321;
     }
     .menu-block a{
         font-size: 14px;
@@ -336,13 +359,21 @@
         
     }
     .novosti-icon{
+        font-size: 17px;
+        margin-top: -1%;
+    }
+    .novocti-block{
         
+    width: 215px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 10%;
+    height: 287px;
     }
     .overlay{
-        min-height: 230vh;
+        min-height: 610vh;
     }
     .overlay-open{
-
         display: flex;
         justify-content: center;
     }
@@ -355,14 +386,10 @@
     .news-block{
 
         margin-top: 121px;
-        /*! min-height: 616px; */
+        min-height: 522px;
         max-height: 520px;
-        min-width: 333px;
-        /*! position: absolute; */
-        /*! height: auto; */
-    }
-    .news-block{
-
+        min-width: 325px;
+        position: absolute;
     }
     .news-element-text{
 
@@ -388,7 +415,7 @@
     #news-button-a1{
         display: block;
         font-size: 50px;
-        margin: 1px 0 0 1px;
+        margin: 1px 2px 0 1px;
     }
     #news-button-a {
         display: none;
@@ -415,14 +442,31 @@
     position: relative;
     left: 0;
     height: auto;
-    word-break: break-all;
     overflow: auto;
     max-height: 112px;
-    box-shadow: -1px 8px 11px -7px black;
+    box-shadow: -1px 1px 11px -7px black;
+    }
+    .novosti-big-block{
+        
+    margin: auto;
+    width: 215px;
     }
     .news-button{
         
     margin-right: -7px;
+    }
+    #image-news{
+        
+    width: 215px;
+    }
+    .novosti-text{
+        
+    width: 215px;
+    height: 125px;
+    }
+    .data{
+        
+    width: 215px;
     }
 }
 @media (max-width:320px){
@@ -430,9 +474,17 @@
         display: none;
         padding-top: 10px;
     }
+    .map_container h1{
+        
+    font-size: 30px;
+    height: 52px;
+    line-height: 56px;
+    padding: 0;
+    }
     #elem{
         margin-bottom: 9px;
         margin-right: 20px;
+        /*! margin-left: -5px; */
     }
     .price{
         border: none;
@@ -446,6 +498,7 @@
         max-width: 63px;
         margin-top: 6px;
         margin-left: -4px;
+        z-index: 99999999;
     }
     .graficlogo:not(:hover) {
         transform: rotate(0deg);
@@ -459,10 +512,13 @@
     #fon-menu{
         height: 80px;
         width: 650px;
+        z-index: 99999;
     }
     .menu-block{
         width: 127px;
         margin-top: 0px;
+        z-index: -321;
+        position: absolute;
     }
     .header-block{
         z-index: 10;
@@ -487,16 +543,23 @@
     }
     .header-block{
         margin-right: -22%;
+        z-index: 99999;
     }
     /*news*/
     .novosti-on{
         
+    margin-top: 55%;
+    padding: 0;
     }
     .novosti-icon{
         
+    font-size: 13px;
+    margin-top: -23%;
+    display: flex;
+    justify-content: center;
     }
     .overlay{
-        min-height: 222vh;
+        min-height: 561vh;
     }
     .overlay-open{
 
@@ -547,8 +610,119 @@
     margin: -1px -9px 0 0;
     position: absolute;
     }
+    #news-button-a1{
+        font-size: 55px;
+        margin-top: 2px;
+    }
     .content-news{
        
     height: 90%;
+    }
+    .overlay-open {
+        
+    }
+    .novocti-block{
+        
+    width: 190px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 7%;
+    margin-bottom: 25%;
+    }
+    .img-novosti{
+        
+    width: 190px;
+    }
+    #image-news{
+        
+    width: 165px;
+    }
+    .novocti-block hr{
+    width: 190px;
+    height: 2px;
+    border: solid 2px cadetblue;
+    }
+    .text-big{
+        
+    width: 190px;
+    height: 165px;
+    }
+    .data{
+        
+    width: 190px;
+    }
+    .novosti-text{
+        
+    width: 190px;
+    height: 165px;
+    }
+    .novosti-big-block{
+        
+    width: 190px;
+    margin: auto;
+    }
+    #image-news{
+        
+    width: 190px;
+    }
+    .novosti-text{
+        
+    }
+   
+}
+@media (max-width:240px){
+    .novosti-icon{
+        font-size: 12px;
+    }
+    #image-news{
+        
+    width: 170px;
+    }
+    .novosti-text{
+        
+    height: 165px;
+    width: 170px;
+    }
+    .data{
+        
+    width: 170px;
+    display: flex;
+    }
+    #elem{
+        margin-left: -5px;
+        margin-bottom: 11px;
+        z-index: 99999999;
+    }
+    .novocti-block{
+        
+    width: 170px;
+    }
+    .novosti-on{
+        
+    margin-top: 66%;
+    }
+    .novosti-big-block{
+        
+    width: 170px;
+    margin: auto;
+    padding-top: 10px;
+    }
+    .img-novosti{
+        
+    width: 170px;
+    }
+    .novocti-block hr{
+        
+    width: 170px;
+    }
+    .text-big {
+        
+    width: 170px;
+    height: 165px;
+    }
+    .novosti-text p{
+        max-height: 161px;
+        overflow: auto;
+        text-shadow: 1px 1px 26px white;
     }
 }

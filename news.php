@@ -47,6 +47,8 @@ require 'Parts/Header.php';
             </div>
             <hr>
             <div class="data">
+                <b id="dateActive1">активна</b>
+                <b id="dateActive2">не активна</b>
                 <p>21.04.19</p>
             </div>
         </div>
