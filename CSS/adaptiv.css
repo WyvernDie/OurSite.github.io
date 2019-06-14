@@ -94,6 +94,7 @@
     /*news*/
     .novosti-on{
         
+    margin-top: 71px;
     }
     .novosti-icon{
     font-size: 19px;
@@ -187,6 +188,7 @@
     /*news*/
     .novosti-on{
         
+    margin-top: 62px;
     }
     .novosti-icon{
         
@@ -668,7 +670,9 @@
     .novosti-text{
         
     }
-   
+    .vezde{
+        
+    }
 }
 @media (max-width:240px){
     .novosti-icon{
@@ -724,5 +728,40 @@
         max-height: 161px;
         overflow: auto;
         text-shadow: 1px 1px 26px white;
+    }
+    .news-block{
+        
+    max-width: 200px;
+    min-width: 200px;
+    }
+    .news-button{
+        
+    }
+    #news-button-a1{
+        
+    }
+    .news-elements-h1{
+        
+    }
+    .content-news{
+        
+    }
+    .wrapp-img{
+        
+    min-width: 196px;
+    }
+    
+    .news-element-text{
+        
+    }
+    .news-element-text h2{
+        
+    }
+    .news-element-text p{
+        
+    }
+    .news-text-data{
+        
+    right: 8%;
     }
 }

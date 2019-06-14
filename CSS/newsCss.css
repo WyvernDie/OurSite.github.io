@@ -3,7 +3,7 @@
     width: 100%;
     margin: auto;
     margin-top: 115px;
-    padding: 30px;
+    background-color: #434B4D;
 }
 .novosti-icon {
     text-transform: uppercase;
@@ -55,7 +55,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
 }
 .data{
     width: 200px;
