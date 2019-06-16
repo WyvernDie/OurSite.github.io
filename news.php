@@ -139,19 +139,6 @@ require 'Parts/Header.php';
     </div>
 </div>
 </div>
-<script>
-    $(document).ready(function(){
-        $(".owl-carousel").owlCarousel({
-            items:5,
-            // loop:true,
-            dots: true,
-            dotsEach:true,
-
-        });
-    });
-</script>
-<script src="../JavaScript/news-js.js"></script>
-<script src="../carousel/owlcarousel/dist/owl.carousel.min.js"></script>
 <?php
 require 'Parts/Footer.php';
 ?>
