@@ -32,6 +32,9 @@ require 'Parts/Header.php';
 </p>
 
     <div class="novosti-big-block">
+        <div class="owl-carousel">
+
+            <div>
         <div class="novocti-block n1">
             <div class="img-novosti">
                 <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
@@ -52,8 +55,9 @@ require 'Parts/Header.php';
                 <p>21.04.19</p>
             </div>
         </div>
+            </div>
 
-        <div class="novocti-block n2">
+        <div> <div class="novocti-block n2">
             <div class="img-novosti">
                 <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
             </div>
@@ -71,8 +75,9 @@ require 'Parts/Header.php';
                 <p>21.04.19</p>
             </div>
         </div>
+        </div>
 
-        <div class="novocti-block n3">
+        <div><div class="novocti-block n3">
             <div class="img-novosti">
                 <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
             </div>
@@ -90,9 +95,9 @@ require 'Parts/Header.php';
                 <p>21.04.19</p>
             </div>
         </div>
+        </div>
 
-
-        <div class="novocti-block n4">
+        <div> <div class="novocti-block n4">
             <div class="img-novosti">
                 <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
             </div>
@@ -110,9 +115,9 @@ require 'Parts/Header.php';
                 <p>21.04.19</p>
             </div>
         </div>
+        </div>
 
-
-        <div class="novocti-block n5">
+        <div><div class="novocti-block n5">
             <div class="img-novosti">
                 <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
             </div>
@@ -129,10 +134,24 @@ require 'Parts/Header.php';
             <div class="data">
                 <p>21.04.19</p>
             </div>
+         </div>
         </div>
     </div>
 </div>
+</div>
+<script>
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            items:5,
+            // loop:true,
+            dots: true,
+            dotsEach:true,
+
+        });
+    });
+</script>
 <script src="../JavaScript/news-js.js"></script>
+<script src="../carousel/owlcarousel/dist/owl.carousel.min.js"></script>
 <?php
 require 'Parts/Footer.php';
 ?>

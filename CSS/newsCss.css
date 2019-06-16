@@ -3,7 +3,7 @@
     width: 100%;
     margin: auto;
     margin-top: 115px;
-    background-color: #434B4D;
+    background-color: #1E213D;
 }
 .novosti-icon {
     text-transform: uppercase;
@@ -168,8 +168,8 @@
     min-height: 1325px;
 }
 .overlay-open{
-    display: block;
-    transition: 2s;
+    display: flex;
+    justify-content: center;
 }
 .wrapp-img{
     background-image: url(//OurSite/Image/Games/GTA5.jpg);
@@ -186,26 +186,74 @@
     margin-top: 200px;
     background-color: rgb(255, 255, 255);
     z-index: 2;
-    margin-left: 26%;
     border-radius: 16px;
     min-height: 380px;
     max-height: 340px;
-    max-width: 70%;
+    max-width: 700px;
     min-width: 500px;
-    animation: : dws-bouns 23s linear infinite, dws-moveleft 5s linear infinite;
     position: fixed;
+  animation-name: news;
+  animation-duration: 5s; 
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
-@keyframes dws-bouns{
-    0%{bottom: 100%;}
-    25%{bottom:0; width:500px; height: 300px; }
-    30%{bottom:0; width:510px; height: 250px; }
-    35%{bottom:0; width:500px; height: 300px; }
-    70%{bottom:100%;}
-    100%{bottom:100%;}
-}
-@keyframes dws-moveleft {
-    from { left: 0; }
-    to { left:  100%; }
+@keyframes news{
+  from{
+    transform: rotateY(480deg);
+/*       top: -100%; */
+/*     bottom: 100%; */
+      margin-top: -300px;
+  }
+    20%{
+/*         transform: rotateY(180deg); */
+        
+    }
+    30%{
+      margin-top: 410px;
+/*       transform: rotateY(180deg); */
+      min-height: 250px;
+      min-width: 600px; 
+    }
+    45%{
+/*         transform: rotateY(180deg); */
+              min-height: 250px;
+      min-width: 600px;
+    }
+  55%{
+/*       bottom: 0; */
+/*       top: 35%; */
+      margin-top: 150px;
+/*     transform: rotateY(180deg); */
+      animation-direction: alternate;
+/*       min-height: 250px;
+      min-width: 600px; */
+       min-height: 380px;
+         min-width: 650px;
+      transform: rotate(0deg);
+  }
+    66%{
+        min-height: 380px;
+         min-width: 650px;
+    }
+    75%{
+/*            bottom: 172px; */
+/* min-height: 380px; */
+transform: rotate(0deg);
+margin-top: 180px;
+/*  min-width: 650px; */
+    }
+  80% {
+       margin-top: 200px;
+     transform: rotate(0deg);
+  }
+    
 }
 .news-button{
     background: #ff7f50;

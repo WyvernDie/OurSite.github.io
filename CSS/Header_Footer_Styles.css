@@ -9,7 +9,7 @@ body {
   background-color: #ebebeb;
   width: 100%;
 }
-ol, ul {list-style: none; width: 80%}
+ol, ul {list-style: none; width: 80%;margin-bottom: 10px;}
 * {
   margin: 0;
   padding: 0;
@@ -67,9 +67,32 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   margin-top: 15px;
   margin-left: 13px;
   flex-basis: 170px;
-  flex: 0.3;
+  flex: 0.2;
   margin-right: 11%;
   max-width: 175px;
+  animation-name: shelterImg;
+  animation-duration: 15s;
+  animation-delay: 5s; 
+  animation-timing-function: linear; 
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  cursor: no-drop;
+}
+@keyframes shelterImg{
+  from{
+    transform: rotate(360deg);
+  }
+  23%{
+    transform: rotate(360deg);
+  }
+  /* Закончите все действия к этому моменту */
+  44% {
+  transform: rotate(0deg);
+  }
+  /* Между 20% и 100% ничего не происходит */
+  100% {
+     transform: rotate(0deg);
+  }
 }
 .graficlogo:not(:hover) {
   transform: rotate(0deg);
@@ -355,6 +378,7 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   text-align: left;
   border-top: 20px solid #131313;
   border-image: url(../Image/border.jpg) 50 round round;
+  padding-top: 20px;
 }
 .contact span {
   color: #ffcc33;

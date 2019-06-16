@@ -7,6 +7,7 @@
         justify-content: center;
         align-content: center;
         width: 19%;
+        cursor: pointer;
     }
     .novosti-on{
         
@@ -94,7 +95,7 @@
     /*news*/
     .novosti-on{
         
-    margin-top: 71px;
+    margin-top: 110px;
     }
     .novosti-icon{
     font-size: 19px;
@@ -188,7 +189,6 @@
     /*news*/
     .novosti-on{
         
-    margin-top: 62px;
     }
     .novosti-icon{
         
@@ -703,7 +703,7 @@
     }
     .novosti-on{
         
-    margin-top: 66%;
+    margin-top: 63%;
     }
     .novosti-big-block{
         
