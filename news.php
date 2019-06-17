@@ -32,113 +32,160 @@ require 'Parts/Header.php';
 </p>
 
     <div class="novosti-big-block">
-        <div class="owl-carousel">
 
-            <div>
+<div class="owl-carousel owl-theme">
         <div class="novocti-block n1">
             <div class="img-novosti">
                 <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
             </div>
             <hr>
-            <div class="text-big">
-            <div class="novosti-text">
-                <p>хорошая завлекающая игра</p>
-            </div>
-                <div class="text-hover">
-                    <p>а это при наведении</p>
+                <div class="text-big">
+                    <div class="novosti-text">
+                        <p>хорошая завлекающая игра</p>
+                    </div>
+                    <div class="text-hover">
+                        <p>а это при наведении</p>
+                    </div>
                 </div>
-            </div>
             <hr>
-            <div class="data">
-                <b id="dateActive1">активна</b>
-                <b id="dateActive2">не активна</b>
-                <p>21.04.19</p>
-            </div>
+                <div class="data">
+<!--                    <b id="dateActive1">активна</b>-->
+                    <b id="dateActive2">не активна</b>
+                    <p>21.04.19</p>
+                </div>
         </div>
-            </div>
 
-        <div> <div class="novocti-block n2">
+
+        <div class="novocti-block n2">
             <div class="img-novosti">
                 <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
             </div>
             <hr>
-            <div class="text-big">
-                <div class="novosti-text">
-                    <p>хорошая завлекающая игра</p>
+                <div class="text-big">
+                    <div class="novosti-text">
+                        <p>хорошая завлекающая игра</p>
+                    </div>
+                    <div class="text-hover">
+                        <p>а это при наведении</p>
+                    </div>
                 </div>
-                <div class="text-hover">
-                    <p>а это при наведении</p>
-                </div>
-            </div>
             <hr>
-            <div class="data">
-                <p>21.04.19</p>
-            </div>
-        </div>
+                <div class="data">
+                    <p>21.04.19</p>
+                </div>
         </div>
 
-        <div><div class="novocti-block n3">
+
+        <div class="novocti-block n3">
             <div class="img-novosti">
                 <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
             </div>
             <hr>
-            <div class="text-big">
-                <div class="novosti-text">
-                    <p>хорошая завлекающая игра</p>
+                <div class="text-big">
+                    <div class="novosti-text">
+                        <p>хорошая завлекающая игра</p>
+                    </div>
+                    <div class="text-hover">
+                        <p>а это при наведении</p>
+                    </div>
                 </div>
-                <div class="text-hover">
-                    <p>а это при наведении</p>
-                </div>
-            </div>
             <hr>
-            <div class="data">
-                <p>21.04.19</p>
-            </div>
-        </div>
+                <div class="data">
+                    <p>21.04.19</p>
+                </div>
         </div>
 
-        <div> <div class="novocti-block n4">
+        <div class="novocti-block n4">
             <div class="img-novosti">
                 <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
             </div>
             <hr>
-            <div class="text-big">
-                <div class="novosti-text">
-                    <p>хорошая завлекающая игра</p>
+                <div class="text-big">
+                        <div class="novosti-text">
+                            <p>хорошая завлекающая игра</p>
+                        </div>
+                        <div class="text-hover">
+                            <p>а это при наведении</p>
+                        </div>
                 </div>
-                <div class="text-hover">
-                    <p>а это при наведении</p>
-                </div>
-            </div>
             <hr>
-            <div class="data">
-                <p>21.04.19</p>
-            </div>
-        </div>
+                <div class="data">
+                    <p>21.04.19</p>
+                </div>
         </div>
 
-        <div><div class="novocti-block n5">
-            <div class="img-novosti">
-                <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
+            <div class="novocti-block n5">
+                    <div class="img-novosti">
+                        <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
+                    </div>
+                <hr>
+                    <div class="text-big">
+                            <div class="novosti-text">
+                                <p>хорошая завлекающая игра</p>
+                            </div>
+                            <div class="text-hover">
+                                <p>а это при наведении</p>
+                            </div>
+                    </div>
+                <hr>
+                    <div class="data">
+                        <p>21.04.19</p>
+                    </div>
+
             </div>
-            <hr>
-            <div class="text-big">
-                <div class="novosti-text">
-                    <p>хорошая завлекающая игра</p>
-                </div>
-                <div class="text-hover">
-                    <p>а это при наведении</p>
-                </div>
-            </div>
-            <hr>
-            <div class="data">
-                <p>21.04.19</p>
-            </div>
-         </div>
-        </div>
     </div>
 </div>
 </div>
+
+<script src="/JavaScript/jQuery.js"></script>
+<script src="/JavaScript/news-js.js"></script>
+<script src="/owncarousel2/owl.carousel.min.js"></script>
+<script>
+$(document).ready(function () {
+$(".owl-carousel").owlCarousel({
+    items:5,
+    dots: true,
+    responsive: {
+        0:{
+        items:1,
+        dots: true,
+            margin:10,
+        },
+        240:{
+        items:1,
+            margin:10,
+        dots:true
+        },
+        320:{
+        items:1,
+            margin:10,
+        dots:true
+        },
+        480:{
+        dots:true,
+            margin:10,
+        items: 2,
+        nav:false
+        },
+        640:{
+        dots:true,
+        items: 3,
+        nav:false
+        },
+        876:{
+        dots:true,
+        items: 4,
+        nav:false
+        },
+        1300:{
+        items:5,
+        dots: true,
+        nav:false
+        }
+    }
+});
+});
+</script>
 <?php
 require 'Parts/Footer.php';
 ?>
