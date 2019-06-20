@@ -1,5 +1,19 @@
-footer{
-    height: 20px;
-    min-height: 20px;
+footer {
+    min-height: 100px;
     background: black;
+    border-top: 20px solid #958e8e;
+    border-image: url("../Image/border.jpg") 40 round round;
+    color: white;
+    flex: 0 0 auto;
+}
+.center{
+    height: 100%;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.content {
+    flex: 1 0 auto;
 }

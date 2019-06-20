@@ -2,7 +2,7 @@
     background: url("../Image/bMap.jpg") center;
     text-align: center;
     border-top: 20px solid #131313;
-    border-image: url(../Image/border.jpg) 50 round round;
+    border-image: url(../Image/border.jpg) 40 round round;
     padding-bottom: 30px;
 }
 
@@ -20,5 +20,5 @@
 
 .price{
     border-bottom: 20px solid #131313;
-    border-image: url(../Image/border.jpg) 50 round round;
+    border-image: url(../Image/border.jpg) 40 round round;
 }

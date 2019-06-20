@@ -1,7 +1,9 @@
-    <footer>
-        <div class="center">
-
         </div>
-    </footer>
+        <footer>
+            <div class="center">
+                gadg
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

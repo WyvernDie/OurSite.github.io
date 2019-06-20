@@ -38,40 +38,41 @@ while ($i < $k) {
 
 </head>
 <body>
-<header class="vezde global-header">
-    <div class="imag-m">
-        <img src="../Image/menuBackground.png" alt="menu" id="fon-menu">
-        <img src="../Image/shelt.png" class="graficlogo" id="imm">
-        <nav class="header-block">
-            <?foreach ($menuDatas as $menuData){?>
-                <div class="punkt" id="parth-menu1">
-                    <a href="<? echo $menuData['link']; ?>"> <p><? echo $menuData['name']; ?></p> </a>
-             
-                    </div>
-                <?}
-                 if ($ses){?>
-                     <div class="punkt" id="parth-menu1">
-                         <a class="editing" href="../Admin/adminSite/header/headerEditing.php">
-                             <p>Редактировать Блок</p>
-                         </a>
-                     </div>
-                     <div class="punkt" id="parth-menu1">
-                         <a href="../Admin/adminExit.php">Выход</a>
-                     </div>
-                <?}?>
-                <button  type="button" id="elem" class="punkt punktz">
-                    <a href="#free">&#9776</a>
-                </button>
-                <div id="phone-menu" class="menu-block">
-                    <?foreach ($menuDatas as $menuData){?>
-                        <h4 class="h4">
-                            <a href="<? echo $menuData['link']; ?>"> <p><? echo $menuData['name']; ?></p> </a>
-                        </h4>
-                        <hr class="hr">
+<div class="wrapper">
+    <header class="vezde global-header">
+        <div class="imag-m">
+            <img src="../Image/menuBackground.png" alt="menu" id="fon-menu">
+            <img src="../Image/shelt.png" class="graficlogo" id="imm">
+            <nav class="header-block">
+                <?foreach ($menuDatas as $menuData){?>
+                    <div class="punkt" id="parth-menu1">
+                        <a href="<? echo $menuData['link']; ?>"> <p><? echo $menuData['name']; ?></p> </a>
+
+                        </div>
+                    <?}
+                     if ($ses){?>
+                         <div class="punkt" id="parth-menu1">
+                             <a class="editing" href="../Admin/adminSite/header/headerEditing.php">
+                                 <p>Редактировать Блок</p>
+                             </a>
+                         </div>
+                         <div class="punkt" id="parth-menu1">
+                             <a href="../Admin/adminExit.php">Выход</a>
+                         </div>
                     <?}?>
-                </div>
+                    <button  type="button" id="elem" class="punkt punktz">
+                        <a href="#free">&#9776</a>
+                    </button>
+                    <div id="phone-menu" class="menu-block">
+                        <?foreach ($menuDatas as $menuData){?>
+                            <h4 class="h4">
+                                <a href="<? echo $menuData['link']; ?>"> <p><? echo $menuData['name']; ?></p> </a>
+                            </h4>
+                            <hr class="hr">
+                        <?}?>
+                    </div>
             </nav>
         </div>
     </header>
-
+    <div class="content">
 
