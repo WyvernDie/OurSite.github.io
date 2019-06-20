@@ -5,9 +5,7 @@ footer {
     border-image: url("../Image/border.jpg") 40 round round;
     color: white;
     flex: 0 0 auto;
-}
-.center{
-    height: 100%;
+    padding: 10px 0;
 }
 .wrapper {
     display: flex;
@@ -16,4 +14,25 @@ footer {
 }
 .content {
     flex: 1 0 auto;
+}
+.footerMid{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.footerContent{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    margin: 8px;
+    line-height: 25px;
+}
+.footerIcon{
+    text-align: right;
+}
+.footerIcon img{
+    width: 25px;
+
+}
+.footerInfo{
+    text-align: left;
 }
