@@ -108,8 +108,10 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   z-index: 2;
   width: 21%;
   position: relative;
-  /*! padding: 7px; */
-  /*! flex: 1; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 #elem{
   display: none;
