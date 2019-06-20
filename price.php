@@ -7,6 +7,9 @@ require 'Parts/Header.php';
         <h1>Цены</h1>
     </div>
     <div class="priceList">
+        <img src="Image/priceList.jpg" width="80%">
+    </div>
+    <div class="priceListTeleph">
         <div class="priceContentTop">
             <div class="container">
                 <img src="Image/priceList/001-hour.png">
