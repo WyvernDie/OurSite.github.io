@@ -2,7 +2,7 @@
     background: url("../Image/bMap.jpg") center;
     text-align: center;
     border-top: 20px solid #131313;
-    border-image: url(../Image/border.jpg) 40 round round;
+    border-image: url(../Image/border.jpg) 50 round round;
     padding-bottom: 30px;
 }
 
@@ -16,9 +16,11 @@
     font-size:3em;
     font-stretch:ultra-expanded;
     line-height: 100px;
+    text-shadow: 3px 3px 20px darkcyan;
+
 }
 
 .price{
     border-bottom: 20px solid #131313;
-    border-image: url(../Image/border.jpg) 40 round round;
+    border-image: url(../Image/border.jpg) 50 round round;
 }
