@@ -25,7 +25,7 @@ require 'Parts/Header.php';
     </div>
 </div>
 <div class="novosti-on">
-<p class="novosti-icon">
+<p class="novosti-icon wow fadeInLeft" data-wow-duration="2s" >
   <span class="x">
     новости
   </span>
@@ -34,7 +34,7 @@ require 'Parts/Header.php';
     <div class="novosti-big-block">
 
 <div class="owl-carousel owl-theme">
-        <div class="novocti-block n1">
+        <div class="novocti-block n1 wow bounceInDown" data-wow-delay = "1s">
             <div class="img-novosti">
                 <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
             </div>
@@ -56,7 +56,7 @@ require 'Parts/Header.php';
         </div>
 
 
-        <div class="novocti-block n2">
+        <div class="novocti-block n2 wow bounceInDown" data-wow-delay="2s" >
             <div class="img-novosti">
                 <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
             </div>
@@ -76,7 +76,7 @@ require 'Parts/Header.php';
         </div>
 
 
-        <div class="novocti-block n3">
+        <div class="novocti-block n3 wow bounceInDown" data-wow-delay = "3s">
             <div class="img-novosti">
                 <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
             </div>
@@ -95,7 +95,7 @@ require 'Parts/Header.php';
                 </div>
         </div>
 
-        <div class="novocti-block n4">
+        <div class="novocti-block n4 wow bounceInDown" data-wow-delay="4s">
             <div class="img-novosti">
                 <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
             </div>
@@ -114,7 +114,7 @@ require 'Parts/Header.php';
                 </div>
         </div>
 
-            <div class="novocti-block n5">
+            <div class="novocti-block n5 wow bounceInDown" data-wow-delay = "5s">
                     <div class="img-novosti">
                         <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
                     </div>

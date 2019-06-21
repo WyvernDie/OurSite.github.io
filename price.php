@@ -4,7 +4,7 @@ require 'Parts/Header.php';
 
 <div class="priceContainer">
 
-    <div class="title">
+    <div class="title wow fadeInLeftBig" data-wow-delay="0.2s">
         <h1>
             <span class="x">
                 Цены
@@ -13,13 +13,13 @@ require 'Parts/Header.php';
     </div>
 
     <div class="priceList">
-        <div class="priceListImg">
-            <img src="Image/priceList.jpg" width="80%">
+        <div class="priceListImg wow jackInTheBox" data-wow-duration="1.8s" data-wow-delay="0.1s">
+            <img src="Image/priceList.jpg" width="70%">
         </div>
     </div>
 
     <div class="priceListTelephone">
-        <div class="priceContentTop">
+        <div class="priceContentTop wow ">
             <div class="priceInfoContainer">
                 <img src="Image/priceList/001-hour.png">
                 <div class="packageName">
@@ -32,7 +32,7 @@ require 'Parts/Header.php';
                     <p>80 руб.</p>
                 </div>
             </div>
-            <div class="priceInfoContainer">
+            <div class="priceInfoContainer wow slideInLeft">
                 <img src="Image/priceList/001-hour.png">
                 <div class="packageName">
                     <p>Час игры</p>
@@ -44,7 +44,7 @@ require 'Parts/Header.php';
                     <p>80 руб.</p>
                 </div>
             </div>
-            <div class="priceInfoContainer">
+            <div class="priceInfoContainer wow slideInRight">
                 <img src="Image/priceList/001-hour.png">
                 <div class="packageName">
                     <p>Час игры</p>
@@ -56,7 +56,7 @@ require 'Parts/Header.php';
                     <p>80 руб.</p>
                 </div>
             </div>
-            <div class="priceInfoContainer">
+            <div class="priceInfoContainer wow slideInLeft">
                 <img src="Image/priceList/001-hour.png">
                 <div class="packageName">
                     <p>Час игры</p>
@@ -69,7 +69,7 @@ require 'Parts/Header.php';
                 </div>
             </div>
         </div>
-        <div class="priceContentBottom">
+        <div class="priceContentBottom wow zoomInDown">
             <div class="priceInfoContainer">
                 <img src="Image/priceList/001-hour.png">
                 <div class="packageName">
