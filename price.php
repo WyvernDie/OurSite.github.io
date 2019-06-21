@@ -3,6 +3,7 @@ require 'Parts/Header.php';
 ?>
 
 <div class="priceContainer">
+
     <div class="title">
         <h1>
             <span class="x">
@@ -10,10 +11,12 @@ require 'Parts/Header.php';
             </span>
         </h1>
     </div>
+
     <div class="priceList">
         <img src="Image/priceList.jpg" width="80%">
     </div>
-    <div class="priceListTeleph">
+
+    <div class="priceListTelephone">
         <div class="priceContentTop">
             <div class="container">
                 <img src="Image/priceList/001-hour.png">
