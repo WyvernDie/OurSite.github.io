@@ -4,7 +4,11 @@ require 'Parts/Header.php';
 
 <div class="priceContainer">
     <div class="title">
-        <h1>Цены</h1>
+        <h1>
+            <span class="x">
+                Цены
+            </span>
+        </h1>
     </div>
     <div class="priceList">
         <img src="Image/priceList.jpg" width="80%">
