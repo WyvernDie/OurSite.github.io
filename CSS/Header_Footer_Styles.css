@@ -59,7 +59,7 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   align-items: center;
   top:9px;
   flex-basis: 1013px;
-  margin-top: -9px;
+  margin-top: -8px;
 }
 #imm{
   height: 150px;
@@ -112,6 +112,7 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
 #elem{
   display: none;
