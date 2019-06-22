@@ -4,16 +4,16 @@ require_once '../../../Actions/check.php';
 
 if($_POST['action']== 'delete'){
     $id = $_POST['id'];
-    $query = "DELETE FROM `dbgame` WHERE  id = '$id' ";
+    $query = "DELETE FROM price WHERE  id = '$id' ";
     $sql = mysqli_query($link, $query);
     header('Location: gameEditing.php');
 }
 
 if($_POST['action']== 'edit'){
     $id = $_POST['id'];
-    $query = "SELECT * FROM dbGame WHERE id = '$id'"; //строка запроса на языке SQL.
+    $query = "SELECT * FROM price WHERE id = '$id'"; //строка запроса на языке SQL.
     $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link));
-    $gameDatas = array();
+    $menuDatas = array();
     $k = mysqli_num_rows($result);
     while ($i < $k) {
         $gameDatas[] = mysqli_fetch_array($result);
@@ -31,10 +31,9 @@ mysqli_close($link);
     <meta name="viewport" content="width= device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="../../../CSS/game.css"/>
     <link rel="stylesheet" href="../../../CSS/admin.css"/>
-    <link rel="stylesheet" href="../../../CSS/sliderStyle.css">
 </head>
 <body>
-<a href="../../../index.php" class="main"> <h1>На Главную</h1></a>
+<a href="../../../index.php" class="main"><h1>На Главную</h1></a>
 <form method="post" action="infoEditing.php" enctype="multipart/form-data">
     <table>
         <?
@@ -46,21 +45,21 @@ mysqli_close($link);
                 <td><img src="../../../Image/Games/<? echo $gameData['linkName']; ?>" width="140px"></td>
             </tr>
         <? } ?>
-            <tr>
-                <td>
-                    <input name="name">
-                </td>
+        <tr>
+            <td>
+                <input name="name">
+            </td>
 
-                <td>
-                    <textarea name="description" id="description"></textarea>
-                </td>
+            <td>
+                <textarea name="description" id="description"></textarea>
+            </td>
 
-                <td>
-                    <input type="file" name="inputfile">
-                    <input class="id" name="link" value="<? echo $gameData['linkName']; ?>">
-                    <input class="id" name="id" value="<? echo $gameData['id']; ?>">
-                </td>
-            </tr>
+            <td>
+                <input type="file" name="inputfile">
+                <input class="id" name="link" value="<? echo $gameData['linkName']; ?>">
+                <input class="id" name="id" value="<? echo $gameData['id']; ?>">
+            </td>
+        </tr>
     </table>
     <input type="submit" value="Изменить"/>
 </form>
