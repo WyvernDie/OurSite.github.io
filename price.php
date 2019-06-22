@@ -8,6 +8,11 @@ while ($d < $k) {
     $priceDatas[] = mysqli_fetch_array($result);
     $d++;
 }
+
+$query = "SELECT * FROM pricelist ";
+$result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link));
+$priceListImageData = mysqli_fetch_array($result);
+
 ?>
 
 <div class="priceContainer">
@@ -25,7 +30,7 @@ while ($d < $k) {
 
     <div class="priceList">
         <div class="priceListImg">
-            <img src="Image/priceList.jpg" width="80%">
+            <img src="Image/priceList/<? echo $priceListImageData['imageLink'];?>" width="80%">
         </div>
     </div>
 

@@ -17,14 +17,6 @@ if(!empty($_POST['cost'])){
 if(!empty($_POST['inputfile'])){
     $inputfile = $_POST['inputfile'];
 }
-//$_FILES['inputfile']['name'] = $_POST['name'] . '.' . getExtension1($_FILES['inputfile']['name']);
-//
-//if (isset($_FILES) && $_FILES['inputfile']['error'] == 0) { // Проверяем, загрузил ли пользователь файл
-//    $destiation_dir = '../../../Image/Price/' . $_FILES['inputfile']['name']; // Директория для размещения файла
-//    unlink($destiation_dir = '../../../Image/Games/' . $_POST['link']);
-//    move_uploaded_file($_FILES['inputfile']['tmp_name'], $destiation_dir); // Перемещаем файл в желаемую директорию
-//}
-
 if(!empty($_POST['openingHours'])) {
     $query = "UPDATE price SET OpeningHours = '$openingHours'  WHERE id = $id ";
     $sql = mysqli_query($link, $query);

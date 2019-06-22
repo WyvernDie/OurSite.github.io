@@ -1,7 +1,9 @@
         </div>
         <footer>
+            <? if($ses){?>
+                <a class="editing" href="../Admin/adminSite/price/priceEditing.php">Редактировать Блок</a>
+            <?}?>
             <div class="footerMid">
-
                 <div class="footerContent footerContentPhone">
                     <div class="footerIcon footerIconPhone">
                         <div class="footerIconShadow">
