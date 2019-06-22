@@ -17,7 +17,7 @@ $priceListImageData = mysqli_fetch_array($result);
 
 <div class="priceContainer">
 
-    <div class="title">
+    <div class="title wow fadeInLeftBig" data-wow-delay="0.2s">
         <h1>
             <span class="x">
                 Цены
@@ -29,18 +29,22 @@ $priceListImageData = mysqli_fetch_array($result);
     </div>
 
     <div class="priceList">
+
         <div class="priceListImg">
             <img src="Image/priceList/<? echo $priceListImageData['imageLink'];?>" width="80%">
+
         </div>
     </div>
 
     <div class="priceListTelephone">
+
         <div class="priceContentTop">
             <? foreach ($priceDatas as $priceData){?>
             <div class="priceInfoContainer">
                 <img src="Image/priceList/001-hour.png">
                 <div class="packageName">
                     <p><? echo $priceData['Package Name']; ?></p>
+
                 </div>
                 <div class="openingHours">
                     <p><? echo $priceData['Opening Hours']; ?></p>
