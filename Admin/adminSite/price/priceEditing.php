@@ -35,10 +35,10 @@ while ($d < $k) {
                 ?>
                 <tr>
                     <td><? echo $priceData['id']; ?></td>
-                    <td><? echo $priceData['Package Name']; ?></td>
-                    <td><? echo $priceData['Opening Hours']; ?></td>
+                    <td><? echo $priceData['PackageName']; ?></td>
+                    <td><? echo $priceData['OpeningHours']; ?></td>
                     <td><? echo $priceData['Cost']; ?> руб.</td>
-                    <td><img src="../../../Image/Games/<? echo $priceData['linkName']; ?>" width="140px"></td>
+                    <td><img src="../../../Image/priceList/<? echo $priceData['iconLink']; ?>" width="140px"></td>
                     <td>
                         <form action="phoneCostEditing.php" method="POST">
                             <input class="id" name="id" value="<? echo $priceData['id']; ?>">
