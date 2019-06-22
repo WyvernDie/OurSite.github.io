@@ -17,7 +17,7 @@ while ($d < $m) {
         <img src="Image/background.jpg" width="100%" height="auto">
     </div>
 <div><h1 class="game-slider">Игры</h1><div>
-    <div class="swiper-container">
+    <div class="swiper-container wow rubberBand" data-wow-delay="1s" data-wow-offset="40">
         <div class="swiper-wrapper">
             <?php foreach ($gameDatas as $gameData){?>
                 <div class="swiper-slide" >
@@ -32,8 +32,8 @@ while ($d < $m) {
             <?}?>
         </div>
         <!-- Add Arrows -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next wow fadeInLeft"></div>
+        <div class="swiper-button-prev wow fadeInRight"></div>
         <? if ($ses) {
             ?>
             <a class="editing" href="/Admin/adminSite/gameBanner/gameEditing.php">Редактировать Блок</a>
@@ -42,7 +42,7 @@ while ($d < $m) {
 
     <div class="map_container">
         <a name="map"><h1>Как добраться</h1></a>
-        <div class="map">
+        <div class="map wow zoomInDown"  data-wow-offset = "100">
             <script type="text/javascript" charset="utf-8" async
                     src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad83165488faa5d5956658404a24158ca77258dccd8f43adaa56aa4e38d4307e7&amp;width50%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
         </div>

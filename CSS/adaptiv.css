@@ -442,7 +442,7 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     #elem{
         display: flex;
         position:absolute;
-        margin-top: 4px;
+        margin-top: 7px;
         margin-right: 30px;
         height: 34px;
         background: none;
@@ -668,6 +668,19 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
         top: 0;
         bottom:0;
     }
+    .aboutUsInfo img:nth-child(2n){
+        width: 250px;
+       margin-left: -11px;
+    }
+     .aboutUsInfo img:nth-child(2n-1){
+        width: 250px;
+       margin-right:  -11px;
+    }
+    .title h1{
+        font-size: 24px;
+        padding: 10px;
+        padding-top: 37px;
+    }
 }
 @media (max-width:320px){
     .gameBan{
@@ -685,9 +698,8 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     padding: 0;
     }
     #elem{
-        margin-bottom: 9px;
         margin-right: 20px;
-        /*! margin-left: -5px; */
+        margin-top: 2px;
     }
     .price{
         border: none;
