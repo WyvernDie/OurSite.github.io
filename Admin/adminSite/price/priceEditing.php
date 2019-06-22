@@ -49,6 +49,7 @@ while ($d < $k) {
                         <form action="phoneCostEditing.php" method="POST">
                             <input class="id" name="id" value="<? echo $priceData['id']; ?>">
                             <input class="id" name="action" value="edit">
+                            <input class="id" name="transition" value="1">
                             <input type="submit" value="Редактировать">
                         </form>
 

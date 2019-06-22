@@ -3,6 +3,7 @@ require_once '../../../Actions/dbConnecting.php';
 require_once '../../../Actions/check.php';
 function getExtension1($filename){return end(explode(".", $filename));} // Функция возвращающая расширение файла
 
+
 if($_POST['action']== 'delete'){
     $id = $_POST['id'];
     $query = "DELETE FROM price WHERE  id = '$id' ";
@@ -10,8 +11,11 @@ if($_POST['action']== 'delete'){
     header('Location: priceEditing.php');
 }
 
-if($_POST['action']== 'edit'){
+if(($_POST['action']== 'edit') or ($_SESSION['transition'] )){
     $id = $_POST['id'];
+    if ($_SESSION['transition'] ){
+        $id = $_SESSION['priceIconId'];
+    }
     $query = "SELECT * FROM price WHERE id = '$id'"; //строка запроса на языке SQL.
     $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link));
     $priceDatas = array();
@@ -21,7 +25,7 @@ if($_POST['action']== 'edit'){
         $priceDatas[] = mysqli_fetch_array($result);
         $i++;
     }
-    $query = "SELECT * FROM priceicon "; //строка запроса на языке SQL.
+    $query = "SELECT * FROM priceicon  "; //строка запроса на языке SQL.
     $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link));
     $priceIconDatas = array();
     $k = mysqli_num_rows($result);
@@ -30,18 +34,7 @@ if($_POST['action']== 'edit'){
         $priceIconDatas[] = mysqli_fetch_array($result);
         $i++;
     }
-    if ( isset($_FILES['inputfile']['name'])&& !empty($_FILES['inputfile']['name'])){
-
-        $_FILES['inputfile']['name'] = $k+1 . '.' . getExtension1($_FILES['inputfile']['name']);
-        $iconName = $_FILES['inputfile']['name'];
-        if (isset($_FILES) && $_FILES['inputfile']['error'] == 0) { // Проверяем, загрузил ли пользователь файл
-            $destiation_dir = '../../../Image/priceList/' . $_FILES['inputfile']['name']; // Директория для размещения файла
-            move_uploaded_file($_FILES['inputfile']['tmp_name'], $destiation_dir); // Перемещаем файл в желаемую директорию
-        }
-        $query = "INSERT INTO priceicon ( 'iconName') VALUES ('$iconName')";
-        $sql = mysqli_query($link, $query);
-        header('Location: phoneCostEditing.php');
-    }
+    $_SESSION['transition'] = 0;
 }
 
 
@@ -58,6 +51,7 @@ mysqli_close($link);
 </head>
 <body>
 <a href="../../../index.php" class="main"><h1>На Главную</h1></a>
+<a href="priceEditing.php" class="main"><h1>На предыдушую </h1></a>
 <form method="post" action="phoneInfoEditing.php" enctype="multipart/form-data">
     <table>
         <?
@@ -68,12 +62,12 @@ mysqli_close($link);
                 <td><? echo $priceData['PackageName']; ?></td>
                 <td><? echo $priceData['OpeningHours']; ?></td>
                 <td><? echo $priceData['Cost']; ?> руб.</td>
+                <? $_SESSION['priceIconId'] = $priceData['id'];?>
             </tr>
         <? } ?>
         <tr>
             <td>
                 <input name="inputfile">
-                <input class="id" name="link" value="<? echo $priceData['linkName']; ?>">
                 <input class="id" name="id" value="<? echo $priceData['id']; ?>">
             </td>
 
@@ -98,12 +92,21 @@ mysqli_close($link);
             <tr>
                 <td><img src="../../../Image/priceList/<? echo $priceIconData['iconName']; ?>" width="140px"></td>
                 <td><? echo $priceIconData['iconName']; ?></td>
+                <td>
+                    <form action="addNewIcon.php" method="post" enctype="multipart/form-data">
+                        <input class="id" name="id" value="<? echo $priceIconData['id']; ?>">
+                        <input class="id" name="action" value="delete">
+                        <input type="submit" value="Удалить Иконку">
+                    </form>
+                </td>
             </tr>
         <? } ?>
     </table>
-    <form action="phoneCostEditing.php" method="post" enctype="multipart/form-data">
+    <form action="addNewIcon.php" method="post" enctype="multipart/form-data">
         <input type="file" name="inputfile">
         <input type="submit" value="Добавить Новую Иконку">
+        <input class="id" name="action" value="add">
     </form>
+
 </body>
 </html>
