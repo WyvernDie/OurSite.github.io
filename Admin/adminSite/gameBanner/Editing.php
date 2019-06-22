@@ -13,7 +13,7 @@ if($_POST['action']== 'edit'){
     $id = $_POST['id'];
     $query = "SELECT * FROM dbGame WHERE id = '$id'"; //строка запроса на языке SQL.
     $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link));
-    $menuDatas = array();
+    $gameDatas = array();
     $k = mysqli_num_rows($result);
     while ($i < $k) {
         $gameDatas[] = mysqli_fetch_array($result);

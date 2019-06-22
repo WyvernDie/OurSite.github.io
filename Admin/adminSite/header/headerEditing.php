@@ -21,19 +21,48 @@ if (isset($_FILES) && $_FILES['inputfile']['error'] == 0) { // Проверяе�
 <head>
     <link href="../../../CSS/admin.css" rel="stylesheet">
     <link href="../../../CSS/Header_Footer_Styles.css" rel="stylesheet">
+    <link href="../../../CSS/phone-menu-elements.css" rel="stylesheet">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 </head>
 <body>
-<header class="container global-header clearfix">
-    <div class="gorMid">
-        <img src="../../../Image/shelter.png" class="logo">
-        <a href="#" id="touch-menu">Меню</a> <!-- Ссылка, которая вылезает при сужение страницы-->
-        <nav>
-            <ul class="nav clearfix">
-                <? foreach ($menuDatas as $menuData) { ?>
-                    <li><a href="../../<? echo $menuData['link']; ?>"> <? echo $menuData['name']; ?></a></li>
-                <? } ?>
-            </ul>
+<header class="vezde global-header">
+    <button type="button" id="elem" class="punkt punktz">
+        <a href="#free">&#9776</a>
+    </button>
+    <div id="phone-menu" class="menu-block">
+        <?foreach ($menuDatas as $menuData){?>
+            <h4 class="h4">
+                <a class="btn-6" href="<? echo $menuData['link']; ?>">
+                    <? echo $menuData['name']; ?>
+                    <span></span>
+                </a>
+            </h4>
+            <hr class="hr">
+        <?}?>
+    </div>
+    <div class="imag-m">
+        <img src="../../../Image/menuBackground.png" alt="menu" id="fon-menu">
+        <img src="../../../Image/shelt.png" class="graficlogo" id="imm">
+        <nav class="header-block">
+            <?foreach ($menuDatas as $menuData){?>
+                <div class="punkt" id="parth-menu1">
+                    <a class="btn-6" href="../../../<? echo $menuData['link']; ?>">
+                        <? echo $menuData['name']; ?>
+                        <span></span>
+                    </a>
+                </div>
+            <?}
+            if ($ses){?>
+                <div class="punkt" id="parth-menu1">
+                    <a class="btn-6 editing" href="../../../Admin/adminSite/header/headerEditing.php">
+                        <p>Редактировать Блок</p>
+                        <span></span>
+                    </a>
+                </div>
+                <div class="punkt" id="parth-menu1">
+                    <a class="btn-6" href="../../../Admin/adminExit.php">Выход</a>
+                </div>
+            <?}?>
         </nav>
     </div>
 </header>
