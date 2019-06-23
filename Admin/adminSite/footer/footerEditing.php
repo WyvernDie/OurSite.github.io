@@ -8,7 +8,7 @@ if($_POST['action']== 'delete'){
     $id = $_POST['id'];
     $query = "DELETE FROM price WHERE  id = '$id' ";
     $sql = mysqli_query($link, $query);
-    header('Location: priceEditing.php');
+    header('Location: mailFooterEditing.php');
 }
 
 if(($_POST['action']== 'edit') or ($_SESSION['transition'] )){
@@ -40,7 +40,7 @@ mysqli_close($link);
 <body>
 <a href="../../../index.php" class="main"><h1>На Главную</h1></a>
 <a href="mailFooterEditing.php" class="main"><h1>На предыдушую </h1></a>
-<form method="post" action="footerInfoEditing.php" enctype="multipart/form-data">
+<form method="post" action="footerInfoEditing.php">
     <table>
         <tr>
             <td>Название</td>
@@ -66,10 +66,10 @@ mysqli_close($link);
             </td>
 
             <td>
-                <input name="info">
+                <input name="infoFooter">
             </td>
             <td>
-                <input name="linkInfo">
+                <input name="link">
             </td>
             <? if($_POST['id'] ==2){?>
                 <td>
@@ -78,6 +78,7 @@ mysqli_close($link);
             <?}?>
         </tr>
     </table>
+    <input class="id" name="id" value="<? echo $footerData['id']; ?>">
     <input type="submit" value="Изменить"/>
 </form>
 
