@@ -40,16 +40,9 @@ mysqli_close($link);
 <body>
 <a href="../../../index.php" class="main"><h1>На Главную</h1></a>
 <a href="mailFooterEditing.php" class="main"><h1>На предыдушую </h1></a>
-<form method="post" action="footerInfoEditing.php">
+
+<form method="post" action="footerInfoEditing.php" enctype="multipart/form-data">
     <table>
-        <tr>
-            <td>Название</td>
-            <td>Информация</td>
-            <td>Информация для ссылки</td>
-            <? if($_POST['id'] ==2){?>
-                <td>Тема письма</td>
-            <?}?>
-        </tr>
         <?
         foreach ($footerDatas as $footerData) {
             ?>
@@ -60,28 +53,30 @@ mysqli_close($link);
             </tr>
         <? } ?>
         <tr>
-
             <td>
-                <input name="name">
+                <input name="nameFooter">
+                <input class="id" name="id" value="<? echo $footerData['id']; ?>">
             </td>
 
             <td>
-                <input name="infoFooter">
+                <input name="namFooter">
             </td>
+
             <td>
-                <input name="link">
+                <input name="naFooter">
             </td>
-            <? if($_POST['id'] ==2){?>
+            <? if($id == 2){?>
                 <td>
-                    <input name="letterTopic">
+                    <input name="TypicMail">
                 </td>
-            <?}?>
+            <? } ?>
+
         </tr>
     </table>
-    <input class="id" name="id" value="<? echo $footerData['id']; ?>">
     <input type="submit" value="Изменить"/>
 </form>
 
 
 </body>
 </html>
+
