@@ -4,12 +4,6 @@ require_once '../../../Actions/check.php';
 function getExtension1($filename){return end(explode(".", $filename));} // Функция возвращающая расширение файла
 
 
-if($_POST['action']== 'delete'){
-    $id = $_POST['id'];
-    $query = "DELETE FROM price WHERE  id = '$id' ";
-    $sql = mysqli_query($link, $query);
-    header('Location: mailFooterEditing.php');
-}
 
 if(($_POST['action']== 'edit') or ($_SESSION['transition'] )){
     $id = $_POST['id'];

@@ -2,13 +2,13 @@
 require_once '../../../Actions/dbConnecting.php';
 require_once '../../../Actions/check.php';
 
-$query = "SELECT * FROM footermain "; //строка запроса на языке SQL.
+$query = "SELECT * FROM newMain "; //строка запроса на языке SQL.
 $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link));
-$footerDatas = array();
+$newDatas = array();
 $k = mysqli_num_rows($result);
 $i=0;
 while ($i < $k) {
-    $footerDatas[] = mysqli_fetch_array($result);
+    $newDatas[] = mysqli_fetch_array($result);
     $i++;
 }
 
@@ -37,19 +37,15 @@ while ($i < $k) {
     <?foreach($footerDatas as $footerData){?>
         <tr>
             <td> <? echo $footerData['id']?></td>
-            <td>
-                <div class="footerIcon">
-                    <div class="footerIconShadow">
-                        <a href="#">
-                            <img src="../../../Image/FooterIcon/<? echo $footerData['iconLink'];?>" alt="<? echo $footerData['iconAlt'];?>">
-                        </a>
-                    </div>
-                </div>
-            </td>
             <td> <? echo $footerData['description']?></td>
             <td> <? echo $footerData['infoLink']?></td>
             <td> <? echo $footerData['infoDescription']?></td>
             <td>
+                <form action="footerEditing.php" method="POST">
+                    <input class="id" name="id" value="<? echo $footerData['id']; ?>">
+                    <input class="id" name="action" value="delete">
+                    <input type="submit" value="Удалить">
+                </form><br>
                 <form action="footerEditing.php" method="POST" enctype="multipart/form-data">
                     <input type="submit" value="Редактировать">
                     <input class="id" name="id" value="<? echo $footerData['id']; ?>">
