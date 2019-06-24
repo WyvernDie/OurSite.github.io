@@ -16,6 +16,7 @@ body{
     color: #ff7367;
 }
 .table{
+    margin-top: 210px;
 }
 table{
     width: 90%;
@@ -40,4 +41,8 @@ td{
 .main{
     text-decoration: none;
     color: #5558ef;
+    margin-bottom: 10px;
+}
+form{
+    margin: 20px;
 }
