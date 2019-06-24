@@ -14,7 +14,7 @@ while ($d < $m) {
 
 
     <div class="price">
-        <img src="Image/background.jpg" width="100%" height="auto">
+        <img src="Image/background.png" >
     </div>
 <div><h1 class="game-slider">Игры</h1><div>
     <div class="swiper-container wow bounceInUp" data-wow-delay="1s" data-wow-offset="40">

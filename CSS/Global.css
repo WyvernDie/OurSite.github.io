@@ -1,5 +1,6 @@
 body{
-    background: repeating-linear-gradient(90deg, #282934 0%, #333333 50%, #282934 100%);
+    /*background: repeating-linear-gradient(90deg, #282934 0%, #333333 50%, #282934 100%);*/
+    background-image: url("../Image/bg.png")  ;
     min-height: 70%;
 }
 html{

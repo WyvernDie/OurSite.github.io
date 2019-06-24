@@ -386,7 +386,3 @@ header{ /*Задаем тот же фон для выпрыгивающего м
 .contact span {
   color: #ffcc33;
 }
-.price img {
-  height: 100vh;
-width: 50%;
-}
