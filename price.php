@@ -41,13 +41,13 @@ $priceListImageData = mysqli_fetch_array($result);
         <div class="priceContentTop">
             <? foreach ($priceDatas as $priceData){?>
             <div class="priceInfoContainer">
-                <img src="Image/priceList/001-hour.png">
+                <img src="Image/priceList/<? echo $priceData['iconLink'];?>">
                 <div class="packageName">
-                    <p><? echo $priceData['Package Name']; ?></p>
+                    <p><? echo $priceData['PackageName']; ?></p>
 
                 </div>
                 <div class="openingHours">
-                    <p><? echo $priceData['Opening Hours']; ?></p>
+                    <p><? echo $priceData['OpeningHours']; ?></p>
                 </div>
                 <div class="cost">
                     <p><? echo $priceData['Cost']; ?> руб.</p>

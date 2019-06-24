@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400|Raleway:300);
+
+$btn-width: 150px !default;
+$btn-height: 88px !default;
+$btn-full: $btn-height+$btn-width !default;
+$btn-half: $btn-full/2 !default;
+$bg-color: #eeeeee !default;
+
+html {
+  font-family: 'Open Sans', Helvetica, arial, sans-serif;
+  text-align: center;
+  background-color: $bg-color;
+}
+
+*:before,
+*:after {
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+  line-height: $btn-height;
+}
+
+
+
+
+
+[class^="btn-"] {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  @include size(100%, $btn-height);
+  max-width: $btn-width;
+  margin: 1rem auto;
+  text-transform: uppercase;
+}
+
+.btn-6 {
+  $btn-color: random-color($max:200);
+  $btn-color-dark: shade($btn-color, 40%);
+  color: tint($btn-color);
+  span {
+    @include absolute();
+    display: block;
+    @include size(0);
+    border-radius: 50%;
+    background-color: $btn-color-dark;
+    transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  &:hover {
+    color: tint($btn-color, 75%);
+    span {
+      @include size(225%, $btn-width*2.25);
+    }
+  }
+
+  &:active {
+    background-color: $btn-color;
+  }
+}

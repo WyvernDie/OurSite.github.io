@@ -1,7 +1,8 @@
 <?php
 require 'Parts/Header.php';
 ?>
-<div class="overlay">
+
+<div class="overlay" id="overlay1">
     <div class="news-block">
         <div class="news-button">
             <a id="news-button-a" src="#">Закрыть</a>
@@ -12,13 +13,107 @@ require 'Parts/Header.php';
         </div>
         <div class="content-news">
             <div class="wrapp-img">
-                <img alt="эта игра просто шик" class="">
+
+                <img src="/Image/Games/aaa.jpg" alt="эта игра просто шик" class="">
             </div>
             <div class="news-element-text">
-                <h2> хорошее название подновости</h2>
-                <p>xcccccccccccccccccccccccccccccccccccccccут хороший дня него текст</p>
+                <h2>1хорошее название подновости</h2>
+                <p>1а тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текст</p>
                 <div class="news-text-data">
-                    <b>21.21.22</b>
+                    <b>21.21.21</b>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="overlay" id="overlay2">
+    <div class="news-block">
+        <div class="news-button">
+            <a id="news-button-a" src="#">Закрыть</a>
+            <a id="news-button-a1" src="#">&times;</a>
+        </div>
+        <div class="news-elements-h1">
+            <h1>название новости</h1>
+        </div>
+        <div class="content-news">
+            <div class="wrapp-img">
+                <img src="/Image/Games/aaa.jpg" alt="эта игра просто шик" class="">
+            </div>
+            <div class="news-element-text">
+                <h2>2хорошее название подновости</h2>
+                <p>1а тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текст</p>
+                <div class="news-text-data">
+                    <b>21.21.21</b>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="overlay" id="overlay3">
+    <div class="news-block">
+        <div class="news-button">
+            <a id="news-button-a" src="#">Закрыть</a>
+            <a id="news-button-a1" src="#">&times;</a>
+        </div>
+        <div class="news-elements-h1">
+            <h1>название новости</h1>
+        </div>
+        <div class="content-news">
+            <div class="wrapp-img">
+                <img src="/Image/Games/aaa.jpg" alt="эта игра просто шик" class="">
+            </div>
+            <div class="news-element-text">
+                <h2>3 хорошее название подновости</h2>
+                <p>3а тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текст</p>
+                <div class="news-text-data">
+                    <b>21.21.21</b>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="overlay" id="overlay4">
+    <div class="news-block">
+        <div class="news-button">
+            <a id="news-button-a" src="#">Закрыть</a>
+            <a id="news-button-a1" src="#">&times;</a>
+        </div>
+        <div class="news-elements-h1">
+            <h1>название новости</h1>
+        </div>
+        <div class="content-news">
+            <div class="wrapp-img">
+                <img src="/Image/Games/aaa.jpg" alt="эта игра просто шик" class="">
+            </div>
+            <div class="news-element-text">
+                <h2>4 хорошее название подновости</h2>
+                <p>4а тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текст</p>
+                <div class="news-text-data">
+                    <b>21.21.21</b>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="overlay" id="overlay5">
+    <div class="news-block">
+        <div class="news-button">
+            <a id="news-button-a" src="#">Закрыть</a>
+            <a id="news-button-a1" src="#">&times;</a>
+        </div>
+        <div class="news-elements-h1">
+            <h1>название новости</h1>
+        </div>
+        <div class="content-news">
+            <div class="wrapp-img">
+                <img src="/Image/Games/aaa.jpg" alt="эта игра просто шик" class="">
+            </div>
+            <div class="news-element-text">
+                <h2>5 хорошее название подновости</h2>
+                <p>5а тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текст</p>
+                <div class="news-text-data">
+                    <b>21.21.21</b>
+
                 </div>
             </div>
         </div>
@@ -35,14 +130,20 @@ require 'Parts/Header.php';
         <? } ?>
     </p>
 
+
+
+
     <div class="novosti-big-block">
 
-        <div class="owl-carousel owl-theme">
-            <div class="novocti-block n1 wow bounceInDown" data-wow-delay="1s">
-                <div class="img-novosti">
-                    <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
-                </div>
-                <hr>
+
+
+<div class="owl-carousel owl-theme">
+        <div class="novocti-block n1 wow bounceInDown" data-wow-delay = "1s" id="newsOverlay1">
+            <div class="img-novosti">
+                <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
+            </div>
+            <hr>
+
                 <div class="text-big">
                     <div class="novosti-text">
                         <p>хорошая завлекающая игра</p>
@@ -60,11 +161,13 @@ require 'Parts/Header.php';
             </div>
 
 
-            <div class="novocti-block n2 wow bounceInDown" data-wow-delay="2s">
-                <div class="img-novosti">
-                    <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
-                </div>
-                <hr>
+
+        <div class="novocti-block n2 wow bounceInDown" data-wow-delay="2s" id="newsOverlay2">
+            <div class="img-novosti">
+                <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
+            </div>
+            <hr>
+
                 <div class="text-big">
                     <div class="novosti-text">
                         <p>хорошая завлекающая игра</p>
@@ -80,11 +183,13 @@ require 'Parts/Header.php';
             </div>
 
 
-            <div class="novocti-block n3 wow bounceInDown" data-wow-delay="3s">
-                <div class="img-novosti">
-                    <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
-                </div>
-                <hr>
+
+        <div class="novocti-block n3 wow bounceInDown" data-wow-delay = "3s" id="newsOverlay3">
+            <div class="img-novosti">
+                <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
+            </div>
+            <hr>
+
                 <div class="text-big">
                     <div class="novosti-text">
                         <p>хорошая завлекающая игра</p>
@@ -97,6 +202,13 @@ require 'Parts/Header.php';
                 <div class="data">
                     <p>21.04.19</p>
                 </div>
+
+        </div>
+
+        <div class="novocti-block n4 wow bounceInDown" data-wow-delay="4s" id="newsOverlay4">
+            <div class="img-novosti">
+                <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
+
             </div>
 
             <div class="novocti-block n4 wow bounceInDown" data-wow-delay="4s">
@@ -118,10 +230,12 @@ require 'Parts/Header.php';
                 </div>
             </div>
 
-            <div class="novocti-block n5 wow bounceInDown" data-wow-delay="5s">
-                <div class="img-novosti">
-                    <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
-                </div>
+
+            <div class="novocti-block n5 wow bounceInDown" data-wow-delay = "5s" id="newsOverlay5">
+                    <div class="img-novosti">
+                        <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
+                    </div>
+
                 <hr>
                 <div class="text-big">
                     <div class="novosti-text">

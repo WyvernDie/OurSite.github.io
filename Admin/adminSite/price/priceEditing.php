@@ -17,19 +17,6 @@ $query = "SELECT * FROM pricelist ";
 $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link));
 $priceListImageData = mysqli_fetch_array($result);
 
-
-
-if (isset($_FILES)) { // Проверяем, загрузил ли пользователь файл
-    unlink($destiation_dir = '../../../Image/priceList/' . $priceListImageData['imageLink'] );
-
-    $_FILES['inputfile']['name'] = 'priceList' . '.' . getExtension1($_FILES['inputfile']['name']);
-    $fileName = $_FILES['inputfile']['name'];
-    $destiation_dir = '../../../Image/priceList/' . $_FILES['inputfile']['name']; // Директория для размещения файла
-    move_uploaded_file($_FILES['inputfile']['tmp_name'], $destiation_dir);
-
-
-    $query = "UPDATE priceList SET imageLink = '$fileName' ";
-}
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -83,7 +70,7 @@ if (isset($_FILES)) { // Проверяем, загрузил ли пользо�
                     <img src="../../../Image/priceList/<? echo $priceListImageData['imageLink']?>" width="80%">
                 </td>
                 <td colspan="2">
-                    <form action="priceEditing.php" method="post" enctype="multipart/form-data">
+                    <form action="replacePriceList.php" method="post" enctype="multipart/form-data">
                         <input type="file" name="inputfile">
                         <input type="submit" value="Заменить">
                     </form>

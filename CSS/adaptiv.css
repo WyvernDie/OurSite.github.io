@@ -157,7 +157,7 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     .novosti-on{
         
     margin-top: 66px;
-    /*! height: 94vh; */
+    height: 100vh;
     }
     .novosti-icon{
     font-size: 19px;
@@ -308,7 +308,7 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
         
     margin-top: 58px;
     padding-bottom: 14%;
-    /*! height: 90vh; */
+    height: 90vh;
     }
     .novosti-icon{
         
@@ -490,11 +490,11 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     .novosti-on{
         
     margin-top: 48px;
-    /*! height: 82vh; */
+    height: 95vh;
     }
     .novosti-icon{
         font-size: 15px;
-        padding-top: 15%;
+        padding-top: 26%;
         padding-left: 0;
         padding-bottom: 0;
     }
@@ -681,6 +681,10 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
         padding: 10px;
         padding-top: 37px;
     }
+    .content-news img{
+        width: 100%;
+        height: 250px;
+    }
 }
 @media (max-width:320px){
     .gameBan{
@@ -765,7 +769,7 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     .novosti-on{
         
     margin-top: 39px;
-    /*! height: 87vh; */
+    height: 100vh;
     }
     .novosti-icon{
         
@@ -773,7 +777,7 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     margin-top: 0;
     display: flex;
     justify-content: center;
-    padding-top: 16%;
+    padding-top: 35%;
     }
     .overlay{
         min-height: 131vh;
@@ -949,11 +953,15 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
         height: 48px;
         width: 100%;
     }
+     .content-news img{
+        height: 250px;
+        min-width: 100%;
+    }
 }
 @media (max-width:240px){
     .novosti-icon{
         font-size: 11px;
-        padding-top: 19%;
+        padding-top: 51%;
         margin-top: 0;
         display: flex;
         justify-content: center;
@@ -986,15 +994,15 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     }
     .novosti-on{
         
-    margin-top: 18%;
+    /*! margin-top: 18%; */
     padding-bottom: 0;
-    /*! height: 76vh; */
+    height: 100vh;
     }
     .novosti-big-block{
         
     width: 170px;
     margin: auto;
-    padding-top: 18%;
+    /*! padding-top: 18%; */
     }
     .img-novosti{
         
@@ -1088,10 +1096,12 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     .wrapp-img{
         
     min-width: 196px;
+    margin-top: 88px;
     }
     
     .news-element-text{
         
+    height: 20%;
     }
     .news-element-text h2{
         
@@ -1106,5 +1116,8 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
      .map_container h1{
         font-size: 24px;
         padding: 0;
+    }
+    .content-news img{
+        height: 250px;
     }
 }
