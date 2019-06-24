@@ -1,56 +1,55 @@
-        </div>
+    </div>
         <footer>
             <? if($ses){?>
-                <a class="editing" href="../Admin/adminSite/price/priceEditing.php">Редактировать Блок</a>
+                <a class="editing" href="../Admin/adminSite/footer/mailFooterEditing.php">Редактировать Блок</a>
             <?}?>
             <div class="footerMid">
                 <div class="footerContent footerContentPhone">
                     <div class="footerIcon footerIconPhone wow fadeInLeft" data-wow-delay="0.3s" data-wow-offset="5">
                         <div class="footerIconShadow">
                             <a href="#">
-                                <img src="../Image/FooterIcon/phone.png" alt="">
+                                <img src="../Image/FooterIcon/<? echo $footerDatas[0]['iconLink'];?>" alt="<? echo $footerDatas[0]['iconAlt'];?>">
                             </a>
                         </div>
                     </div>
                     <div class="footerInfoName">
-                        <a href="tel:+79772718734">ТЕЛЕФОН</a>
+                        <a href="<? echo $footerDatas[0]['infoDescription'] ;?>"><? echo $footerDatas[0]['description'];?></a>
                     </div>
                     <div class="footerInfo">
-                        <a href="tel:+79772718734">8-(977)-271-87-34</a>
+                        <a href="<? echo $footerDatas[0]['infoDescription'] ;?>"><? echo $footerDatas[0]['infoLink'] ;?></a>
                     </div>
                 </div>
-
                 <div class="footerContent footerContentEmail">
                     <div class="footerIcon footerIconEmail wow fadeInLeft"  data-wow-delay="0.7s" data-wow-offset="5">
                         <div class="footerIconShadow">
                             <a href="#">
-                                <img src="../Image/FooterIcon/email.png" alt="">
+                                <img src="../Image/FooterIcon/<? echo $footerDatas[1]['iconLink'];?>" alt="<? echo $footerDatas[1]['iconAlt'];?>">
                             </a>
                         </div>
                     </div>
                     <div class="footerInfoName">
-                        <a href="mailto:art20022712@mail.ru?subject=Вопрос по игровому клубу Shelter">ПОЧТА</a>
+                        <a href="<? echo $footerDatas[1]['infoDescription'] ;?>"><? echo $footerDatas[1]['description'];?></a>
                     </div>
                     <div class="footerInfo">
-                        <a href="mailto:art20022712@mail.ru?subject=Вопрос по игровому клубу Shelter wow fadeInRight" data-wow-delay="0.7s" data-wow-offset="5">art20022712@mail.ru</a>
+
+                        <a href="<? echo $footerDatas[1]['infoDescription'] ;?>"><? echo $footerDatas[1]['infoLink'] ;?></a>
+
                     </div>
                 </div>
-
                 <div class="footerContent footerContentVk">
-                    <div class="footerIcon footerIconVk wow fadeInLeft"  data-wow-delay="1.3s" data-wow-offset="5">
-                        <div class="footerIconShadow ">
+                    <div class="footerIcon footerIconVk">
+                        <div class="footerIconShadow">
+
                             <a href="#">
-                                <img src="../Image/FooterIcon/vk.png" alt="">
+                                <img src="../Image/FooterIcon/<? echo $footerDatas[2]['iconLink'];?>" alt="<? echo $footerDatas[2]['iconAlt'];?>">
                             </a>
                         </div>
                     </div>
                     <div class="footerInfoName">
-                        <a href="https://vk.com/id317218875">ВКОНТАКТЕ</a>
-
+                        <a href="<? echo $footerDatas[2]['infoDescription'] ;?>"><? echo $footerDatas[2]['description'];?></a>
                     </div>
                     <div class="footerInfo">
-                        <a href="https://vk.com/id317218875">Напишите нам</a>
-
+                        <a href="<? echo $footerDatas[2]['infoDescription'] ;?>"><? echo $footerDatas[2]['infoLink'] ;?></a>
                     </div>
                 </div>
             </div>

@@ -1,15 +1,29 @@
 <?
 require 'Actions/check.php';
 require 'Actions/dbConnecting.php ';
+
 $query = "SELECT * FROM dbmenu "; //строка запроса на языке SQL.
 $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link));
 $menuDatas = array();
 $k = mysqli_num_rows($result);
+$i=0;
 while ($i < $k) {
     $menuDatas[] = mysqli_fetch_array($result);
     $i++;
 }
+
+$query = "SELECT * FROM footermain "; //строка запроса на языке SQL.
+$result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link));
+$footerDatas = array();
+$k = mysqli_num_rows($result);
+$i=0;
+while ($i < $k) {
+    $footerDatas[] = mysqli_fetch_array($result);
+    $i++;
+}
+
 ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
