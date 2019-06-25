@@ -14,12 +14,10 @@ while ($d < $m) {
 
 
     <div class="price">
-
         <div>
             <canvas id="bgCanvas"></canvas>
             <img src="Image/background.png">
         </div>
-
     </div>
 <div><h1 class="game-slider">Игры</h1><div>
     <div class="swiper-container wow bounceInUp" data-wow-delay="1s" data-wow-offset="40">
