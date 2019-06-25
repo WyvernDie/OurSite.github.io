@@ -1,21 +1,63 @@
 <?php
 require 'Parts/Header.php';
 ?>
-<div class="mid aboutUs" >
-    <div class = "aboutUsInfo">
-        <h1>Кошки</h1>
-        <img src="Image/579_rrss-rs-rs.jpg" width="300px" >
-        <p>Являясь одиночным охотником на грызунов и других мелких животных, кошка — социальное животное[6], использующее для общения широкий диапазон звуковых сигналов, а также феромоны и движения тела[7].
+<div class="wrappOnas1">
+    <div class="blockInfo" id="blockInfo1">
+        <div class="imgInfo" id="imgInfo1">
+            <div>
+                <p>
 
-            В настоящее время, в мире насчитывается около 600 млн домашних кошек[8], выведено около 200 пород, от длинношёрстных (персидская кошка) до лишённых шерсти (сфинксы), признанных и зарегистрированных различными фелинологическими организациями.
-
-            На протяжении 10 000 лет кошки ценятся человеком, в том числе за способность охотиться на грызунов и других домашних вредителей[9][10].</p>
-        <br>
-        <img src="Image/579_rrss-rs-rs.jpg" width="300px">
-        <p>
-            В русском языке слово кошка означает либо представителя биологического подвида Felis silvestris catus вообще независимо от пола, либо самку этого подвида. Самца называют кот, а детёныша кошки — котёнок (мн. ч. котя́та). Слово кошка в русском языке является диминутивом от др.-русск. слова «котъка»[11], которое в свою очередь происходит от существительного «кот» и является родственным лат. cattus — кошка[12] (так в поздней латыни, начиная с V века, в отличие от классического латинского felis) и близким названиям во многих языках Европы и Ближнего Востока (англ. cat, арм. k’at’u, галл. cath, ирл. catt, исп. gato, итал. gatto, рут. gyat[13], лезг. кац, лит. katė, нем. Katze, нуб. kadis, прусск. catto[14], фр. chat, эспер. kato). Первоначальный источник неизвестен, но принято считать, что во многие языки слово попало из латинского[15].
-        </p>
+                </p>
+            </div>
+            <img src="/Image/Games/aaa.jpg" alt="эта игра просто шик">
+        </div>
     </div>
+
+    <div class="blockInfo"  id="blockInfo2">
+        <div class="imgInfo" id="imgInfo2">
+            <div>
+                <p>
+
+                </p>
+            </div>
+            <img src="/Image/Games/aaa.jpg" alt="эта игра просто шик">
+        </div>
+    </div>
+
+         <div class="blockInfo" id="blockInfo3">
+            <div class="imgInfo" id="imgInfo3">
+                <div>
+                    <p>
+
+                    </p>
+                </div>
+                <img src="/Image/Games/aaa.jpg" alt="эта игра просто шик">
+            </div>
+        </div>
+</div>
+
+<div class="iron">
+    <h1></h1>
+        <div class="ironChild">
+        <ul class="ironElements">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+            <div class="ironImg">
+                <img src="" alt="" id="">
+                <img src="" alt="" id="">
+                <img src="" alt="" id="">
+                <img src="" alt="" id="">
+                <img src="" alt="" id="">
+                <img src="" alt="" id="">
+            </div>
+        </div>
+</div>
+<div class="video">
+    <div class="videoChild"></div>
 </div>
 <?php
 require 'Parts/Footer.php';
