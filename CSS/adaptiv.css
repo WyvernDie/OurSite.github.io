@@ -83,6 +83,18 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     .menu-block{
         display: none;
     }
+    canvas:nth-child(4){
+        bottom: 0;
+        height: 90%;
+    }
+    
+    canvas:nth-child(3){
+        bottom: 0;
+    }
+    
+    canvas:nth-child(2){
+       bottom: 0;
+    }
 }
 
 @media (max-width:876px){ /*Медиа-запрос*/
@@ -176,7 +188,6 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
         
     }
     .news-block{
-        
     margin: 185px 21% 0 21%;
     min-height: 380px;
     max-height: 340px;
@@ -266,17 +277,17 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     canvas:nth-child(2){
         height: 75%;
         width: 100%;
-        top: -5%;
+          bottom: 0;
     }
     canvas:nth-child(3){
         height: 70%;
         width: 100%;
-        top: 0;
+           bottom: 0;
     }
     canvas:nth-child(4){
         height: 70%;
         width: 100%;
-        top: 0;
+          bottom: 0;
     }
     canvas{
         height: 70%;
@@ -391,17 +402,17 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
      canvas:nth-child(2){
         height: 70%;
         width: 100%;
-        top: -2%;
+            bottom: 0;
     }
     canvas:nth-child(3){
         height: 70%;
         width: 100%;
-        top: -2%;
+            bottom: 0;
     }
     canvas:nth-child(4){
         height: 70%;
         width: 100%;
-        top: -2%;
+            bottom: 0;
     }
     canvas{
         height: 70%;
@@ -742,17 +753,17 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
          
        canvas:nth-child(2){
         height: 55%;
-        top: -9%;
+           bottom: 0;
         width: 100%;
     }
     canvas:nth-child(3){
         height: 55%;
-        top: -9%;
+            bottom: 0;
         width: 100%;
     }
     canvas:nth-child(4){
         height: 55%;
-        top: -9%;
+            bottom: 0;
         width: 100%;
     }
     canvas{
@@ -789,6 +800,8 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     #elem{
         margin-right: 20px;
         margin-top: 2px;
+        z-index: 8989875;
+        left: 63%;
     }
     .price{
         border: none;
@@ -1047,17 +1060,17 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
    
       canvas:nth-child(2){
         height: 36%;
-        top: 0%;
+            bottom: 0;
         width: 100%;
     }
     canvas:nth-child(3){
         height: 36%;
-        top: 0%;
+            bottom: 0;
         width: 100%;
     }
     canvas:nth-child(4){
         height: 36%;
-        top: 0%;
+        bottom: 0;
         width: 100%;
     }
     canvas{
@@ -1252,17 +1265,16 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     }
      canvas:nth-child(2){
         height: 30%;
-        top: 0%;
+            bottom: 0;
         width: 100%;
     }
     canvas:nth-child(3){
         height: 30%;
-        top: 0%;
-        width: 100%;
+        bottom: 0;        width: 100%;
     }
     canvas:nth-child(4){
         height: 30%;
-        top: 0%;
+        bottom: 0;
         width: 100%;
     }
     canvas{

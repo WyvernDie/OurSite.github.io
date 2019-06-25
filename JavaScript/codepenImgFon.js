@@ -46,7 +46,7 @@ function Terrain(options) {
         displacement *= 0.6;
     }
 
-    document.body.appendChild(this.terrain);
+    document.getElementById('canvas-wrapper').appendChild(this.terrain);
 }
 
 Terrain.prototype.update = function () {

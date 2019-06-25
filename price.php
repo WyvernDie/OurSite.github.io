@@ -17,7 +17,7 @@ $priceListImageData = mysqli_fetch_array($result);
 
 <div class="priceContainer">
 
-    <div class="title wow fadeInLeftBig" data-wow-delay="0.2s">
+    <div class="title wow j" data-wow-delay="0.2s">
         <h1>
             <span class="x">
                 Цены

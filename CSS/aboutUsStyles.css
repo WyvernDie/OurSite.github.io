@@ -1,36 +1,67 @@
-.mid{
-    width: 80%;
-    margin: 0 10%;
-    padding-top: 140px;
-    border-left: 3px solid #131313;
-    border-right: 3px solid #131313;
+.wrappOnas1{
+height: auto;
+width: 100%;
+/*! background-color: gray; */
+position: relative;
+display: block;
+margin-top: 100px;
+padding-top: 90px;
 }
-.aboutUs{
-    background: rgba(2, 7, 84, 0.22);
-    height: 100%;
+.blockInfo{
+height: 360px;
+width: 75%;
+border: 2px solid rgba(30, 30, 30, 0.9);
+margin: 16px auto;
 }
-.aboutUsInfo{
-    padding: 10px;
-    margin: 0 3%;
-    color: white;
-    text-shadow: 1px -0.5px rgba(255, 242, 242, 0.18);
-    text-align: center;
+#blockInfo1{}
+#blockInfo2{}
+#blockInfo3{}
+.imgInfo{
+
+  height: 360px;
+  position: relative;
+  width: 100%;
+  display: flex;
 }
-.aboutUsInfo img:nth-child(even){
-    float: left;
-    margin: 0 10px 10px;
-}
-.aboutUsInfo img:nth-child(odd){
-    float: right;
-    margin: 0 10px 0 10px;
-}
-.aboutUsInfo img{
+#imgInfo1{
 
 }
-.aboutUsInfo h1{
-    margin-bottom: 1.2rem;
+#imgInfo2{
+
 }
+#imgInfo3{
+    
+}
+.imgInfo div{
 
+  width: 40%;
+  height: 99%;
+  position: relative;
+}
+.imgInfo div p{
 
+}
+.imgInfo img{
+height: 99%;
+border-radius: 2px;
+width: 60%;
+position: relative;
+}
+.iron{
 
+}
+.ironChild{
 
+}
+.ironChild{
+
+}
+.ironImg{
+
+}
+.video{
+
+}
+.videoChild{
+
+}
