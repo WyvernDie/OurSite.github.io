@@ -51,15 +51,15 @@ while ($i < $k) {
     <link rel="stylesheet" href="../CSS/footerStyles.css">
     <link rel="stylesheet" href="../CSS/animate.css">
 
-<!--    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>-->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script src="js/jquery-3.1.1.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="../JavaScript/hearerMenu.js" type="text/javascript"></script>
     <script src="../JavaScript/headerScrolling.js" type="text/javascript"></script>
     <script src="../JavaScript/menu-block.js" type="text/javascript"></script>
     <script src="../JavaScript/codepen.js" type="text/javascript"></script>
     <script src="../JavaScript/wow.min..js" type="text/javascript"></script>
     <script> new WOW().init();</script>
+    
 </head>
 <body>
 <div class="wrapper">
@@ -80,7 +80,7 @@ while ($i < $k) {
         </div>
         <div class="imag-m">
             <img src="../Image/menuBackground.png" alt="menu" id="fon-menu">
-            <img src="../Image/shelt.png" class="graficlogo" id="imm" >
+            <img src="../Image/shelter.png" class="graficlogo" id="imm" >
             <nav class="header-block">
                 <?foreach ($menuDatas as $menuData){?>
                     <div class="punkt" id="parth-menu1">

@@ -1,7 +1,8 @@
 body{
     margin: 0;
     text-align: center;
-    background: repeating-linear-gradient(90deg, #282934 0%, #333333 50%, #282934 100%);
+    background-image: url("../Image/bg.png")  ;
+    /*background: repeating-linear-gradient(90deg, #282934 0%, #333333 50%, #282934 100%);*/
 
 }
 .log{
@@ -45,4 +46,7 @@ td{
 }
 form{
     margin: 20px;
+}
+table img{
+    width: 240px;
 }

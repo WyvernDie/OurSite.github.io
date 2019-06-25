@@ -16,7 +16,7 @@ while ($d < $m) {
     <div class="price">
         <div id='canvas-wrapper'>
             <canvas id="bgCanvas"></canvas>
-            <img src="Image/background.jpg">
+            <img src="Image/background.png">
         </div>
     </div>
 <div><h1 class="game-slider">Игры</h1><div>
