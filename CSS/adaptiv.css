@@ -263,7 +263,33 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
         align-content: center;
         width: 19%;
     }
-    
+    canvas:nth-child(2){
+        height: 75%;
+        width: 100%;
+        top: -5%;
+    }
+    canvas:nth-child(3){
+        height: 70%;
+        width: 100%;
+        top: 0;
+    }
+    canvas:nth-child(4){
+        height: 70%;
+        width: 100%;
+        top: 0;
+    }
+    canvas{
+        height: 70%;
+    }
+    .price img{
+        height: 93%;
+        width: 100%;
+    }
+    #bgCanvas{
+        
+    top: 0;
+    width: 100%;
+    }
 }
 @media (max-width:640px){
     .price{
@@ -361,6 +387,35 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     }
     html{
         height: 100vh;
+    }
+     canvas:nth-child(2){
+        height: 70%;
+        width: 100%;
+        top: -2%;
+    }
+    canvas:nth-child(3){
+        height: 70%;
+        width: 100%;
+        top: -2%;
+    }
+    canvas:nth-child(4){
+        height: 70%;
+        width: 100%;
+        top: -2%;
+    }
+    canvas{
+        height: 70%;
+    }
+    .price img{
+        height: 97%;
+        width: 100%;
+        max-height: 815px;
+    }
+    #bgCanvas{
+        
+    top: 0;
+    width: 100%;
+    max-height: 815px;
     }
 }
 @media (max-width:480px){
@@ -673,8 +728,7 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
        margin-left: -11px;
     }
      .aboutUsInfo img:nth-child(2n-1){
-        width: 250px;
-       margin-right:  -11px;
+    margin: 9px 0;
     }
     .title h1{
         font-size: 24px;
@@ -685,6 +739,37 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
         width: 100%;
         height: 250px;
     }
+         
+       canvas:nth-child(2){
+        height: 55%;
+        top: -9%;
+        width: 100%;
+    }
+    canvas:nth-child(3){
+        height: 55%;
+        top: -9%;
+        width: 100%;
+    }
+    canvas:nth-child(4){
+        height: 55%;
+        top: -9%;
+        width: 100%;
+    }
+    canvas{
+        height: 70%;
+    }
+    .price img{
+        height: 100%;
+        width: 100%;
+        max-height: 630px;
+    }
+    #bgCanvas{
+        
+    top: 0;
+    width: 100%;
+    max-height: 630px;
+    }
+    
 }
 @media (max-width:320px){
     .gameBan{
@@ -957,6 +1042,51 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
         height: 250px;
         min-width: 100%;
     }
+ 
+    
+   
+      canvas:nth-child(2){
+        height: 36%;
+        top: 0%;
+        width: 100%;
+    }
+    canvas:nth-child(3){
+        height: 36%;
+        top: 0%;
+        width: 100%;
+    }
+    canvas:nth-child(4){
+        height: 36%;
+        top: 0%;
+        width: 100%;
+    }
+    canvas{
+        height: 70%;
+    }
+    .price img{
+        height: 100%;
+        width: 100%;
+        max-height: 630px;
+    }
+    #bgCanvas{
+        
+    top: 0;
+    width: 100%;
+    max-height: 630px;
+    }
+    .aboutUsInfo img:nth-child(2n){
+        
+    margin: 0;
+    }
+    .aboutUsInfo img:nth-child(2n-1){
+        
+    }
+    .aboutUsInfo{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
 }
 @media (max-width:240px){
     .novosti-icon{
@@ -1119,5 +1249,34 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     }
     .content-news img{
         height: 250px;
+    }
+     canvas:nth-child(2){
+        height: 30%;
+        top: 0%;
+        width: 100%;
+    }
+    canvas:nth-child(3){
+        height: 30%;
+        top: 0%;
+        width: 100%;
+    }
+    canvas:nth-child(4){
+        height: 30%;
+        top: 0%;
+        width: 100%;
+    }
+    canvas{
+        height: 70%;
+    }
+    .price img{
+        height: 100%;
+        width: 100%;
+        max-height: 630px;
+    }
+    #bgCanvas{
+        
+    top: 0;
+    width: 100%;
+    max-height: 630px;
     }
 }

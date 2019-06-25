@@ -30,7 +30,7 @@ $priceListImageData = mysqli_fetch_array($result);
 
     <div class="priceList">
 
-        <div class="priceListImg">
+        <div class="priceListImg wow tada" data-wow-delay="1s">
             <img src="Image/priceList/<? echo $priceListImageData['imageLink'];?>" width="80%">
 
         </div>
@@ -40,7 +40,7 @@ $priceListImageData = mysqli_fetch_array($result);
 
         <div class="priceContentTop">
             <? foreach ($priceDatas as $priceData){?>
-            <div class="priceInfoContainer">
+            <div class="priceInfoContainer wow bounceInDown" data-wow-offset="20" data-wow-delay="1s">
                 <img src="Image/priceList/<? echo $priceData['iconLink'];?>">
                 <div class="packageName">
                     <p><? echo $priceData['PackageName']; ?></p>
