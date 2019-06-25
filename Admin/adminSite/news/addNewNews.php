@@ -9,25 +9,27 @@ if((isset($_POST['Title']))&& (!empty(($_POST['Title'])))){
     $title = $_POST['Title'];
     $subtitle = $_POST['Subtitle'];
     $text = $_POST['Text'];
-    $actionStartDate = $_POST['actionStartDate'];
-    $actionFinishDate = $_POST['actionFinishDate'] ;
+    if(!empty(($_POST['actionStartDate']))){
+        $actionStartDate = $_POST['actionStartDate'];
+    }else{
+        $actionStartDate ='0000-00-00';
+    }
+
+    if(!empty(($_POST['actionFinishDate']))){
+        $actionFinishDate = $_POST['actionFinishDate'] ;
+    }else{
+        $actionFinishDate ='0000-00-00';
+    }
+
+
     if( (isset($_FILES))&&($_FILES['inputfile']['errors'] == 0 )){
         $destiation_dir = '../../../Image/news/' . $_FILES['inputfile']['name'];
         move_uploaded_file($_FILES['inputfile']['tmp_name'], $destiation_dir);
     }
     $query = "INSERT INTO newsmain (newsImageLink, newsTitle, newsSubtitle, newsDescription, actionStartDate, actionFinishDate) VALUES ('$linkName', '$title', '$subtitle', '$text', '$actionStartDate', '$actionFinishDate')";
     $sql = mysqli_query($link, $query);
-    
 
-    $query = "SELECT TOP(1) FROM newsMain ORDER BY actionStartDate ASC "; //строка запроса на языке SQL.
-    $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link));
-    $newsDatas = array();
-    $newsDatas[] = mysqli_fetch_array($result);
-    $id = $newsDatas['id'];
-    $query = "DELETE FROM newsmain WHERE id = $id ";
-    $sql =  mysqli_query($link, $query);
-
-    header('Location: newsEditingMain.php');
+    header('Location:  deleteOldNews.php');
 }
 
 mysqli_close($link);
