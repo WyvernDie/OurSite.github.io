@@ -1,7 +1,7 @@
 <?php
 require 'Parts/Header.php';
 
-$query = "SELECT * FROM newsmain "; //строка запроса на языке SQL.
+$query = "SELECT * FROM newsmain ORDER BY actionStartDate DESC"; //строка запроса на языке SQL.
 $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link));
 $newsDatas = array();
 $k = mysqli_num_rows($result);
@@ -27,7 +27,7 @@ $k = 1;
         </div>
         <div class="content-news">
             <div class="wrapp-img">
-                <img src="/Image/Games/aaa.jpg" alt="эта игра просто шик" class="">
+                <img src="Image/news/<? echo $newsData['newsImageLink']; ?>" alt="эта игра просто шик" class="">
             </div>
             <div class="news-element-text">
 
@@ -51,6 +51,9 @@ $k = 1;
       <span class="x">
           новости
       </span>
+        <? if($ses){?>
+            <a class="editing" href="Admin/adminSite/news/newsEditingMain.php">Редактировать данные на странице</a>
+        <?}?>
     </p>
 
     <div class="novosti-big-block">
@@ -60,13 +63,13 @@ $k = 1;
             <div class="novocti-block n1 wow bounceInDown" data-wow-delay="<? echo "$k"; ?>s" id="newsOverlay<? echo $newsData['id']; ?>">
 
                 <div class="img-novosti">
-                    <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
+                    <p><img src="Image/news/<? echo $newsData['newsImageLink']; ?>" id="image-news"></p>
                 </div>
                 <hr>
 
                 <div class="text-big">
                     <div class="novosti-text">
-                        <p><? echo $newsData['newsDescription']; ?></p>
+                        <p><? echo $newsData['newsTitle']; ?></p>
                     </div>
                 </div>
                 <hr>
