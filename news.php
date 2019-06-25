@@ -1,5 +1,17 @@
 <?php
 require 'Parts/Header.php';
+
+$query = "SELECT * FROM newsmain "; //строка запроса на языке SQL.
+$result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link));
+$newsDatas = array();
+$k = mysqli_num_rows($result);
+$i = 0;
+while ($i < $k) {
+    $newsDatas[] = mysqli_fetch_array($result);
+    $i++;
+}
+
+
 ?>
 
 <div class="overlay" id="overlay1">
@@ -16,8 +28,10 @@ require 'Parts/Header.php';
                 <img src="/Image/Games/aaa.jpg" alt="эта игра просто шик" class="">
             </div>
             <div class="news-element-text">
+
                 <h2>1х;lk;lk;lkорошее название подновости</h2>
                 <p>1а тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текст</p>
+
                 <div class="news-text-data">
                     <b>21.21.21</b>
                 </div>
@@ -40,7 +54,9 @@ require 'Parts/Header.php';
             </div>
             <div class="news-element-text">
                 <h2>2хорошее название подновости</h2>
-                <p>1а тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текст</p>
+                <p>1а тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший
+                    дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него
+                    текст</p>
                 <div class="news-text-data">
                     <b>21.21.21</b>
                 </div>
@@ -63,7 +79,9 @@ require 'Parts/Header.php';
             </div>
             <div class="news-element-text">
                 <h2>3 хорошее название подновости</h2>
-                <p>3а тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текст</p>
+                <p>3а тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший
+                    дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него
+                    текст</p>
                 <div class="news-text-data">
                     <b>21.21.21</b>
                 </div>
@@ -86,7 +104,9 @@ require 'Parts/Header.php';
             </div>
             <div class="news-element-text">
                 <h2>4 хорошее название подновости</h2>
-                <p>4а тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текст</p>
+                <p>4а тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший
+                    дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него
+                    текст</p>
                 <div class="news-text-data">
                     <b>21.21.21</b>
                 </div>
@@ -109,7 +129,9 @@ require 'Parts/Header.php';
             </div>
             <div class="news-element-text">
                 <h2>5 хорошее название подновости</h2>
-                <p>5а тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него текст</p>
+                <p>5а тут хороший дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший
+                    дня него текста тут хороший дня него текста тут хороший дня него текста тут хороший дня него
+                    текст</p>
                 <div class="news-text-data">
                     <b>21.21.21</b>
                 </div>
@@ -118,6 +140,7 @@ require 'Parts/Header.php';
     </div>
 </div>
 <div class="novosti-on">
+
 <p class="novosti-icon wow fadeInLeft" data-wow-duration="2s" >
   <span class="x">
     новости
@@ -137,6 +160,7 @@ require 'Parts/Header.php';
                 <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
             </div>
             <hr>
+
                 <div class="text-big">
                     <div class="novosti-text">
                         <p>хорошая завлекающая игра</p>
@@ -154,11 +178,13 @@ require 'Parts/Header.php';
         </div>
 
 
+
         <div class="novocti-block n2 wow bounceInDown" data-wow-delay="2s" id="newsOverlay2">
             <div class="img-novosti">
                 <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
             </div>
             <hr>
+
                 <div class="text-big">
                     <div class="novosti-text">
                         <p>хорошая завлекающая игра</p>
@@ -172,6 +198,7 @@ require 'Parts/Header.php';
                     <p>21.04.19</p>
                 </div>
         </div>
+
 
 
         <div class="novocti-block n3 wow bounceInDown" data-wow-delay = "3s" id="newsOverlay3">
@@ -179,6 +206,7 @@ require 'Parts/Header.php';
                 <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
             </div>
             <hr>
+
                 <div class="text-big">
                     <div class="novosti-text">
                         <p>хорошая завлекающая игра</p>
@@ -191,6 +219,7 @@ require 'Parts/Header.php';
                 <div class="data">
                     <p>21.04.19</p>
                 </div>
+
         </div>
 
         <div class="novocti-block n4 wow bounceInDown" data-wow-delay="4s" id="newsOverlay4">
@@ -198,6 +227,7 @@ require 'Parts/Header.php';
                 <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
             </div>
             <hr>
+
                 <div class="text-big">
                         <div class="novosti-text">
                             <p>хорошая завлекающая игра</p>
@@ -210,12 +240,14 @@ require 'Parts/Header.php';
                 <div class="data">
                     <p>21.04.19</p>
                 </div>
+
         </div>
 
             <div class="novocti-block n5 wow bounceInDown" data-wow-delay = "5s" id="newsOverlay5">
                     <div class="img-novosti">
                         <p><img src="//OurSite/Image/Games/aaa.jpg" id="image-news"></p>
                     </div>
+
                 <hr>
                     <div class="text-big">
                             <div class="novosti-text">
