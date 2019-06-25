@@ -2,13 +2,13 @@
 require_once '../../../Actions/dbConnecting.php';
 require_once '../../../Actions/check.php';
 
-$query = "SELECT * FROM newMain "; //строка запроса на языке SQL.
+$query = "SELECT * FROM newsMain ORDER BY actionStartDate DESC "; //строка запроса на языке SQL.
 $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link));
-$newDatas = array();
+$newsDatas = array();
 $k = mysqli_num_rows($result);
 $i=0;
 while ($i < $k) {
-    $newDatas[] = mysqli_fetch_array($result);
+    $newsDatas[] = mysqli_fetch_array($result);
     $i++;
 }
 
@@ -25,31 +25,33 @@ while ($i < $k) {
 </head>
 <body>
 <a href="../../../index.php" class="main"><h1>На Главную</h1></a>
+<form action="addNewNews.php" method="post">
+    <input type="submit" value="Добавить Новую Новость"/>
+</form>
 <table>
     <tr>
         <td>id</td>
-        <td>Иконка</td>
-        <td>Название</td>
-        <td>Иформация</td>
-        <td>Информация для ссылки</td>
+        <td>Картинка</td>
+        <td>Заголовок</td>
+        <td>Подзаголовок</td>
+        <td>Текст</td>
+        <td>Дата Начала</td>
+        <td>Дата Окончания</td>
         <td>Действие</td>
     </tr>
-    <?foreach($footerDatas as $footerData){?>
+    <?foreach($newsDatas as $newsData){?>
         <tr>
-            <td> <? echo $footerData['id']?></td>
-            <td> <? echo $footerData['description']?></td>
-            <td> <? echo $footerData['infoLink']?></td>
-            <td> <? echo $footerData['infoDescription']?></td>
+            <td><? echo $newsData['id']; ?></td>
+            <td><img src="../../../Image/news/<? echo $newsData['newsImageLink']; ?>"></td>
+            <td><? echo $newsData['newsTitle']; ?></td>
+            <td><? echo $newsData['newsSubtitle']; ?></td>
+            <td><? echo $newsData['newsDescription']; ?></td>
+            <td><? echo $newsData['actionStartDate']; ?></td>
+            <td><? echo $newsData['actionFinishDate']; ?></td>
             <td>
-                <form action="footerEditing.php" method="POST">
-                    <input class="id" name="id" value="<? echo $footerData['id']; ?>">
-                    <input class="id" name="action" value="delete">
-                    <input type="submit" value="Удалить">
-                </form><br>
-                <form action="footerEditing.php" method="POST" enctype="multipart/form-data">
-                    <input type="submit" value="Редактировать">
-                    <input class="id" name="id" value="<? echo $footerData['id']; ?>">
-                    <input class="id" name="action" value="edit">
+                <form action="newsEditing.php" method="post">
+                    <input type="submit" value="изменить"/>
+                    <input class="id" name="id" value="<? echo $newsData['id']; ?>">
                 </form>
             </td>
         </tr>
