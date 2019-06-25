@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Июн 24 2019 г., 11:55
+-- Время создания: Июн 25 2019 г., 22:44
 -- Версия сервера: 10.3.13-MariaDB
 -- Версия PHP: 7.1.22
 
@@ -88,6 +88,33 @@ INSERT INTO `footermain` (`id`, `iconLink`, `iconAlt`, `description`, `infoDescr
 (1, 'phone.png', 'Телефон', 'ТЕЛЕФОН', 'tel:+7(977)-271-87-34', '8(977)-271-87-34'),
 (2, 'email.png', 'Почта', 'ПОЧТА', 'mailto:art20022712@mail.ru?subject=Shelter', 'art20022712@mail.ru'),
 (3, 'vk.png', 'ВК', 'ВКОНТАКТЕ', 'https://vk.com/id317218875', 'Напишите Нам');
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `newsmain`
+--
+
+CREATE TABLE `newsmain` (
+  `id` int(11) NOT NULL,
+  `newsImageLink` text NOT NULL,
+  `newsTitle` text NOT NULL,
+  `newsSubtitle` text NOT NULL,
+  `newsDescription` text NOT NULL,
+  `actionStartDate` date NOT NULL,
+  `actionFinishDate` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `newsmain`
+--
+
+INSERT INTO `newsmain` (`id`, `newsImageLink`, `newsTitle`, `newsSubtitle`, `newsDescription`, `actionStartDate`, `actionFinishDate`) VALUES
+(1, '1.jpg', 'Технический перерыв 10 октября', '', 'Дорогие друзья!\r\nВ среду 11 июля в клубе на ст.м. Выхино с 8:00 до 12:30 пройдет технические перерыв!\r\nЗабронировать место после перерыва, Вы можете по телефону 8(495)055-55-99', '2019-06-10', '0000-00-00'),
+(2, '1.jpg', 'F5 CS:GO Mix', '', 'Дорогие друзья!\r\nВ среду 11 июля в клубе на ст.м. Выхино с 8:00 до 12:30 пройдет технические перерыв!\r\nЗабронировать место после перерыва, Вы можете по телефону 8(495)055-55-99', '2019-06-11', '0000-00-00'),
+(4, '1.jpg', 'Акция на ночные пакеты от E-ON', '', 'Дорогие друзья!\r\nВ среду 11 июля в клубе на ст.м. Выхино с 8:00 до 12:30 пройдет технические перерыв!\r\nЗабронировать место после перерыва, Вы можете по телефону 8(495)055-55-99', '2019-06-18', '2019-06-12'),
+(5, '1.jpg', 'F5 CS:GO 2*2 Cup 25/04/18', '5', 'Дорогие друзья!\r\nВ среду 11 июля в клубе на ст.м. Выхино с 8:00 до 12:30 пройдет технические перерыв!\r\nЗабронировать место после перерыва, Вы можете по телефону 8(495)055-55-99', '2019-06-05', '2019-06-05'),
+(18, '1.jpg', 'F5 CS:GO 2*2 Cup 25/04/18', '', 'Дорогие друзья! В среду 11 июля в клубе на ст.м. Выхино с 8:00 до 12:30 пройдет технические перерыв! Забронировать место после перерыва, Вы можете по телефону 8(495)055-55-99', '2019-06-12', '2019-06-21');
 
 -- --------------------------------------------------------
 
@@ -193,6 +220,12 @@ ALTER TABLE `footermain`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Индексы таблицы `newsmain`
+--
+ALTER TABLE `newsmain`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Индексы таблицы `price`
 --
 ALTER TABLE `price`
@@ -231,6 +264,12 @@ ALTER TABLE `dbgame`
 --
 ALTER TABLE `footermain`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT для таблицы `newsmain`
+--
+ALTER TABLE `newsmain`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT для таблицы `price`
