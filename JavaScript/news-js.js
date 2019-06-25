@@ -1,17 +1,17 @@
 'use strict'
 $(document).ready(function() {
-    $('#newsOverlay1').click(function () {
-       $('.overlay').addClass('overlay-open');
-    });
-    $('.overlay').click(function () {
-        $('.overlay').removeClass('overlay-open');
-    });
-    $('.news-button').click(function () {
-        $('.overlay').removeClass('overlay-open');
-    });
-    $('.news-block').click(function (e){
-        e.stopPropagation();
-    });
+    // $('#newsOverlay1').click(function () {
+    //    $('.overlay').addClass('overlay-open');
+    // });
+    // $('.overlay').click(function () {
+    //     $('.overlay').removeClass('overlay-open');
+    // });
+    // $('.news-button').click(function () {
+    //     $('.overlay').removeClass('overlay-open');
+    // });
+    // $('.news-block').click(function (e){
+    //     e.stopPropagation();
+    // });
 
 // $('.novocti-block').on('click', function(e) {
 //     // var id_click =   $(this).parents('.wpProQuiz_content').attr('id');
@@ -31,7 +31,7 @@ switch (id_click) {
     case "newsOverlay1":
         console.log( 'первый' );
         $('#overlay1').addClass('overlay-open');
-    $('#overlay1').click(function () {
+        $('#overlay1').click(function () {
         $('#overlay1').removeClass('overlay-open');
     });
     $('.news-button').click(function () {
@@ -58,7 +58,7 @@ switch (id_click) {
         console.log( 'третий' );
         $('#overlay3').addClass('overlay-open');
         $('#overlay3').click(function () {
-            $('#overlay3').removeClass('overlay-open');
+        $('#overlay3').removeClass('overlay-open');
         });
         $('.news-button').click(function () {
             $('#overlay3').removeClass('overlay-open');

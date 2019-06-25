@@ -14,7 +14,12 @@ while ($d < $m) {
 
 
     <div class="price">
-        <img src="Image/background.png" >
+
+        <div>
+            <canvas id="bgCanvas"></canvas>
+            <img src="Image/background.png">
+        </div>
+
     </div>
 <div><h1 class="game-slider">Игры</h1><div>
     <div class="swiper-container wow bounceInUp" data-wow-delay="1s" data-wow-offset="40">
@@ -52,7 +57,7 @@ while ($d < $m) {
         <? } ?>
     </div>
 
-
+        <script src="../JavaScript/codepenImgFon.js" type="text/javascript"></script>
     <script src="JavaScript/sliderJs.js"></script>
 
     <!-- Initialize Swiper -->
@@ -64,6 +69,7 @@ while ($d < $m) {
             },
         });
     </script>
+
 <?php
 require 'Parts/Footer.php';
 ?>
