@@ -13,8 +13,8 @@ while ($i < $k) {
 
 
 ?>
-<? $k = 1; ?>
-<div class="overlay" id="overlay<? echo $k; ?>">
+
+<div class="overlay" id="overlay1">
     <div class="news-block">
         <div class="news-button">
             <a id="news-button-a" src="#">Закрыть</a>
@@ -39,8 +39,7 @@ while ($i < $k) {
         </div>
     </div>
 </div>
-<? $k++; ?>
-<div class="overlay" id="overlay<? echo $k; ?>">
+<div class="overlay" id="overlay2">
     <div class="news-block">
         <div class="news-button">
             <a id="news-button-a" src="#">Закрыть</a>
@@ -65,8 +64,7 @@ while ($i < $k) {
         </div>
     </div>
 </div>
-<? $k++; ?>
-<div class="overlay" id="overlay<? echo $k; ?>">
+<div class="overlay" id="overlay3">
     <div class="news-block">
         <div class="news-button">
             <a id="news-button-a" src="#">Закрыть</a>
@@ -91,8 +89,7 @@ while ($i < $k) {
         </div>
     </div>
 </div>
-<? $k++; ?>
-<div class="overlay" id="overlay<? echo $k; ?>">
+<div class="overlay" id="overlay4">
     <div class="news-block">
         <div class="news-button">
             <a id="news-button-a" src="#">Закрыть</a>
@@ -117,8 +114,7 @@ while ($i < $k) {
         </div>
     </div>
 </div>
-<? $k++; ?>
-<div class="overlay" id="overlay<? echo $k; ?>">
+<div class="overlay" id="overlay5">
     <div class="news-block">
         <div class="news-button">
             <a id="news-button-a" src="#">Закрыть</a>
