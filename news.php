@@ -16,7 +16,7 @@ $k = 1;
 
 
 <? foreach($newsDatas as $newsData ){ ?>
-<div class="overlay" id="overlay<? echo $newsData['id']; ?>">
+<div class="overlay" id="overlay<? echo "$k"; ?>">
     <div class="news-block">
         <div class="news-button">
             <a id="news-button-a" src="#">Закрыть</a>
@@ -42,7 +42,7 @@ $k = 1;
 </div>
 
 <?
-}
+    $k++;}
 ?>
 
 
@@ -60,7 +60,7 @@ $k = 1;
         <div class="owl-carousel owl-theme">
             <? $k = 1; ?>
             <?  foreach($newsDatas as $newsData){?>
-            <div class="novocti-block n1 wow bounceInDown" data-wow-delay="<? echo "$k"; ?>s" id="newsOverlay<? echo $newsData['id']; ?>">
+            <div class="novocti-block n1 wow bounceInDown" data-wow-delay="<? echo "$k"; ?>s" id="newsOverlay<? echo "$k"; ?>">
 
                 <div class="img-novosti">
                     <p><img src="Image/news/<? echo $newsData['newsImageLink']; ?>" id="image-news"></p>

@@ -392,7 +392,7 @@ header{ /*Задаем тот же фон для выпрыгивающего м
 width: auto;
   z-index: 100;
   position: relative;
-height: 100vh;
+
 }
 .price canvas{
   position: absolute;
