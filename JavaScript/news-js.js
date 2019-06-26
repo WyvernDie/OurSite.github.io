@@ -1,28 +1,5 @@
 'use strict'
 $(document).ready(function() {
-    // $('#newsOverlay1').click(function () {
-    //    $('.overlay').addClass('overlay-open');
-    // });
-    // $('.overlay').click(function () {
-    //     $('.overlay').removeClass('overlay-open');
-    // });
-    // $('.news-button').click(function () {
-    //     $('.overlay').removeClass('overlay-open');
-    // });
-    // $('.news-block').click(function (e){
-    //     e.stopPropagation();
-    // });
-
-// $('.novocti-block').on('click', function(e) {
-//     // var id_click =   $(this).parents('.wpProQuiz_content').attr('id');
-//   var id_click =   $(this).parents('.wpProQuiz_content').attr('id');
-//
-//     console.log(id_click);
-// });
-//     var novocti = $(this).parent('.novocti-block').attr("id");
-//     novocti.click(function() {
-//         console.log(novocti);
-
     $('.novocti-block').on('click', function(e) {
     var id_click =   $(this).attr('id');
 
