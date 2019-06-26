@@ -117,14 +117,16 @@ $k = 1;
                     nav: false
                 },
                 640: {
-                    dots: true,
-                    items: 3,
-                    nav: false
+                    // dots: false,
+                    // items: 5,
+                    // nav: false
+                    responsive:false
                 },
                 876: {
-                    dots: true,
-                    items: 4,
-                    nav: false
+                    // dots: true,
+                    // items: 4,
+                    // nav: false
+                    responsive:false
                 },
                 1300: {
                     items: 5,
