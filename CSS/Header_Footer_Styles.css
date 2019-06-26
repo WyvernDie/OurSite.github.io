@@ -397,16 +397,17 @@ height: 100vh;
 .price canvas{
   position: absolute;
   width: 100%;
-  /*! height: 150vh; */
   left: 0;
   z-index: 29;
   bottom: 0;
+  height: 56%;
 }
 .price div{
   position: relative;
   height: 100%;
   display: flex;
   justify-content: center;
+  padding-top: 100px;
 }
 canvas{
   position: absolute;

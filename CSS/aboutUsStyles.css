@@ -37,6 +37,7 @@ margin: 16px auto;
   width: 40%;
   height: 99%;
   position: relative;
+  background-color: rgba(255,50,255,0.7);
 }
 .imgInfo div p{
 
