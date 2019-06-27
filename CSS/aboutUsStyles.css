@@ -1,41 +1,84 @@
 .wrappOnas{
-
+height: auto;
+    width: 100%;
+    top: 0;
+    padding-top: 100px;
 }
+.wrappOnas h1{font-size: 3rem; color: white; width: 100%; margin: 0 auto;padding: 53px;/*! height: 100%; */}
 .infoBlocks{
-
+    height: auto;
+    position: relative;
+    width: 100%;
+    padding: 20px;
 }
 .infoBlock{
+    display: flex;
+    position: relative;
 
+    height: 100%;
+    padding: 0px;
 }
 #infoBlock1{
 
 }
 #infoBlock2{
-
+flex-direction: row-reverse;
 }
 #infoBlock3{
 
 }
+.infoBlockHelp{
+    position: relative;
+    height: 100%;
+}
 .infoBlockText{
-
+    background-color: antiquewhite;
+    position: relative;
+    width: 60%;
+    padding: 15px 20px;
+    top: 0;
+    bottom: 0;
 }
 .infoBlockText hr{
-
+    position: relative;
+    width: 100%;
+    height: 1px;
+    color: black;
+}
+#hrBottom{
+    
 }
 .infoBlockText h2{
+font-size: 2rem;
+    color: black;
+    position: relative;
 
+margin-top: 20px;
 }
 .infoBlockText p{
-
+    position: relative;
+    /*! margin: 10px 6px; */
+    color: grey;
+    padding: 16px 0;
 }
 .infoBlockImg{
-
+position: relative;
+    /*! height: 100px; */
+    padding: 16px 12px;
+    background-color: #3b3b3b;
+width: 40%;
 }
 .infoBlockImg hr{
-
+width: 86%;
+color: white;
+margin: 0 auto;
 }
 .infoBlockImg img{
-
+margin: 0;
+position: relative;
+width: 100%;
+height: 100%;
+padding: 10px 6px;
 }
 .wrappIron{
 
