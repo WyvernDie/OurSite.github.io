@@ -389,9 +389,17 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   color: #ffcc33;
 }
 .price img {
+<<<<<<< HEAD
   z-index: 100;
   position: relative;
   height: 100vh;
+=======
+  width: auto;
+  z-index: 100;
+  position: relative;
+  height: 100vh;
+
+>>>>>>> 8c13e04e5efa1edbd54bf0dce42de0266c595ab4
 }
 .price canvas{
   position: absolute;

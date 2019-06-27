@@ -10,16 +10,12 @@ while ($d < $m) {
 }
 ?>
 
-
-
-
     <div class="price">
         <div id='canvas-wrapper'>
             <canvas id="bgCanvas"></canvas>
             <img src="Image/background.png">
         </div>
     </div>
-<div><h1 class="game-slider">Игры</h1><div>
     <div class="swiper-container wow bounceInUp" data-wow-delay="1s" data-wow-offset="40">
         <div class="swiper-wrapper">
             <?php foreach ($gameDatas as $gameData){?>
@@ -44,7 +40,6 @@ while ($d < $m) {
     </div>
 
     <div class="map_container">
-        <a name="map"><h1>Как добраться</h1></a>
         <div class="map wow zoomInDown"  data-wow-offset = "100">
             <script type="text/javascript" charset="utf-8" async
                     src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad83165488faa5d5956658404a24158ca77258dccd8f43adaa56aa4e38d4307e7&amp;width50%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
