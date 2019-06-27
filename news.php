@@ -14,7 +14,6 @@ while ($i < 5) {
 $k = 1;
 ?>
 
-
 <? foreach($newsDatas as $newsData ){ ?>
 <div class="overlay" id="overlay<? echo "$k"; ?>">
     <div class="news-block">
@@ -117,16 +116,14 @@ $k = 1;
                     nav: false
                 },
                 640: {
-                    // dots: false,
-                    // items: 5,
-                    // nav: false
-                    responsive:false
+                    dots: true,
+                    items: 3,
+                    nav: false
                 },
                 876: {
-                    // dots: true,
-                    // items: 4,
-                    // nav: false
-                    responsive:false
+                    dots: true,
+                    items: 4,
+                    nav: false
                 },
                 1300: {
                     items: 5,

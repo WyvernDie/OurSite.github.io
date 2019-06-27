@@ -8,25 +8,58 @@ $(document).ready(function() {
                 case "ironElements1":
                     console.log('первый');
                     $('#ironImgClose').addClass('ironImgCloseClass');
+                    $('#ironImgOpen').addClass('ironImgOpenClass');
+                    document.getElementById('ironImg1').style.zIndex=0;
                     $('.ironEl').on("mouseout", function(e) {
                         $('#ironImgClose').removeClass('ironImgCloseClass');
+                        $('#ironImgOpen').removeClass('ironImgOpenClass');
+                        document.getElementById('ironImg1').style.zIndex=-1;
                     });
+
                     break;
                 case "ironElements2":
                     console.log('втрой');
-
+                    $('#ironImgClose').addClass('ironImgCloseClass');
+                    $('#ironImgOpen').addClass('ironImgOpenClass');
+                    document.getElementById('ironImg2').style.zIndex=0;
+                    $('.ironEl').on("mouseout", function(e) {
+                        document.getElementById('ironImg2').style.zIndex=-1;
+                        $('#ironImgClose').removeClass('ironImgCloseClass');
+                        $('#ironImgOpen').removeClass('ironImgOpenClass');
+                    });
                     break;
                 case "ironElements3":
                     console.log('третий');
-
+                    $('#ironImgClose').addClass('ironImgCloseClass');
+                    $('#ironImgOpen').addClass('ironImgOpenClass');
+                    document.getElementById('ironImg3').style.zIndex=0;
+                    $('.ironEl').on("mouseout", function(e) {
+                        document.getElementById('ironImg3').style.zIndex=-1;
+                        $('#ironImgClose').removeClass('ironImgCloseClass');
+                        $('#ironImgOpen').removeClass('ironImgOpenClass');
+                    });
                     break;
                 case "ironElements4":
                     console.log('четвертый');
-
+                    $('#ironImgClose').addClass('ironImgCloseClass');
+                    $('#ironImgOpen').addClass('ironImgOpenClass');
+                    document.getElementById('ironImg1').style.zIndex=0;
+                    $('.ironEl').on("mouseout", function(e) {
+                        document.getElementById('ironImg1').style.zIndex=-1;
+                        $('#ironImgClose').removeClass('ironImgCloseClass');
+                        $('#ironImgOpen').removeClass('ironImgOpenClass');
+                    });
                     break;
                 case "ironElements5":
                     console.log('пятый');
-
+                    document.getElementById('ironImg1').style.zIndex=0;
+                    $('#ironImgClose').addClass('ironImgCloseClass');
+                    $('#ironImgOpen').addClass('ironImgOpenClass');
+                    $('.ironEl').on("mouseout", function(e) {
+                        document.getElementById('ironImg1').style.zIndex=-1;
+                        $('#ironImgClose').removeClass('ironImgCloseClass');
+                        $('#ironImgOpen').removeClass('ironImgOpenClass');
+                    });
                     break;
                 default:
                     console.log('Я таких значений не знаю');

@@ -1,164 +1,70 @@
-.wrappOnas1{
-height: auto;
-width: 100%;
-position: relative;
-display: block;
-padding-top: 195px;
-background-color: azure;
-padding-bottom: 66px;
-}
-.blockInfo{
-height: 360px;
-width: 75%;
-border: 2px solid rgba(30, 30, 30, 0.9);
-margin: 16px auto 0 auto;
-}
-#blockInfo1{
+.wrappOnas{
 
 }
-#blockInfo2{
+.infoBlocks{
 
 }
-#blockInfo3{
+.infoBlock{
 
 }
-.imgInfo{
-
-  height: 360px;
-  position: relative;
-  width: 100%;
-  display: flex;
-}
-#imgInfo1{
+#infoBlock1{
 
 }
-#imgInfo2{
+#infoBlock2{
 
 }
-#imgInfo3{
-    
-}
-.imgInfo div{
+#infoBlock3{
 
-  width: 54%;
-  height: 99%;
-  position: relative;
-  background-color: rgb(216, 255, 255);
-  overflow-y: scroll;
 }
-.imgInfo div p{
+.infoBlockText{
 
-  width: 100%;
-  position: relative;
 }
-.imgInfo img{
-height: 99%;
-border-radius: 2px;
-width: 46%;
-position: relative;
-}
-.iron{
+.infoBlockText hr{
 
-  background-color: tomato;
-  height: auto;
-  position: static;
 }
-.ironChild{
+.infoBlockText h2{
 
-  display: flex;
-  position: relative;
+}
+.infoBlockText p{
+
+}
+.infoBlockImg{
+
+}
+.infoBlockImg hr{
+
+}
+.infoBlockImg img{
+
+}
+.wrappIron{
+
+}
+.wrappIron h2{
+
 }
 .ironElements{
 
-  width: 50%;
-  display: flex;
-  flex-wrap: wrap;
-  list-style: inside;
-  position: relative;
-  margin-bottom: 60px;
 }
-#ironElements1{
+.ironElements hr{
 
-  position: relative;
-}
-#ironElements2{
-
-  left: -29px;
-  position: relative;
-}
-#ironElements3{
-
-}
-#ironElements4{
-
-  position: relative;
-  left: -32px;
-}
-#ironElements5{
-
-}
-.ironElements>li{
-  
-  font-size: 40px;
-  line-height: 92px;
-  width: 64%;
 }
 .ironImg{
 
-  width: 45%;
-  margin: 24px 0 71px 0;
-  overflow: hidden;
 }
-#ironImg1{
-  width: 45%;
-  height: 82%;
-  position: absolute;
-  /*! display: none; */
-  z-index: -1;
+.imgText{
+
 }
-#ironImg2{
- width: 45%;
-height: 82%;
-position: absolute;
- /*! display: none; */
- z-index: -1;
+.imgNav{
+
 }
-#ironImg3{
-width: 45%;
-height: 82%;
-position: absolute;
-/*! display: none; */
-z-index: -1;
+.wrappVideo{
+
 }
-#ironImg4{
-width: 45%;
-height: 82%;
-position: absolute;
-}
-#ironImg5{
-width: 45%;
-height: 82%;
-position: absolute;
+.wrappVideo h1{
+
 }
 .video{
 
 }
-.videoChild{
 
-}
-#ironImgOpen{
-position: relative;
-  height: 50%;
-  width: 100%;
-  top: 0;
-/*! transform: scaleY(); */
-}
-#ironImgClose{
-  position: relative;
-  height: 50%;
-  width: 100%;
-  bottom: 0;
-}
-.ironImgCloseClass{
-    transform: translateY(215px);
-}
