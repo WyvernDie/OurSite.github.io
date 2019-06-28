@@ -56,7 +56,7 @@ $k = 1;
     </p>
 
     <div class="novosti-big-block">
-        <div class="owl-carousel owl-theme">
+        <div class="owl-carousel owl-theme" id="news">
             <? $k = 1; ?>
             <?  foreach($newsDatas as $newsData){?>
             <div class="novocti-block n1 wow bounceInDown" data-wow-delay="<? echo "$k"; ?>s" id="newsOverlay<? echo "$k"; ?>">
@@ -85,12 +85,12 @@ $k = 1;
     </div>
 </div>
 
-<script src="/JavaScript/jQuery.js"></script>
+
 <script src="/JavaScript/news-js.js"></script>
 <script src="/owncarousel2/owl.carousel.min.js"></script>
 <script>
     $(document).ready(function () {
-        $(".owl-carousel").owlCarousel({
+        $("#news").owlCarousel({
             items: 5,
             dots: true,
             responsive: {

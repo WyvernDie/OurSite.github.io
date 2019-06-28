@@ -14,7 +14,6 @@ height: auto;
 .infoBlock{
     display: flex;
     position: relative;
-
     height: 100%;
     padding: 0px;
 }
@@ -82,23 +81,172 @@ padding: 10px 6px;
 }
 .wrappIron{
 
+    height: auto;
 }
 .wrappIron h2{
 
+    margin: 10px auto;
+    color: aliceblue;
 }
 .ironElements{
 
+    width: 100%;
+    position: static;
+    /*! height: 100vh; */
+    overflow: hidden;
 }
 .ironElements hr{
 
+    margin-bottom: 15px;
 }
 .ironImg{
-
+    position: relative;
+ width: 100%;
+    margin: 30px auto;
+    display: flex;
+    /*max-width: 100%;*/
+    overflow: hidden;
+    /*! padding: 0 40px; */
+    /*height: 100%;*/
 }
 .imgText{
 
+    color: antiquewhite;
+    /*! width: 40%; */
+    margin: 0px auto;
+    max-width: 70%;
+}
+#imgText1{
+
+    width: 100%;
+    height: auto;
+    color: aqua;
+    position: absolute;
+    z-index: 2;
+    margin-top: 25%;
+}
+#imgText2{
+
+}
+#imgText3{
+
+    display: none;
+}
+#imgText4{
+
+    display: none;
+}
+#imgText5{
+
+    display: none;
+}
+#ironImg1{
+/*width: 100%;*/
+}
+#ironImg2{
+/*width: 100%;*/
+}
+#ironImg3{
+    /*width: 100%;*/
+}
+#ironImg4{
+    /*width: 100%;*/
+}
+#ironImg5{
+    /*width: 100%;*/
+}
+#ironOpen{
+    position: absolute;
+    z-index: 1;
+    height: 50%;
+    top: 0;
+    width: 28.1%;
+}
+#ironClose{
+    position: absolute;
+    height: 50%;
+    z-index: 1;
+    bottom: 0;
+    width: 28.1%;
+}
+#ironImgHelp1{
+
+}
+#ironImgHelp2{
+
+}
+#ironImgHelp3{
+
+}
+#ironImgHelp4{
+}
+#ironImgHelp5{
+}
+.imgNavParths{
+    max-width: 190px;
+    margin: 0 auto;
+    overflow: hidden;
+    max-height: 44px;
+}
+.imgNavParths h2{
+    color: aquamarine;
+    cursor: cell;
+}
+.ironImg img{
+    width: 300px;
+}
+.ironImgHelp{
+    display: flex;
+    position: relative;
+    /*flex-basis: 100%;*/
+    /*overflow: hidden;*/
+    margin: 0 auto;
 }
 .imgNav{
+
+}
+.prev{
+    position: absolute;
+    color: azure;
+    font-size: 30px;
+    left: 41%;
+    height: 6%;
+    padding-top: 14px;
+    cursor: pointer;
+    transform: translateX(50%);
+}
+.next{
+    position: absolute;
+    font-size: 30px;
+    color: bisque;
+    right: 41%;
+    transform: translateX(-80%);
+    height: 6%;
+    padding-top: 14px;
+    cursor: pointer;
+}
+.owl-theme .owl-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: -20px;
+    color: aqua;
+    font-size: 38px;
+}
+
+#imgNavElH21{
+
+}
+#imgNavElH22{
+
+}
+#imgNavElH23{
+
+}
+#imgNavElH24{
+
+}
+#imgNavElH25{
 
 }
 .wrappVideo{

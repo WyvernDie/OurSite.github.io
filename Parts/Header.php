@@ -50,13 +50,19 @@ while ($i < $k) {
     <link rel="stylesheet" href="../CSS/adaptiv.css"/>
     <link rel="stylesheet" href="../CSS/footerStyles.css">
     <link rel="stylesheet" href="../CSS/animate.css">
+    <link rel="stylesheet" href="../slick/slick-theme.css">
+    <link rel="stylesheet" href="../slick/slick.css">
+
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
     <script src="../JavaScript/hearerMenu.js" type="text/javascript"></script>
     <script src="../JavaScript/headerScrolling.js" type="text/javascript"></script>
+    <script src="../JavaScript/slickSlider.js" type="text/javascript"></script>
     <script src="../JavaScript/menu-block.js" type="text/javascript"></script>
     <script src="../JavaScript/codepen.js" type="text/javascript"></script>
+    <script src="../slick/slick.min.js" type="text/javascript"></script>
     <script src="../JavaScript/wow.min..js" type="text/javascript"></script>
     <script> new WOW().init();</script>
     
