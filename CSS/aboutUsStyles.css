@@ -1,164 +1,319 @@
-.wrappOnas1{
+.wrappOnas{
 height: auto;
-width: 100%;
-position: relative;
-display: block;
-padding-top: 195px;
-background-color: azure;
-padding-bottom: 66px;
+    width: 100%;
+    top: 0;
+    padding-top: 100px;
 }
-.blockInfo{
-height: 360px;
-width: 75%;
-border: 2px solid rgba(30, 30, 30, 0.9);
-margin: 16px auto 0 auto;
+.wrappOnas h1{font-size: 3rem; color: white; width: 100%; margin: 0 auto;padding: 53px;/*! height: 100%; */}
+.infoBlocks{
+    height: auto;
+    position: relative;
+    width: 100%;
+    padding: 20px;
 }
-#blockInfo1{
+.infoBlock{
+    display: flex;
+    position: relative;
+    height: 100%;
+    padding: 0px;
+}
+#infoBlock1{
 
 }
-#blockInfo2{
+#infoBlock2{
+flex-direction: row-reverse;
+}
+#infoBlock3{
 
 }
-#blockInfo3{
-
+.infoBlockHelp{
+    position: relative;
+    height: 100%;
 }
-.imgInfo{
-
-  height: 360px;
-  position: relative;
-  width: 100%;
-  display: flex;
+.infoBlockText{
+    background-color: antiquewhite;
+    position: relative;
+    width: 60%;
+    padding: 15px 20px;
+    top: 0;
+    bottom: 0;
 }
-#imgInfo1{
-
+.infoBlockText hr{
+    position: relative;
+    width: 100%;
+    height: 1px;
+    color: black;
 }
-#imgInfo2{
-
-}
-#imgInfo3{
+#hrBottom{
     
 }
-.imgInfo div{
+.infoBlockText h2{
+font-size: 2rem;
+    color: black;
+    position: relative;
 
-  width: 54%;
-  height: 99%;
-  position: relative;
-  background-color: rgb(216, 255, 255);
-  overflow-y: scroll;
+margin-top: 20px;
 }
-.imgInfo div p{
-
-  width: 100%;
-  position: relative;
+.infoBlockText p{
+    position: relative;
+    /*! margin: 10px 6px; */
+    color: grey;
+    padding: 16px 0;
 }
-.imgInfo img{
-height: 99%;
-border-radius: 2px;
-width: 46%;
+.infoBlockImg{
 position: relative;
+    /*! height: 100px; */
+    padding: 16px 12px;
+    background-color: #3b3b3b;
+width: 40%;
 }
-.iron{
-
-  background-color: tomato;
-  height: auto;
-  position: static;
+.infoBlockImg hr{
+width: 86%;
+color: white;
+margin: 0 auto;
 }
-.ironChild{
+.infoBlockImg img{
+margin: 0;
+position: relative;
+width: 100%;
+height: 100%;
+padding: 10px 6px;
+}
+.wrappIron{
 
-  display: flex;
-  position: relative;
+    height: auto;
+}
+.wrappIron h2{
+
+    margin: 10px auto;
+    color: aliceblue;
+    margin-bottom: 30px;
 }
 .ironElements{
 
-  width: 50%;
-  display: flex;
-  flex-wrap: wrap;
-  list-style: inside;
-  position: relative;
-  margin-bottom: 60px;
+    width: 100%;
+    position: static;
+    /*! height: 100vh; */
+    overflow: hidden;
 }
-#ironElements1{
+.ironElements hr{
 
-  position: relative;
-}
-#ironElements2{
-
-  left: -29px;
-  position: relative;
-}
-#ironElements3{
-
-}
-#ironElements4{
-
-  position: relative;
-  left: -32px;
-}
-#ironElements5{
-
-}
-.ironElements>li{
-  
-  font-size: 40px;
-  line-height: 92px;
-  width: 64%;
+    margin-bottom: 15px;
 }
 .ironImg{
+    position: relative;
+ width: 100%;
+    margin: 30px auto;
+    display: flex;
+    /*max-width: 100%;*/
+    overflow: hidden;
+    /*! padding: 0 40px; */
+    /*height: 100%;*/
+}
+.imgText{
 
-  width: 45%;
-  margin: 24px 0 71px 0;
-  overflow: hidden;
+    color: antiquewhite;
+    /*! width: 40%; */
+    margin: 0px auto;
+    max-width: 70%;
+}
+#imgText1{
+
+    width: 100%;
+    height: auto;
+    color: aqua;
+    position: absolute;
+    z-index: 2;
+    margin-top: 25%;
+}
+#imgText2{
+
+}
+#imgText3{
+
+    display: none;
+}
+#imgText4{
+
+    display: none;
+}
+#imgText5{
+
+    display: none;
 }
 #ironImg1{
-  width: 45%;
-  height: 82%;
-  position: absolute;
-  /*! display: none; */
-  z-index: -1;
+/*width: 100%;*/
 }
 #ironImg2{
- width: 45%;
-height: 82%;
-position: absolute;
- /*! display: none; */
- z-index: -1;
+/*width: 100%;*/
 }
 #ironImg3{
-width: 45%;
-height: 82%;
-position: absolute;
-/*! display: none; */
-z-index: -1;
+    /*width: 100%;*/
 }
 #ironImg4{
-width: 45%;
-height: 82%;
-position: absolute;
+    /*width: 100%;*/
 }
 #ironImg5{
-width: 45%;
-height: 82%;
-position: absolute;
+    /*width: 100%;*/
+}
+#ironOpen{
+    position: absolute;
+    z-index: 1;
+    height: 50%;
+    top: 0;
+    transform: translateY(0%);
+}
+#ironClose{
+    position: absolute;
+    height: 50%;
+    z-index: 1;
+    bottom: 0;
+}
+.transform{
+    transform: translateY(-100%);
+}
+#ironImgHelp1{
+
+}
+#ironImgHelp2{
+
+}
+#ironImgHelp3{
+
+}
+#ironImgHelp4{
+}
+#ironImgHelp5{
+}
+
+
+.ironImg img{
+    width: 300px;
+}
+.ironImgHelp{
+    display: flex;
+    position: relative;
+    /*flex-basis: 100%;*/
+    /*overflow: hidden;*/
+    margin: 0 auto;
+}
+
+.prev{
+    position: absolute;
+    color: azure;
+    font-size: 30px;
+    left: 41%;
+    height: 6%;
+    padding-top: 14px;
+    cursor: pointer;
+    transform: translateX(50%);
+}
+.next{
+    position: absolute;
+    font-size: 30px;
+    color: bisque;
+    right: 41%;
+    transform: translateX(-80%);
+    height: 6%;
+    padding-top: 14px;
+    cursor: pointer;
+}
+.imgNav{
+position: relative;
+width: 100%;
+
+
+    align-items: center;
+    display: flex;
+justify-content: center;
+}
+.slide-controls__left{
+color: #4DC7A0;
+    position: relative;
+    cursor: pointer;
+height: 28px;
+width: 28px;
+}
+.slide-controls__right{
+color: #007aff;
+    position: relative;
+    cursor: pointer;
+height: 28px;
+width: 28px;
+}
+.slide-controls-word{
+position: relative;
+overflow: hidden;
+width: auto;
+display: ruby;
+max-width: 15%;
+}
+.slide-control{
+    position: relative;
+    display: block;
+}
+.slide-controlElem{
+color: coral;
+}
+.ironInfo{
+    display: flex;
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+#ironInfo1{
+    position: relative;
+    color: white;
+}
+#ironInfo2{
+    position: relative;
+    color: white;
+}
+#ironInfo3{
+    position: relative;
+    color: white;
+}
+#ironInfo4{
+    position: relative;
+    color: white;
+}
+#ironInfo5{
+    position: relative;
+    color: white;
+}
+.transform{
+    transform: translateY(0%);
+}
+.eyeClose{
+    transform: translateY(-130%);
+    transition: 1.2s;
+}
+.eyeOpen{
+    transform: translateY(130%);
+    transition: 1.2s;
+}
+#imgNavElH21{
+
+}
+#imgNavElH22{
+
+}
+#imgNavElH23{
+
+}
+#imgNavElH24{
+
+}
+#imgNavElH25{
+
+}
+.wrappVideo{
+
+}
+.wrappVideo h1{
+
 }
 .video{
 
 }
-.videoChild{
 
-}
-#ironImgOpen{
-position: relative;
-  height: 50%;
-  width: 100%;
-  top: 0;
-/*! transform: scaleY(); */
-}
-#ironImgClose{
-  position: relative;
-  height: 50%;
-  width: 100%;
-  bottom: 0;
-}
-.ironImgCloseClass{
-    transform: translateY(215px);
-}
