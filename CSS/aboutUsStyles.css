@@ -87,6 +87,7 @@ padding: 10px 6px;
 
     margin: 10px auto;
     color: aliceblue;
+    margin-bottom: 30px;
 }
 .ironElements{
 
@@ -160,14 +161,16 @@ padding: 10px 6px;
     z-index: 1;
     height: 50%;
     top: 0;
-    width: 28.1%;
+    transform: translateY(0%);
 }
 #ironClose{
     position: absolute;
     height: 50%;
     z-index: 1;
     bottom: 0;
-    width: 28.1%;
+}
+.transform{
+    transform: translateY(-100%);
 }
 #ironImgHelp1{
 
@@ -182,16 +185,8 @@ padding: 10px 6px;
 }
 #ironImgHelp5{
 }
-.imgNavParths{
-    max-width: 190px;
-    margin: 0 auto;
-    overflow: hidden;
-    max-height: 44px;
-}
-.imgNavParths h2{
-    color: aquamarine;
-    cursor: cell;
-}
+
+
 .ironImg img{
     width: 300px;
 }
@@ -202,9 +197,7 @@ padding: 10px 6px;
     /*overflow: hidden;*/
     margin: 0 auto;
 }
-.imgNav{
 
-}
 .prev{
     position: absolute;
     color: azure;
@@ -225,15 +218,80 @@ padding: 10px 6px;
     padding-top: 14px;
     cursor: pointer;
 }
-.owl-theme .owl-nav {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-top: -20px;
-    color: aqua;
-    font-size: 38px;
-}
+.imgNav{
+position: relative;
+width: 100%;
 
+
+    align-items: center;
+    display: flex;
+justify-content: center;
+}
+.slide-controls__left{
+color: #4DC7A0;
+    position: relative;
+    cursor: pointer;
+height: 28px;
+width: 28px;
+}
+.slide-controls__right{
+color: #007aff;
+    position: relative;
+    cursor: pointer;
+height: 28px;
+width: 28px;
+}
+.slide-controls-word{
+position: relative;
+overflow: hidden;
+width: auto;
+display: ruby;
+max-width: 15%;
+}
+.slide-control{
+    position: relative;
+    display: block;
+}
+.slide-controlElem{
+color: coral;
+}
+.ironInfo{
+    display: flex;
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+#ironInfo1{
+    position: relative;
+    color: white;
+}
+#ironInfo2{
+    position: relative;
+    color: white;
+}
+#ironInfo3{
+    position: relative;
+    color: white;
+}
+#ironInfo4{
+    position: relative;
+    color: white;
+}
+#ironInfo5{
+    position: relative;
+    color: white;
+}
+.transform{
+    transform: translateY(0%);
+}
+.eyeClose{
+    transform: translateY(-130%);
+    transition: 1.2s;
+}
+.eyeOpen{
+    transform: translateY(130%);
+    transition: 1.2s;
+}
 #imgNavElH21{
 
 }

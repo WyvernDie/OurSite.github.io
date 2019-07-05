@@ -11,8 +11,7 @@
 .owl-carousel {
  display:none;
  width:100%;
- z-index:1;
- margin-top: 25px;
+ z-index:1
 }
 .owl-carousel .owl-stage {
  position:relative;
@@ -54,11 +53,11 @@
 }
 .owl-carousel .owl-dots.disabled,
 .owl-carousel .owl-nav.disabled {
- display:none
 }
 .no-js .owl-carousel,
 .owl-carousel.owl-loaded {
- display:block
+ display:block;
+ margin-top: -40px;
 }
 .owl-carousel .owl-dot,
 .owl-carousel .owl-nav .owl-next,
@@ -95,7 +94,9 @@
  -webkit-user-select:none;
  -moz-user-select:none;
  -ms-user-select:none;
- user-select:none
+ user-select:none;
+ display: flex;
+ justify-content: center;
 }
 .owl-carousel.owl-grab {
  cursor:move;
