@@ -1,8 +1,7 @@
 body{
     margin: 0;
     text-align: center;
-    background-color: #121212;
-    /*background: repeating-linear-gradient(90deg, #282934 0%, #333333 50%, #282934 100%);*/
+    background: repeating-linear-gradient(-45deg, #303030 0%, #252525 50%, #303030 100%);
 
 }
 .log{

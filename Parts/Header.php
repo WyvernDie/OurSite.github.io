@@ -68,7 +68,7 @@ while ($i < $k) {
     
 </head>
 <body>
-<div class="wrapper">
+    <div class="wrapper">
     <header class="vezde global-header">
         <button type="button" id="elem" class="punkt punktz">
             <a href="#free">&#9776</a>
