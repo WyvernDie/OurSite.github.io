@@ -16,7 +16,7 @@ while ($d < $m) {
             <img src="Image/background.png">
         </div>
     </div>
-    <div class="swiper-container wow bounceInUp" data-wow-delay="1s" data-wow-offset="40">
+    <div class="swiper-container wow bounceInUp" data-wow-delay="1s" data-wow-offset="40" style="width: 100%">
         <div class="swiper-wrapper">
             <?php foreach ($gameDatas as $gameData){?>
                 <div class="swiper-slide" >

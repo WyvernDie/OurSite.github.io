@@ -99,6 +99,7 @@ padding: 10px 6px;
 .ironElements hr{
 
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 .ironImg{
     position: relative;
@@ -156,21 +157,67 @@ padding: 10px 6px;
 #ironImg5{
     /*width: 100%;*/
 }
-#ironOpen{
+#ironOpen1{
     position: absolute;
     z-index: 1;
     height: 50%;
     top: 0;
-    transform: translateY(0%);
 }
-#ironClose{
+#ironOpen2{
+    position: absolute;
+    z-index: 1;
+    height: 50%;
+    top: 0;
+}
+#ironOpen3{
+    position: absolute;
+    z-index: 1;
+    height: 50%;
+    top: 0;
+}
+#ironOpen4{
+    position: absolute;
+    z-index: 1;
+    height: 50%;
+    top: 0;
+}
+#ironOpen5{
+    position: absolute;
+    z-index: 1;
+    height: 50%;
+    top: 0;
+}
+
+#ironClose1{
     position: absolute;
     height: 50%;
     z-index: 1;
     bottom: 0;
 }
-.transform{
-    transform: translateY(-100%);
+
+#ironClose2{
+    position: absolute;
+    height: 50%;
+    z-index: 1;
+    bottom: 0;
+}
+#ironClose3{
+    position: absolute;
+    height: 50%;
+    z-index: 1;
+    bottom: 0;
+}
+#ironClose4{
+    position: absolute;
+    height: 50%;
+    z-index: 1;
+    bottom: 0;
+}
+#ironClose5{
+    position: absolute;
+    height: 50%;
+    z-index: 1;
+    bottom: 0;
 }
 #ironImgHelp1{
 
@@ -281,17 +328,62 @@ color: coral;
     position: relative;
     color: white;
 }
-.transform{
+.transform11{
+transform: translateY(0%);
+    transition: 0.9s;
+}
+.transform1{
+transform: translateY(0%);
+transition: 0.9s;
+}
+.transform22{
+transform: translateY(0%);
+transition: 0.9s;
+}
+.transform2{
+transform: translateY(0%);
+transition: 0.9s;
+}
+.transform33{
+transform: translateY(0%);
+transition: 0.9s;
+}
+.transform3{
+transform: translateY(0%);
+transition: 0.9s;
+}
+.transform44{
+transform: translateY(0%);
+transition: 0.9s;
+}
+.transform4{
+transform: translateY(0%);
+    transition: 0.9s;
+}
+.transform55{
+transform: translateY(0%);
+    transition: 0.9s;
+}
+.transform5{
     transform: translateY(0%);
+    transition: 0.9s;
 }
-.eyeClose{
-    transform: translateY(-130%);
-    transition: 1.2s;
+.transformOpen{
+    transform: translateY(-150%);
+    transition: 1.4s;
 }
-.eyeOpen{
-    transform: translateY(130%);
-    transition: 1.2s;
+.transformClose{
+    transform: translateY(150%);
+    transition: 1.4s;
 }
+/*.eyeClose{*/
+/*    transform: translateY(-150%);*/
+/*    transition: 1.2s;*/
+/*}*/
+/*.eyeOpen{*/
+/*    transform: translateY(150%);*/
+/*    transition: 1.2s;*/
+/*}*/
 #imgNavElH21{
 
 }

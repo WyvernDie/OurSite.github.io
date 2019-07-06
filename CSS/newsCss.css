@@ -174,12 +174,11 @@
     justify-content: center;
 }
 .wrapp-img{
-    background-image: url(//OurSite/Image/Games/GTA5.jpg);
     width: 45%;
-    height: 100%;
+    /*! height: 100%; */
     border-radius: 6%;
-    /*! min-width: 250px; */
-    max-height: 300px;
+    position: relative;
+    display: block;
 }
 .news-block{
     width: 45%;
@@ -298,30 +297,36 @@ margin-top: 180px;
 }
 .news-elements-h1{
 
-    width: 80%;
+    width: 77%;
     position: static;
+    height: 13%;
 }
 .news-elements-h1 h1{
 
     padding: 0;
     font-size: 2rem;
-    margin: 20px 0 15px 0;
+    margin: 10px 5px 10px 0;
     position: relative;
+    text-shadow: 6px 3px 92px blue;
+    color: black;
+    line-height: 32px;
 }
 .news-element-text{
 
     float: right;
     width: 58%;
     padding: 4px;
+    position: relative;
+    height: 100%;
 }
 .content-news img{
 
     position: relative;
     float: left;
-    padding: 3px;
     border-radius: 16px;
     width: 100%;
     height: 100%;
+    display: block;
 }
 .news-element-text h2{
 
@@ -337,20 +342,21 @@ margin-top: 180px;
 }
 .news-text-data{
 
-    width: 28%;
     font-size: 14px;
     position: absolute;
     float: right;
-    right: -5%;
-    bottom: 2%;
+    right: 15px;
+    bottom: 0%;
 }
 .content-news{
 
     width: 100%;
-    position: relative;
-    height: 81%;
+    position: absolute;
+    height: 78%;
     display: flex;
     padding: 1%;
+    top: 21%;
+    bottom: 0;
 }
 
 #news-button-a1{

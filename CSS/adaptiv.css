@@ -186,11 +186,12 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
         
     }
     .news-block{
-    margin: 185px 21% 0 21%;
+    margin: 185px auto;
     min-height: 380px;
     max-height: 340px;
     max-width: 600px;
     min-width: 460px;
+    position: relative;
     }
     .novosti-big-block{
         padding: 0;
@@ -263,7 +264,7 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     }
     .news-text-data{
         
-    bottom: -2%;
+   
     }
     
     .news-button{
@@ -380,8 +381,9 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     }
     .news-text-data{
 
-    bottom: -3%;
     font-size: 16px;
+    right: 0;
+    width: 55%;
     }
     .news-button{
         display: flex;
@@ -663,9 +665,8 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     }
     .news-text-data{
 
-    bottom: -8%;
-    right: -3%;
-    position: absolute;
+    position: relative;
+    width: 100%;
     }
     #news-button-a1{
         display: block;
@@ -690,6 +691,7 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     left: 0;
     margin-top: 12px;
     font-size: 23px;
+    margin-bottom: 0;
     }
     .news-element-text p{
         
@@ -781,6 +783,9 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
       h1{
         
     }
+    .news-text-data{
+        
+    }
 }
 @media (max-width:320px){
     .gameBan{
@@ -801,7 +806,7 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
         margin-right: 20px;
         margin-top: 2px;
         z-index: 8989875;
-        left: 63%;
+        left: 65%;
     }
     .price{
         border: none;
@@ -887,6 +892,8 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     .news-elements-h1 h1{
 
     margin: 7px 0;
+    height: auto;
+    margin-bottom: 0;
     }
     .news-block{
 
@@ -965,7 +972,9 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     .news-text-data{
 
     bottom: 3%;
-    right: 0%;
+    width: 100%;
+    left: 0;
+    position: relative;
     }
     .wrapp-img{
         
@@ -989,7 +998,7 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     }
     .content-news{
        
-    height: 90%;
+    height: auto;
     }
     .overlay-open {
         
@@ -1102,6 +1111,7 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
       h1{
         
     }
+
 }
 @media (max-width:240px){
     .novosti-icon{
@@ -1297,5 +1307,8 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
         font-size: 27px;
         height: 40px;
         padding: 5px;
+    }
+    .news-text-data{
+        
     }
 }

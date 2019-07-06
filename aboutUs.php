@@ -64,37 +64,37 @@ require 'Parts/Header.php';
             <div class="ironImg owl-carousel owl-theme" id="ironCarousel">
                     <div class="ironImgHelp" id="ironImgHelp1">
                 <img src="../Image/Games/GTA5.jpg" id="ironImg1" alt="">
-                <img src="../Image/iSeeYou1.jpg"   class="transform"  id="ironOpen" alt="">
-                <img src="../Image/iSeeYou2.jpg"   class="transform"  id="ironClose" alt="">
+                <img src="../Image/iSeeYou1.jpg"   class="transform11"  id="ironOpen1" alt="">
+                <img src="../Image/iSeeYou2.jpg"   class="transform1"  id="ironClose1" alt="">
                     </div>
                         <div class="ironImgHelp" id="ironImgHelp2">
                 <img src="../Image/Games/c.jpg" id="ironImg2" alt="">
-                <img src="../Image/iSeeYou1.jpg"  class="transform"  id="ironOpen" alt="">
-                <img src="../Image/iSeeYou2.jpg"  class="transform"  id="ironClose" alt="">
+                <img src="../Image/iSeeYou1.jpg"  class="transform22"  id="ironOpen2" alt="">
+                <img src="../Image/iSeeYou2.jpg"  class="transform2"  id="ironClose2" alt="">
                         </div>
                 <div class="ironImgHelp" id="ironImgHelp3">
                 <img src="../Image/Games/GTA5.jpg" id="ironImg3" alt="">
-                <img src="../Image/iSeeYou1.jpg"  class="transform" id="ironOpen" alt="">
-                <img src="../Image/iSeeYou2.jpg"  class="transform" id="ironClose" alt="">
+                <img src="../Image/iSeeYou1.jpg"  class="transform33" id="ironOpen3" alt="">
+                <img src="../Image/iSeeYou2.jpg"  class="transform3" id="ironClose3" alt="">
                     </div>
                         <div class="ironImgHelp" id="ironImgHelp4">
                 <img src="../Image/Games/c.jpg" id="ironImg4" alt="">
-                <img src="../Image/iSeeYou1.jpg"  class="transform"  id="ironOpen" alt="">
-                <img src="../Image/iSeeYou2.jpg"  class="transform"  id="ironClose" alt="">
+                <img src="../Image/iSeeYou1.jpg"  class="transform44"  id="ironOpen4" alt="">
+                <img src="../Image/iSeeYou2.jpg"  class="transform4"  id="ironClose4" alt="">
                         </div>
                             <div class="ironImgHelp" id="ironImgHelp5">
                 <img src="../Image/Games/GTA5.jpg" id="ironImg5" alt="">
-                <img src="../Image/iSeeYou1.jpg"  class="transform" id="ironOpen" alt="">
-                <img src="../Image/iSeeYou2.jpg"  class="transform" id="ironClose" alt="">
+                <img src="../Image/iSeeYou1.jpg"  class="transform55" id="ironOpen5" alt="">
+                <img src="../Image/iSeeYou2.jpg"  class="transform5" id="ironClose5" alt="">
                             </div>
             </div>
 
         <div class="ironInfo owl-carousel owl-theme" id="ironInfoD">
-            <p id="ironInfo1">1ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
-            <p id="ironInfo2">21ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
-            <p id="ironInfo3">31ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
-            <p id="ironInfo4">41ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
-            <p id="ironInfo5">51ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
+            <p id="ironInfo1">2ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
+            <p id="ironInfo2">31ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
+            <p id="ironInfo3">41ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
+            <p id="ironInfo4">51ldsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
+            <p id="ironInfo5">11ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
         </div>
 
                    <hr id="imgTextHr">
@@ -105,20 +105,17 @@ require 'Parts/Header.php';
                     <div class="slide-controls-word">
 
                         <div id="slide-controlText" class="slide-control owl-carousel owl-theme" style="margin-top: 0">
-                                <div><p class="slide-controlElem">видюха1</p></div>
                                 <div><p class="slide-controlElem">видюха2</p></div>
                                 <div><p class="slide-controlElem">видюха3</p></div>
                                 <div><p class="slide-controlElem">видюха4</p></div>
                                 <div><p class="slide-controlElem">видюха5</p></div>
+                                <div><p class="slide-controlElem">видюха1</p></div>
                         </div>
 
                     </div>
 
                 <img src="../Image/navRightImg.jpg" id="slideRight" class="slide-controls__right" alt="вправо">
 </div>
-
-
-
 <div class="wrappVideo">
     <h1></h1>
     <div class="video"></div>
@@ -131,6 +128,7 @@ require 'Parts/Header.php';
                 items: 3,
                 touchDrag: false,
                 mouseDrag:false,
+                margin: 15,
                 loop: true,
                 dots: false,
                 responsive: {
@@ -138,24 +136,21 @@ require 'Parts/Header.php';
                         nav: false,
                         items: 1,
                         dots: false,
-                        margin: 10,
+
                     },
                     240: {
                         nav: false,
                         items: 1,
-                        margin: 10,
                         dots: false
                     },
                     320: {
                         nav: false,
                         items: 1,
-                        margin: 10,
                         dots: false
                     },
                     480: {
                         dots: false,
-                        margin: 10,
-                        items: 2,
+                        items: 1,
                         nav: false,
                     },
                     640: {
@@ -167,18 +162,16 @@ require 'Parts/Header.php';
                         dots: false,
                         nav: false,
                         items: 3,
-                        margin: 10
                     },
                     1300: {
                         items: 3,
                         dots: false,
                         nav: false,
-                        margin: 10
                     }
                 }
             });
                 $('#slide-controlText').owlCarousel({
-                margin: 10,
+                margin: 15,
                     touchDrag: false,
                     mouseDrag:false,
                     loop: true,
@@ -186,7 +179,7 @@ require 'Parts/Header.php';
                 dots: false
             });
                 $('#ironInfoD').owlCarousel({
-                    margin: 10,
+                    margin: 15,
                     touchDrag: false,
                     mouseDrag:false,
                     loop: true,
