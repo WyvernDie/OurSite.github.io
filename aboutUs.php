@@ -96,7 +96,13 @@ require 'Parts/Header.php';
             <p id="ironInfo4">51ldsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
             <p id="ironInfo5">11ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
         </div>
-
+        <div class="ironInfo owl-carousel owl-theme" id="ironInfoDHelp">
+            <p id="ironInfo1">1ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
+            <p id="ironInfo2">21ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
+            <p id="ironInfo3">31ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
+            <p id="ironInfo4">41ldsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
+            <p id="ironInfo5">51ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
+        </div>
                    <hr id="imgTextHr">
             <div class="imgNav">
 
@@ -111,7 +117,13 @@ require 'Parts/Header.php';
                                 <div><p class="slide-controlElem">видюха5</p></div>
                                 <div><p class="slide-controlElem">видюха1</p></div>
                         </div>
-
+                        <div id="slide-controlTextHelp" class="slide-control owl-carousel owl-theme" style="margin-top: 0">
+                            <div><p class="slide-controlElem">видюха1</p></div>
+                            <div><p class="slide-controlElem">видюха2</p></div>
+                            <div><p class="slide-controlElem">видюха3</p></div>
+                            <div><p class="slide-controlElem">видюха4</p></div>
+                            <div><p class="slide-controlElem">видюха5</p></div>
+                        </div>
                     </div>
 
                 <img src="../Image/navRightImg.jpg" id="slideRight" class="slide-controls__right" alt="вправо">
@@ -156,7 +168,7 @@ require 'Parts/Header.php';
                     640: {
                         dots: false,
                         nav: false,
-                        items: 3,
+                        items: 1,
                     },
                     876: {
                         dots: false,
@@ -178,6 +190,14 @@ require 'Parts/Header.php';
                     items: 1,
                 dots: false
             });
+            $('#slide-controlTextHelp').owlCarousel({
+                margin: 15,
+                touchDrag: false,
+                mouseDrag:false,
+                loop: true,
+                items: 1,
+                dots: false
+            });
                 $('#ironInfoD').owlCarousel({
                     margin: 15,
                     touchDrag: false,
@@ -186,6 +206,14 @@ require 'Parts/Header.php';
                     items: 1,
                     dots: false
                 });
+            $('#ironInfoDHelp').owlCarousel({
+                margin: 15,
+                touchDrag: false,
+                mouseDrag:false,
+                loop: true,
+                items: 1,
+                dots: false
+            });
         });
     </script>
 <?php

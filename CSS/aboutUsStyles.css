@@ -244,7 +244,12 @@ padding: 10px 6px;
     /*overflow: hidden;*/
     margin: 0 auto;
 }
-
+#ironInfoDHelp{
+    display: none;
+}
+#slide-controlTextHelp{
+    display: none;
+}
 .prev{
     position: absolute;
     color: azure;

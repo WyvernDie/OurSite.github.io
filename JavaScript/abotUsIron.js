@@ -2,12 +2,25 @@
 $(document).ready(function() {
 
        const slide = $('.owl-carousel');
-    var count=2, n1=2, n2=3, n3=4, n4=5, n5=1;
+    var count, n1=2, n2=3, n3=4, n4=5, n5=1;
 
        slide.on('intialize.owl.carousel initializwd.owl.carousel', function (event) {
           $('#slide-controlText').text(event.item.index + 1)
        });
 
+       if(window.innerWidth >= 876){
+           count=2;
+       }else{
+           count=1;
+       }
+    if(count==2){
+
+    } else{
+        document.getElementById('slide-controlText').style.display='none';
+        document.getElementById('ironInfoD').style.display='none';
+        document.getElementById('slide-controlTextHelp').style.display='block';
+        document.getElementById('ironInfoDHelp').style.display='block';
+    }
 
        $('#slideLeft').click(function () {
            switch (count) {
