@@ -19,6 +19,7 @@ height: auto;
 }
 #infoBlock1{
 
+    margin-top: 245px;
 }
 #infoBlock2{
 flex-direction: row-reverse;
@@ -82,12 +83,11 @@ padding: 10px 6px;
 .wrappIron{
 
     height: auto;
+    margin-top: 30px;
 }
 .wrappIron h2{
 
-    margin: 10px auto;
     color: aliceblue;
-    margin-bottom: 30px;
 }
 .ironElements{
 
@@ -142,50 +142,41 @@ padding: 10px 6px;
 
     display: none;
 }
-#ironImg1{
-/*width: 100%;*/
-}
-#ironImg2{
-/*width: 100%;*/
-}
-#ironImg3{
-    /*width: 100%;*/
-}
-#ironImg4{
-    /*width: 100%;*/
-}
-#ironImg5{
-    /*width: 100%;*/
-}
+
 #ironOpen1{
     position: absolute;
     z-index: 1;
     height: 50%;
     top: 0;
+    transition-delay: 0.8s;
 }
 #ironOpen2{
     position: absolute;
     z-index: 1;
     height: 50%;
     top: 0;
+    transition-delay: 0.8s;
 }
 #ironOpen3{
     position: absolute;
     z-index: 1;
     height: 50%;
     top: 0;
+    transition-delay: 0.8s;
 }
 #ironOpen4{
     position: absolute;
     z-index: 1;
     height: 50%;
     top: 0;
+    transition-delay: 0.8s;
 }
 #ironOpen5{
     position: absolute;
     z-index: 1;
     height: 50%;
     top: 0;
+    transition-delay: 0.8s;
 }
 
 #ironClose1{
@@ -193,6 +184,7 @@ padding: 10px 6px;
     height: 50%;
     z-index: 1;
     bottom: 0;
+    transition-delay: 0.8s;
 }
 
 #ironClose2{
@@ -200,24 +192,28 @@ padding: 10px 6px;
     height: 50%;
     z-index: 1;
     bottom: 0;
+    transition-delay: 0.8s;
 }
 #ironClose3{
     position: absolute;
     height: 50%;
     z-index: 1;
     bottom: 0;
+    transition-delay: 0.8s;
 }
 #ironClose4{
     position: absolute;
     height: 50%;
     z-index: 1;
     bottom: 0;
+    transition-delay: 0.8s;
 }
 #ironClose5{
     position: absolute;
     height: 50%;
     z-index: 1;
     bottom: 0;
+    transition-delay: 0.8s;
 }
 #ironImgHelp1{
 
@@ -232,10 +228,13 @@ padding: 10px 6px;
 }
 #ironImgHelp5{
 }
-
+.wrappImgHelp{
+    position: relative;
+}
 
 .ironImg img{
     width: 300px;
+    /*! min-height: 456px; */
 }
 .ironImgHelp{
     display: flex;
@@ -305,12 +304,12 @@ max-width: 15%;
     display: block;
 }
 .slide-controlElem{
+    width: auto;
 color: coral;
 }
 .ironInfo{
-    display: flex;
     position: relative;
-    height: 50px;
+  
     width: 100%;
 }
 #ironInfo1{
@@ -381,14 +380,13 @@ transform: translateY(0%);
     transform: translateY(150%);
     transition: 1.4s;
 }
-/*.eyeClose{*/
-/*    transform: translateY(-150%);*/
-/*    transition: 1.2s;*/
-/*}*/
-/*.eyeOpen{*/
-/*    transform: translateY(150%);*/
-/*    transition: 1.2s;*/
-/*}*/
+
+.ironInfoP{
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+}
+
 #imgNavElH21{
 
 }

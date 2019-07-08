@@ -1,8 +1,7 @@
 <?php
 require 'Parts/Header.php';
 ?>
-<div class="wrappOnas">
-    <h1>Loewm ipsum</h1>
+<div class="wrappOn1>Loewm ipsum</h1>
     <div class="infoBlocks">
         <div class="infoBlock" id="infoBlock1">
                     <div class="infoBlockText">
@@ -64,37 +63,37 @@ require 'Parts/Header.php';
             <div class="ironImg owl-carousel owl-theme" id="ironCarousel">
                     <div class="ironImgHelp" id="ironImgHelp1">
                 <img src="../Image/Games/GTA5.jpg" id="ironImg1" alt="">
-                <img src="../Image/iSeeYou1.jpg"   class="transform11"  id="ironOpen1" alt="">
-                <img src="../Image/iSeeYou2.jpg"   class="transform1"  id="ironClose1" alt="">
+                <img src="../Image/iSeeYou1.jpg"   class="transform11"  id="ironOpen1" alt="открытый глаз">
+                <img src="../Image/iSeeYou2.jpg"   class="transform1"  id="ironClose1" alt="закрытый глаз">
                     </div>
                         <div class="ironImgHelp" id="ironImgHelp2">
                 <img src="../Image/Games/c.jpg" id="ironImg2" alt="">
-                <img src="../Image/iSeeYou1.jpg"  class="transform22"  id="ironOpen2" alt="">
-                <img src="../Image/iSeeYou2.jpg"  class="transform2"  id="ironClose2" alt="">
+                <img src="../Image/iSeeYou1.jpg"  class="transform22"  id="ironOpen2" alt="открытый глаз">
+                <img src="../Image/iSeeYou2.jpg"  class="transform2"  id="ironClose2" alt="закрытый глаз">
                         </div>
                 <div class="ironImgHelp" id="ironImgHelp3">
                 <img src="../Image/Games/GTA5.jpg" id="ironImg3" alt="">
-                <img src="../Image/iSeeYou1.jpg"  class="transform33" id="ironOpen3" alt="">
-                <img src="../Image/iSeeYou2.jpg"  class="transform3" id="ironClose3" alt="">
-                    </div>
+                <img src="../Image/iSeeYou1.jpg"  class="transform33" id="ironOpen3" alt="открытый глаз">
+                <img src="../Image/iSeeYou2.jpg"  class="transform3" id="ironClose3" alt="закрытый глаз">
+                </div>
                         <div class="ironImgHelp" id="ironImgHelp4">
                 <img src="../Image/Games/c.jpg" id="ironImg4" alt="">
-                <img src="../Image/iSeeYou1.jpg"  class="transform44"  id="ironOpen4" alt="">
-                <img src="../Image/iSeeYou2.jpg"  class="transform4"  id="ironClose4" alt="">
+                <img src="../Image/iSeeYou1.jpg"  class="transform44"  id="ironOpen4" alt="открытый глаз">
+                <img src="../Image/iSeeYou2.jpg"  class="transform4"  id="ironClose4" alt="закрытый глаз">
                         </div>
                             <div class="ironImgHelp" id="ironImgHelp5">
                 <img src="../Image/Games/GTA5.jpg" id="ironImg5" alt="">
-                <img src="../Image/iSeeYou1.jpg"  class="transform55" id="ironOpen5" alt="">
-                <img src="../Image/iSeeYou2.jpg"  class="transform5" id="ironClose5" alt="">
+                <img src="../Image/iSeeYou1.jpg"  class="transform55" id="ironOpen5" alt="открытый глаз">
+                <img src="../Image/iSeeYou2.jpg"  class="transform5" id="ironClose5" alt="закрытый глаз">
                             </div>
             </div>
 
         <div class="ironInfo owl-carousel owl-theme" id="ironInfoD">
-            <p id="ironInfo1">2ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
-            <p id="ironInfo2">31ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
-            <p id="ironInfo3">41ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
-            <p id="ironInfo4">51ldsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
-            <p id="ironInfo5">11ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
+            <div class="ironInfoP"><p id="ironInfo1">2ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p></div>
+            <div class="ironInfoP"><p id="ironInfo2">31ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p></div>
+            <div class="ironInfoP"><p id="ironInfo3">41ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p></div>
+            <div class="ironInfoP"><p id="ironInfo4">51ldsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p></div>
+            <div class="ironInfoP"><p id="ironInfo5">11ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p></div>
         </div>
         <div class="ironInfo owl-carousel owl-theme" id="ironInfoDHelp">
             <p id="ironInfo1">1ldssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
