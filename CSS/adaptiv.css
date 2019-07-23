@@ -29,72 +29,7 @@
     }
     .owl-carousel .owl-stage {
     }
-     @keyframes news{
-  from{
-    transform: rotateY(480deg);
-    margin-top: -300px;
-  }
-    20%{
-        
-    }
-    30%{
-      margin-top: 343px;
-      min-height:230px;
-      min-width: 630px; 
-    } 
-    45%{
-      min-height: 230px;
-      min-width: 550px;
-       }
-  55%{
-      margin-top: 200px;
-      animation-direction: alternate;
-      min-height: 380px;
-      min-width: 550px;
-      transform: rotate(0deg);
-  }
-    66%{
-        min-height: 380px;
-        min-width: 500px;
-        box-shadow: 0px -10px 24px 10px rgb(254, 243, 233);
-    }
-    68%{
-  box-shadow: 0px -8px 20px 8px rgb(254, 243, 233);       
-    }
-    70%{
-box-shadow: 0px -6px 17px 6px rgb(254, 243, 233);        
-    }
-    73%{
-        box-shadow: 0px 0px 15px 4px rgb(254, 243, 233);
-    }
-    75%{
-transform: rotate(0deg);
-margin-top: 190px;
-box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);           
-    }
-  80% {
-     box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
-       margin-top: 190px;
-     transform: rotate(0deg);
-  } 
-}
-    .menu-block{
-        display: none;
-    }
-    canvas:nth-child(4){
-        bottom: 0;
-        height: 82%;
-    }
-    
-    canvas:nth-child(3){
-        bottom: 0;
-    }
-    
-    canvas:nth-child(2){
-       bottom: 0;
-    }
-}
-
+   
 @media (max-width:876px){ /*Медиа-запрос*/
     html{
         width: 100%;
@@ -203,58 +138,7 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     .news-block{
         
     }
-    @keyframes news{
-  from{
-    transform: rotateY(480deg);
-    margin-top: -300px;
-  }
-    20%{
-/*         transform: rotateY(180deg); */
-        
-    }
-    30%{
-      margin-top: 343px;
-      min-height:230px;
-      min-width: 630px; 
-    } 
-    45%{
-      min-height: 230px;
-      min-width: 550px;
-       }
-  55%{
-      margin-top: 200px;
-      animation-direction: alternate;
-      min-height: 380px;
-      min-width: 550px;
-      transform: rotate(0deg);
-  }
-    66%{
-        min-height: 380px;
-         min-width: 460px;
-        box-shadow: 0px -10px 24px 10px rgb(254, 243, 233);
-    }
-    68%{
-  box-shadow: 0px -8px 20px 8px rgb(254, 243, 233);       
-    }
-    70%{
-box-shadow: 0px -6px 17px 6px rgb(254, 243, 233);        
-    }
-    73%{
-        box-shadow: 0px 0px 15px 4px rgb(254, 243, 233);
-    }
-    75%{
-transform: rotate(0deg);
-margin-top: 190px;
-box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);           
-    }
-  80% {
-     box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
-       margin-top: 185px;
-     transform: rotate(0deg);
-  }
     
-}
-
     .news-element-text{
         
     }
@@ -302,28 +186,30 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     #ironImg1{
         width: 95%;
       margin: 0px auto;
-    min-height: 456px;
+/*     min-height: 300px; */
     }
+
     #ironImg2{
         margin: 0px auto;
         width: 95%;
-    min-height: 456px;
+/*     min-height: 300px; */
         }
     #ironImg3{
      margin: 0px auto;
         width: 95%;
-    min-height: 456px;
+/*     min-height: 300px; */
   }
     #ironImg4{
         margin: 0px auto;
         width: 95%;
-    min-height: 456px;
+/*     min-height: 300px; */
         }
     #ironImg5{
         margin: 0px auto;
         width: 95%;
-    min-height: 456px;
+/*     min-height: 300px; */
       }
+/*     #ironOpen2{height: 50%} */
 }
 @media (max-width:640px){
     .price{
@@ -454,6 +340,9 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     h1{
         
     }
+    .infoBlock{
+        max-height: 250px;
+    }
 }
 @media (max-width:480px){
     .gameBan{
@@ -539,7 +428,7 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
         width: 36px;
         padding: 0;
         z-index: 100000;
-        left: 66%;
+        left: 67%;
     }
     .menu-block{
         transition: 0.5s;
@@ -618,60 +507,7 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
         min-width: 325px;
         position: absolute;
     }
-     @keyframes news{
-  from{
-    transform: rotateY(480deg);
-    margin-top: -300px;
-  }
-    20%{
-/*         transform: rotateY(180deg); */
-        
-    }
-    30%{
-      margin-top: 180px;
-      min-height:500px;
-      min-width: 370px; 
-    } 
-    45%{
-      min-height: 510px;
-      min-width: 390px;
-       }
-  55%{
-      margin-top: 110px;
-      animation-direction: alternate;
-      min-height: 510px;
-      min-width: 360px;
-      transform: rotate(0deg);
-  }
-    66%{
-        min-height: 520px;
-         min-width: 340px;
-        box-shadow: 0px -10px 24px 10px rgb(254, 243, 233);
-    }
-    68%{
-  box-shadow: 0px -8px 20px 8px rgb(254, 243, 233);       
-    }
-    70%{
-box-shadow: 0px -6px 17px 6px rgb(254, 243, 233);        
-    }
-    73%{
-        min-height: 522px;
-        min-width: 325px;
-        box-shadow: 0px 0px 15px 4px rgb(254, 243, 233);
-    }
-    75%{
-transform: rotate(0deg);
-margin-top: 100px;
-box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);           
-    }
-  80% {
-     box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
-       margin-top: 121px;
-     transform: rotate(0deg);
-  }
     
-}
-
     .news-element-text{
 
     width: 100%;
@@ -810,6 +646,29 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     .news-text-data{
         
     }
+    .infoBlock{
+ 
+        display: block;
+     
+        max-height: none;
+    }
+    .infoBlockText{
+     
+        margin: 0 auto;
+        width:100%;
+        
+    }
+    .infoBlockImg{
+     
+        margin: 0 auto;
+        width:100%;
+    }
+    #infoBlockDoubImg{
+    display:block;
+    }
+    #infoBlockImg{
+    display:none;
+    }
 }
 @media (max-width:320px){
     .gameBan{
@@ -932,60 +791,7 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     max-height: 375px;
     min-height: 535px;
     }
-       @keyframes news{
-  from{
-    transform: rotateY(480deg);
-    margin-top: -300px;
-  }
-    20%{
-/*         transform: rotateY(180deg); */
-        
-    }
-    30%{
-      margin-top: 100px;
-      min-height:550px;
-      min-width: 290px; 
-    } 
-    45%{
-      min-height: 540px;
-      min-width: 307px;
-       }
-  55%{
-      margin-top: 90px;
-      animation-direction: alternate;
-      min-height: 560px;
-      min-width: 300px;
-      transform: rotate(0deg);
-  }
-    66%{
-        min-height: 550px;
-         min-width: 260px;
-        box-shadow: 0px -10px 24px 10px rgb(254, 243, 233);
-    }
-    68%{
-  box-shadow: 0px -8px 20px 8px rgb(254, 243, 233);       
-    }
-    70%{
-box-shadow: 0px -6px 17px 6px rgb(254, 243, 233);        
-    }
-    73%{
-        min-height: 540px;
-        min-width: 245px;
-        box-shadow: 0px 0px 15px 4px rgb(254, 243, 233);
-    }
-    75%{
-         min-height: 535px;
-transform: rotate(0deg);
-margin-top: 90px;
-box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);           
-    }
-  80% {
-     box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
-       margin-top: 85px;
-     transform: rotate(0deg);
-  }
-    
-}
+       
 
     .news-element-text{
 
@@ -1135,7 +941,10 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
       h1{
         
     }
-
+    .wrappOnas h1{padding: 20px 0;line-height: 44px;}
+    .wrappOnas{
+        padding-top: 70px;
+    }
 }
 @media (max-width:240px){
     .novosti-icon{
@@ -1206,59 +1015,7 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     max-width: 200px;
     min-width: 200px;
     }
-           @keyframes news{
-  from{
-    transform: rotateY(480deg);
-    margin-top: -300px;
-  }
-    20%{
-/*         transform: rotateY(180deg); */
-        
-    }
-    30%{
-      margin-top: 100px;
-      min-height:540px;
-      min-width: 205px; 
-    } 
-    45%{
-      min-height: 550px;
-      min-width: 200px;
-       }
-  55%{
-      margin-top: 90px;
-      animation-direction: alternate;
-      min-height: 550px;
-      min-width: 190px;
-      transform: rotate(0deg);
-  }
-    66%{
-        min-height: 535px;
-         min-width: 200px;
-        box-shadow: 0px -10px 24px 10px rgb(254, 243, 233);
-    }
-    68%{
-  box-shadow: 0px -8px 20px 8px rgb(254, 243, 233);       
-    }
-    70%{
-box-shadow: 0px -6px 17px 6px rgb(254, 243, 233);        
-    }
-    73%{
-        min-height: 535px;
-        min-width: 200px;
-        box-shadow: 0px 0px 15px 4px rgb(254, 243, 233);
-    }
-    75%{
-transform: rotate(0deg);
-/* margin-top: 70px; */
-box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);           
-    }
-  80% {
-     box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
-       margin-top: 85px;
-     transform: rotate(0deg);
-  }
-    
-}
+       
 
     .news-button{
         
@@ -1337,4 +1094,8 @@ box-shadow: 0px 1px 20px 1px rgb(244, 239, 249);
     .news-text-data{
         
     }
+    .wrappOnas h1 {
+    padding: 20px 0;
+        line-height: 44px;}
+    .infoBlockImg{min-width: auto;}
 }

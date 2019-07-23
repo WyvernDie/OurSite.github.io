@@ -7,15 +7,14 @@ $(document).ready(function() {
        slide.on('intialize.owl.carousel initializwd.owl.carousel', function (event) {
           $('#slide-controlText').text(event.item.index + 1)
        });
-
        if(window.innerWidth >= 876){
            count=2;
+           console.log(window.innerWidth);
        }else{
            count=1;
        }
     if(count==2){
-
-    } else{
+    } else if (count==1) {
         document.getElementById('slide-controlText').style.display='none';
         document.getElementById('ironInfoD').style.display='none';
         document.getElementById('slide-controlTextHelp').style.display='block';

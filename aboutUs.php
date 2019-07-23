@@ -1,9 +1,14 @@
 <?php
 require 'Parts/Header.php';
 ?>
-<div class="wrappOn1>Loewm ipsum</h1>
-    <div class="infoBlocks">
+    <div class="wrappOnas">
+        <h1>Loewm ipsum</h1>
         <div class="infoBlock" id="infoBlock1">
+            <div class="infoBlockImg" id="infoBlockDoubImg">
+                <hr>
+                <img src="../Image/news/1.jpg" alt="тутуттут" id="" class="">
+                <hr>
+            </div>
                     <div class="infoBlockText">
                         <div class="infoBlockHelp">
                         <hr>
@@ -12,7 +17,7 @@ require 'Parts/Header.php';
                         </div>
                         <hr id="hrBottom">
                     </div>
-                <div class="infoBlockImg">
+                <div class="infoBlockImg" id="infoBlockImg">
                     <hr>
                     <img src="../Image/news/1.jpg" alt="тутуттут" id="" class="">
                     <hr>
@@ -22,6 +27,11 @@ require 'Parts/Header.php';
 
 
         <div class="infoBlock" id="infoBlock2">
+            <div class="infoBlockImg" id="infoBlockDoubImg">
+                <hr>
+                <img src="../Image/news/1.jpg" alt="тутуттут" id="" class="">
+                <hr>
+            </div>
             <div class="infoBlockText">
                 <div class="infoBlockHelp">
                     <hr>
@@ -30,7 +40,7 @@ require 'Parts/Header.php';
                 </div>
                 <hr id="hrBottom">
             </div>
-            <div class="infoBlockImg">
+            <div class="infoBlockImg" id="infoBlockImg">
                 <hr>
                 <img src="../Image/news/1.jpg" alt="тутуттут" id="" class="">
                 <hr>
@@ -41,6 +51,11 @@ require 'Parts/Header.php';
 
 
         <div class="infoBlock" id="infoBlock3">
+            <div class="infoBlockImg" id="infoBlockDoubImg">
+                <hr>
+                <img src="../Image/news/1.jpg" alt="тутуттут" id="" class="">
+                <hr>
+            </div>
             <div class="infoBlockText">
                 <div class="infoBlockHelp">
                     <hr>
@@ -49,7 +64,7 @@ require 'Parts/Header.php';
                 </div>
                 <hr id="hrBottom">
             </div>
-            <div class="infoBlockImg">
+            <div class="infoBlockImg" id="infoBlockImg">
                 <hr>
                 <img src="../Image/news/1.jpg" alt="тутуттут" id="" class="">
                 <hr>
@@ -110,18 +125,18 @@ require 'Parts/Header.php';
                     <div class="slide-controls-word">
 
                         <div id="slide-controlText" class="slide-control owl-carousel owl-theme" style="margin-top: 0">
-                                <div><p class="slide-controlElem">видюха2</p></div>
-                                <div><p class="slide-controlElem">видюха3</p></div>
-                                <div><p class="slide-controlElem">видюха4</p></div>
-                                <div><p class="slide-controlElem">видюха5</p></div>
-                                <div><p class="slide-controlElem">видюха1</p></div>
+                            <div class="MNav">видюха2332</div>
+                            <div class="MNav">видюха3</div>
+                            <div class="MNav">видюха4</div>
+                            <div class="MNav">видюха5</div>
+                            <div class="MNav">видюха1</div>
                         </div>
                         <div id="slide-controlTextHelp" class="slide-control owl-carousel owl-theme" style="margin-top: 0">
-                            <div><p class="slide-controlElem">видюха1</p></div>
-                            <div><p class="slide-controlElem">видюха2</p></div>
-                            <div><p class="slide-controlElem">видюха3</p></div>
-                            <div><p class="slide-controlElem">видюха4</p></div>
-                            <div><p class="slide-controlElem">видюха5</p></div>
+                            <div class="MNav">видюха12332</div>
+                            <div class="MNav">видюха243</div>
+                            <div class="MNav">видюха333</div>
+                            <div class="MNav">видюха443</div>
+                            <div class="MNav">видюха555</div>
                         </div>
                     </div>
 
@@ -182,7 +197,7 @@ require 'Parts/Header.php';
                 }
             });
                 $('#slide-controlText').owlCarousel({
-                margin: 15,
+                margin: 70,
                     touchDrag: false,
                     mouseDrag:false,
                     loop: true,
@@ -190,7 +205,7 @@ require 'Parts/Header.php';
                 dots: false
             });
             $('#slide-controlTextHelp').owlCarousel({
-                margin: 15,
+                margin: 70,
                 touchDrag: false,
                 mouseDrag:false,
                 loop: true,

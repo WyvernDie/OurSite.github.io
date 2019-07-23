@@ -4,7 +4,7 @@ height: auto;
     top: 0;
     padding-top: 100px;
 }
-.wrappOnas h1{font-size: 3rem; color: white; width: 100%; margin: 0 auto;padding: 53px;/*! height: 100%; */}
+.wrappOnas h1{font-size: 3rem; color: white; width: 100%; margin: 0 auto;padding: 25px 0 51px 0;/*! height: 100%; */}
 .infoBlocks{
     height: auto;
     position: relative;
@@ -19,7 +19,6 @@ height: auto;
 }
 #infoBlock1{
 
-    margin-top: 245px;
 }
 #infoBlock2{
 flex-direction: row-reverse;
@@ -30,9 +29,11 @@ flex-direction: row-reverse;
 .infoBlockHelp{
     position: relative;
     height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
 }
 .infoBlockText{
-    background-color: antiquewhite;
+  background-color: lightcyan;
     position: relative;
     width: 60%;
     padding: 15px 20px;
@@ -67,6 +68,7 @@ position: relative;
     padding: 16px 12px;
     background-color: #3b3b3b;
 width: 40%;
+min-width: 250px;
 }
 .infoBlockImg hr{
 width: 86%;
@@ -105,11 +107,6 @@ padding: 10px 6px;
     position: relative;
  width: 100%;
     margin: 30px auto;
-    display: flex;
-    /*max-width: 100%;*/
-    overflow: hidden;
-    /*! padding: 0 40px; */
-    /*height: 100%;*/
 }
 .imgText{
 
@@ -191,7 +188,7 @@ padding: 10px 6px;
     position: absolute;
     height: 50%;
     z-index: 1;
-    bottom: 0;
+    bottom: 0px;
     transition-delay: 0.8s;
 }
 #ironClose3{
@@ -205,7 +202,7 @@ padding: 10px 6px;
     position: absolute;
     height: 50%;
     z-index: 1;
-    bottom: 0;
+    bottom: 0px;
     transition-delay: 0.8s;
 }
 #ironClose5{
@@ -215,11 +212,10 @@ padding: 10px 6px;
     bottom: 0;
     transition-delay: 0.8s;
 }
-#ironImgHelp1{
+#ironImgHelp1{}
 
-}
 #ironImgHelp2{
-
+    
 }
 #ironImgHelp3{
 
@@ -233,15 +229,12 @@ padding: 10px 6px;
 }
 
 .ironImg img{
-    width: 300px;
-    /*! min-height: 456px; */
+    position: relative;
 }
 .ironImgHelp{
     display: flex;
     position: relative;
-    /*flex-basis: 100%;*/
-    /*overflow: hidden;*/
-    margin: 0 auto;
+    min-height: 192px;
 }
 #ironInfoDHelp{
     display: none;
@@ -284,6 +277,7 @@ color: #4DC7A0;
     cursor: pointer;
 height: 28px;
 width: 28px;
+transform: translateX(-60%);
 }
 .slide-controls__right{
 color: #007aff;
@@ -291,6 +285,7 @@ color: #007aff;
     cursor: pointer;
 height: 28px;
 width: 28px;
+transform: translateX(60%);
 }
 .slide-controls-word{
 position: relative;
@@ -386,21 +381,25 @@ transform: translateY(0%);
     width: 100%;
     margin-top: 30px;
 }
-
+.MNav{
+min-width: 100px;
+color: cornsilk;
+}
+#infoBlockDoubImg{
+display:none;
+}
+#infoBlockImg{
+display:block;
+}
 #imgNavElH21{
-
 }
 #imgNavElH22{
-
 }
 #imgNavElH23{
-
 }
 #imgNavElH24{
-
 }
 #imgNavElH25{
-
 }
 .wrappVideo{
 
