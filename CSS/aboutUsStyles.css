@@ -197,12 +197,16 @@ padding: 10px 6px;
     z-index: 1;
     bottom: 0;
     transition-delay: 0.8s;
+    width: 85.8%;
+margin-left: 7%;
 }
 #ironClose4{
     position: absolute;
     height: 50%;
     z-index: 1;
     bottom: 0px;
+    width: 85.8%;
+margin-left: 7%;
     transition-delay: 0.8s;
 }
 #ironClose5{

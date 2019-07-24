@@ -15,14 +15,16 @@ $k = 1;
 ?>
 
 <? foreach($newsDatas as $newsData ){ ?>
-<div class="overlay" id="overlay<? echo "$k"; ?>">
+<div class="overlay wow zoomInDown" id="overlay<? echo "$k"; ?>">
     <div class="news-block">
-        <div class="news-button">
-            <a id="news-button-a" src="#">Закрыть</a>
-            <a id="news-button-a1" src="#">&times;</a>
-        </div>
-        <div class="news-elements-h1">
-            <h1><? echo $newsData['newsTitle']; ?></h1>
+        <div class="flex">
+            <div class="news-elements-h1">
+                <h1><? echo $newsData['newsTitle']; ?></h1>
+            </div>
+                <div class="news-button">
+                    <a id="news-button-a" src="#">Закрыть</a>
+                    <a id="news-button-a1" src="#">&times;</a>
+                </div>
         </div>
         <div class="content-news">
             <div class="wrapp-img">

@@ -36,3 +36,6 @@ p, a {
         margin-bottom: 5px;
     }
 }
+.flex{
+    display: flex;
+}

@@ -106,7 +106,7 @@
     .novosti-icon{
     font-size: 19px;
     width: 100%;
-    padding-top: 18%;
+    padding-top: 15%;
     }
     .overlay{
     min-height: 140vh;
@@ -184,29 +184,28 @@
     width: 100%;
     }
     #ironImg1{
-        width: 95%;
+        width: 80%;
       margin: 0px auto;
 /*     min-height: 300px; */
     }
 
     #ironImg2{
         margin: 0px auto;
-        width: 95%;
+        width: 80%;
 /*     min-height: 300px; */
         }
     #ironImg3{
      margin: 0px auto;
-        width: 95%;
-/*     min-height: 300px; */
+        width: 80%;
   }
     #ironImg4{
         margin: 0px auto;
-        width: 95%;
+        width: 80%;
 /*     min-height: 300px; */
         }
     #ironImg5{
         margin: 0px auto;
-        width: 95%;
+        width: 80%;
 /*     min-height: 300px; */
       }
 /*     #ironOpen2{height: 50%} */
@@ -473,7 +472,7 @@
     }
     .novosti-icon{
         font-size: 15px;
-        padding-top: 110px;
+        padding-top: 17%;
         padding-left: 0;
         padding-bottom: 0;
     }
@@ -486,7 +485,8 @@
     height: 287px;
     }
     .overlay{
-        min-height: 120vh;
+        min-height: 200%;
+        position: absolute;
     }
     .overlay-open{
         display: flex;
@@ -496,7 +496,6 @@
 
     width: 100%;
     margin: 10px 0 0 0;
-    height: 51px;
     }
     .news-block{
 
@@ -511,22 +510,22 @@
     .news-element-text{
 
     width: 100%;
-    /*! height: max-content; */
     overflow: hidden;
     top: 0;
     bottom: 0;
     height: auto;
     display: flow-root;
     flex-direction: column;
-    height: 33%;
+    height: 39%;
+    position: relative;
     }
     .news-elements-h1{
 
     }
     .news-text-data{
 
-    position: relative;
     width: 100%;
+    bottom: 1%;
     }
     #news-button-a1{
         display: block;
@@ -539,13 +538,12 @@
     .wrapp-img {
         
     width: 100%;
-    margin-top: 60px;
     height: 252px;
     }
     .content-news {display: flow-root;
+height: auto;
     }
     .news-element-text h2{   
-    position: absolute;
     top: 0;
     width: 100%;
     left: 0;
@@ -556,12 +554,12 @@
     .news-element-text p{
         
     width: 100%;
-    position: relative;
     left: 0;
-    height: auto;
+    /*! height: auto; */
     overflow: auto;
-    max-height: 66px;
-    box-shadow: -1px 1px 11px -7px black;
+    max-height: 117px;
+    /*! box-shadow: -1px 1px 11px -7px black; */
+    margin: 10px 0;
     }
     .novosti-big-block{
         
@@ -571,7 +569,8 @@
     }
     .news-button{
         
-    margin-right: -7px;
+    position: relative;
+    margin: 0 auto;
     }
     #image-news{
         
@@ -762,10 +761,11 @@
     margin-top: 0;
     display: flex;
     justify-content: center;
-    padding-top: 115px;
+    padding-top: 15%;
+    position: relative;
     }
     .overlay{
-        min-height: 131vh;
+        min-height: 152vh;
     }
     .overlay-open{
 
@@ -777,6 +777,7 @@
     margin: 7px 0;
     height: auto;
     margin-bottom: 0;
+    font-size: 24px;
     }
     .news-block{
 
@@ -804,11 +805,9 @@
     bottom: 3%;
     width: 100%;
     left: 0;
-    position: relative;
     }
     .wrapp-img{
         
-    margin-top: 64px;
     width: 100%;
     min-width: 240px;
     }
@@ -1033,19 +1032,18 @@
     .wrapp-img{
         
     min-width: 196px;
-    margin-top: 30px;
     }
     
     .news-element-text{
         
-    height: 26%;
+    height: 31%;
     }
     .news-element-text h2{
         
     }
     .news-element-text p{
         
-    max-height: 114px;
+    max-height: 119px;
     }
     .news-text-data{
         
@@ -1093,6 +1091,8 @@
     }
     .news-text-data{
         
+    right: 0;
+    bottom: 0;
     }
     .wrappOnas h1 {
     padding: 20px 0;
