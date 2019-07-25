@@ -59,7 +59,7 @@
 }
 .data{
     width: 200px;
-    background: aqua;
+    background: #ddd;
     height: 26px;
 }
 .text-big{
@@ -110,7 +110,7 @@
 .novosti-text{
     height: 125px;
     width: 200px;
-    background-color: brown;
+    background-color: #fff;
     opacity: 1;
     position: absolute;
 }
@@ -242,7 +242,6 @@
     font-size: 2rem;
     margin: 10px 5px 10px 0;
     position: relative;
-    text-shadow: 6px 3px 92px blue;
     color: black;
     line-height: 32px;
 }
