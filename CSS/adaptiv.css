@@ -451,7 +451,7 @@
         width: 100px;
         height: 37px;
         margin: 5px auto;
-        padding: 7px 0 0 9px;
+        padding: 20px 0 0 0px;
     }
     .hr{
         width: 145px;
@@ -1098,4 +1098,4 @@ height: auto;
     padding: 20px 0;
         line-height: 44px;}
     .infoBlockImg{min-width: auto;}
-}
+}}
