@@ -43,6 +43,7 @@ a {
 }
 .btn-6:hover {
   color: #cdc8e7;
+  box-shadow: 0 1px 28px 11px blueviolet;
 }
 .btn-6:hover span {
   width: 225%;
