@@ -59,16 +59,16 @@
                 <div class="footerIconShadow">
 
                     <a href="#">
-                        <img src="../Image/FooterIcon/<? echo $footerDatas[2]['iconLink']; ?>"
+                        <img src="../Image/FooterIcon/<? echo $footerDatas[3]['iconLink']; ?>"
                              alt="<? echo $footerDatas[2]['iconAlt']; ?>">
                     </a>
                 </div>
             </div>
             <div class="footerInfoName">
-                <a href="<? echo $footerDatas[2]['infoDescription']; ?>"><? echo $footerDatas[2]['description']; ?></a>
+                <a href="<? echo $footerDatas[3]['infoDescription']; ?>"><? echo $footerDatas[3]['description']; ?></a>
             </div>
             <div class="footerInfo">
-                <a href="<? echo $footerDatas[2]['infoDescription']; ?>"><? echo $footerDatas[2]['infoLink']; ?></a>
+                <a href="<? echo $footerDatas[3]['infoDescription']; ?>"><? echo $footerDatas[3]['infoLink']; ?></a>
             </div>
         </div>
     </div>
