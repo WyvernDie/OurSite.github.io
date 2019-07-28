@@ -83,6 +83,14 @@ while ($i < $k) {
                 </h4>
                 <hr class="hr">
             <?}?>
+            <div class="h4">
+                <a href="tel:+7(977)-271-87-34">
+                    <div class="">
+                            <img src="../Image/FooterIcon/phone.png" width="30px">
+                    </div>
+                </a>
+
+            </div>
         </div>
         <div class="imag-m">
             <img src="../Image/menuBackground.png" alt="menu" id="fon-menu">
