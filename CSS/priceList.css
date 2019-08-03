@@ -97,10 +97,10 @@
 .priceListImg:before, .priceListImg:after{
     content: "";
     position: absolute;
-    left: 10%;
+    left: 15%;
     top: 5%;
 
-    width: 80%;
+    width: 71%;
     height: 90%;
     border-radius: 24px;
     filter: blur(30px);

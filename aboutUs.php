@@ -77,29 +77,29 @@ require 'Parts/Header.php';
     <div class="ironElements">
             <div class="ironImg owl-carousel owl-theme" id="ironCarousel">
                     <div class="ironImgHelp" id="ironImgHelp1">
-                <img src="../Image/Games/GTA5.jpg" id="ironImg1" alt="">
-                <img src="../Image/iSeeYou1.jpg"   class="transform11"  id="ironOpen1" alt="открытый глаз">
-                <img src="../Image/iSeeYou2.jpg"   class="transform1"  id="ironClose1" alt="закрытый глаз">
+                        <img src="../Image/Games/GTA5.jpg" id="ironImg1" class="iimg" alt="">
+                <img src="../Image/iSeeYou1.jpg"   class="transform11 ironOpen"  id="ironOpen1" alt="открытый глаз">
+                <img src="../Image/iSeeYou2.jpg"   class="transform1 ironClose"  id="ironClose1" alt="закрытый глаз">
                     </div>
                         <div class="ironImgHelp" id="ironImgHelp2">
-                <img src="../Image/Games/c.jpg" id="ironImg2" alt="">
-                <img src="../Image/iSeeYou1.jpg"  class="transform22"  id="ironOpen2" alt="открытый глаз">
-                <img src="../Image/iSeeYou2.jpg"  class="transform2"  id="ironClose2" alt="закрытый глаз">
+                            <img src="../Image/Games/GTA5.jpg" id="ironImg2" class="iimg" alt="">
+                <img src="../Image/iSeeYou1.jpg"  class="transform22 ironOpen"  id="ironOpen2" alt="открытый глаз">
+                <img src="../Image/iSeeYou2.jpg"  class="transform2 ironClose"  id="ironClose2" alt="закрытый глаз">
                         </div>
                 <div class="ironImgHelp" id="ironImgHelp3">
-                <img src="../Image/Games/GTA5.jpg" id="ironImg3" alt="">
-                <img src="../Image/iSeeYou1.jpg"  class="transform33" id="ironOpen3" alt="открытый глаз">
-                <img src="../Image/iSeeYou2.jpg"  class="transform3" id="ironClose3" alt="закрытый глаз">
+                    <img src="../Image/Games/GTA5.jpg" id="ironImg3" class="iimg" alt="">
+                <img src="../Image/iSeeYou1.jpg"  class="transform33 ironOpen" id="ironOpen3" alt="открытый глаз">
+                <img src="../Image/iSeeYou2.jpg"  class="transform3 ironClose" id="ironClose3" alt="закрытый глаз">
                 </div>
                         <div class="ironImgHelp" id="ironImgHelp4">
-                <img src="../Image/Games/c.jpg" id="ironImg4" alt="">
-                <img src="../Image/iSeeYou1.jpg"  class="transform44"  id="ironOpen4" alt="открытый глаз">
-                <img src="../Image/iSeeYou2.jpg"  class="transform4"  id="ironClose4" alt="закрытый глаз">
+                            <img src="../Image/Games/GTA5.jpg" id="ironImg3" class="iimg" alt="">
+                <img src="../Image/iSeeYou1.jpg"  class="transform44 ironOpen"  id="ironOpen4" alt="открытый глаз">
+                <img src="../Image/iSeeYou2.jpg"  class="transform4 ironClose"  id="ironClose4" alt="закрытый глаз">
                         </div>
                             <div class="ironImgHelp" id="ironImgHelp5">
-                <img src="../Image/Games/GTA5.jpg" id="ironImg5" alt="">
-                <img src="../Image/iSeeYou1.jpg"  class="transform55" id="ironOpen5" alt="открытый глаз">
-                <img src="../Image/iSeeYou2.jpg"  class="transform5" id="ironClose5" alt="закрытый глаз">
+                <img src="../Image/Games/GTA5.jpg" id="ironImg5" class="iimg" alt="">
+                <img src="../Image/iSeeYou1.jpg"  class="transform55 ironOpen" id="ironOpen5" alt="открытый глаз">
+                <img src="../Image/iSeeYou2.jpg"  class="transform5 ironClose" id="ironClose5" alt="закрытый глаз">
                             </div>
             </div>
 
@@ -182,7 +182,7 @@ require 'Parts/Header.php';
                     640: {
                         dots: false,
                         nav: false,
-                        items: 1,
+                        items: 3,
                     },
                     876: {
                         dots: false,

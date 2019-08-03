@@ -61,7 +61,7 @@ $k = 1;
         <div class="owl-carousel owl-theme" id="news">
             <? $k = 1; ?>
             <?  foreach($newsDatas as $newsData){?>
-            <div class="novocti-block n1 wow bounceInDown" data-wow-delay="<? echo "$k"; ?>s" id="newsOverlay<? echo "$k"; ?>">
+            <div class="novocti-block n1 wow bounceInDown" data-wow-delay="<? echo "$k"-0.9; ?>s" id="newsOverlay<? echo "$k"; ?>">
 
                 <div class="img-novosti">
                     <p><img src="Image/news/<? echo $newsData['newsImageLink']; ?>" id="image-news"></p>

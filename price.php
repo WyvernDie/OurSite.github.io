@@ -31,7 +31,7 @@ $priceListImageData = mysqli_fetch_array($result);
     <div class="priceList">
 
         <div class="priceListImg wow tada" data-wow-delay="1s">
-            <img src="Image/priceList/<? echo $priceListImageData['imageLink'];?>" width="80%">
+            <img src="Image/priceList/<? echo $priceListImageData['imageLink'];?>" width="65%">
 
         </div>
     </div>

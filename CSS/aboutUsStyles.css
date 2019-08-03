@@ -50,7 +50,7 @@ flex-direction: row-reverse;
     
 }
 .infoBlockText h2{
-font-size: 2rem;
+font-size: 4rem;
     color: black;
     position: relative;
 
@@ -197,16 +197,15 @@ padding: 10px 6px;
     z-index: 1;
     bottom: 0;
     transition-delay: 0.8s;
-    width: 85.8%;
-margin-left: 7%;
+    width: 100%;
+
 }
 #ironClose4{
     position: absolute;
     height: 50%;
     z-index: 1;
     bottom: 0px;
-    width: 85.8%;
-margin-left: 7%;
+    width: 100%;
     transition-delay: 0.8s;
 }
 #ironClose5{
@@ -277,26 +276,28 @@ justify-content: center;
 }
 .slide-controls__left{
 color: #4DC7A0;
-    position: relative;
+    position: absolute;
     cursor: pointer;
 height: 28px;
 width: 28px;
-transform: translateX(-60%);
+left: 40%;
+z-index: 2;
 }
 .slide-controls__right{
 color: #007aff;
-    position: relative;
+    position: absolute;
     cursor: pointer;
 height: 28px;
 width: 28px;
-transform: translateX(60%);
+right: 40%;
+z-index: 2;
 }
 .slide-controls-word{
 position: relative;
 overflow: hidden;
-width: auto;
-display: ruby;
-max-width: 15%;
+
+max-width: 30%;
+margin: 0 auto;
 }
 .slide-control{
     position: relative;
@@ -314,22 +315,37 @@ color: coral;
 #ironInfo1{
     position: relative;
     color: white;
+    margin: 0 auto;
+    width: 90%;
+    overflow: auto;
 }
 #ironInfo2{
     position: relative;
     color: white;
+    overflow: auto;
+    margin: 0 auto;
+    width: 90%;
 }
 #ironInfo3{
     position: relative;
     color: white;
+    overflow: auto;
+    margin: 0 auto;
+    width: 90%;
 }
 #ironInfo4{
     position: relative;
     color: white;
+    overflow: auto;
+    margin: 0 auto;
+    width: 90%;
 }
 #ironInfo5{
     position: relative;
     color: white;
+    overflow: auto;
+    margin: 0 auto;
+    width: 90%;
 }
 .transform11{
 transform: translateY(0%);
@@ -382,8 +398,8 @@ transform: translateY(0%);
 
 .ironInfoP{
     position: relative;
-    width: 100%;
-    margin-top: 30px;
+    width: 80%;
+    margin: 0 auto;
 }
 .MNav{
 min-width: 100px;
@@ -395,6 +411,10 @@ display:none;
 #infoBlockImg{
 display:block;
 }
+.iimg{
+    min-height: 400px;
+}
+ 
 #imgNavElH21{
 }
 #imgNavElH22{
