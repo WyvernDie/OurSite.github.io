@@ -41,7 +41,9 @@ while ($d < $m) {
 
     <div class="map_container">
         <div class="map wow zoomInDown"  data-wow-offset = "100">
+
             <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9532bc7a5972bbf1351ba2cb1182859737c3ee6f9108bb84ab4d6ad1841ec1dc&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+
         </div>
         <? if ($ses) {
             ?>

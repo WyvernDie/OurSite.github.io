@@ -44,6 +44,7 @@ a {
 .btn-6:hover {
   color: #cdc8e7;
   box-shadow: 0 0 14px 4px #a300ff;
+  transition: 0.5s;
 }
 .btn-6:hover span {
   width: 225%;

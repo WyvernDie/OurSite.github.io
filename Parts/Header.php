@@ -90,10 +90,9 @@ while ($i < $k) {
         </div>
         <div class="imag-m">
             <img src="../Image/menuBackground.png" alt="menu" id="fon-menu">
-            <a href="index.php">
+             <a href="index.php" style="margin-right: 11%">
                 <img src="../Image/shelter.png" class="graficlogo" id="imm" >
             </a>
-
             <nav class="header-block">
                 <?foreach ($menuDatas as $menuData){?>
                     <div class="punkt" id="parth-menu1">
