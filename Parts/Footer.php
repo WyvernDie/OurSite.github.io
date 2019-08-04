@@ -54,13 +54,13 @@
                 <a href="<? echo $footerDatas[2]['infoDescription']; ?>"><? echo $footerDatas[2]['infoLink']; ?></a>
             </div>
         </div>
-        <div class="footerContent footerContentVk">
-            <div class="footerIcon footerIconVk  wow fadeInLeft" data-wow-delay="1.5s" data-wow-offset="10">
+        <div class="footerContent footerContentInst">
+            <div class="footerIcon footerIconInst  wow fadeInLeft" data-wow-delay="1.5s" data-wow-offset="10">
                 <div class="footerIconShadow">
 
                     <a href="#">
                         <img src="../Image/FooterIcon/<? echo $footerDatas[3]['iconLink']; ?>"
-                             alt="<? echo $footerDatas[2]['iconAlt']; ?>">
+                             alt="<? echo $footerDatas[3]['iconAlt']; ?>">
                     </a>
                 </div>
             </div>

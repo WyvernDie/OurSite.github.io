@@ -91,13 +91,16 @@ footer {
 }
 
 .footerIconPhone:before, .footerIconPhone:after {
-    background: #310084;
+    background: #004117;
 }
 .footerIconEmail:before, .footerIconEmail:after {
-    background: #591882;
+    background: #340000;
 }
 .footerIconVk:before, .footerIconVk:after {
-    background: #455f1c
+    background: #003839
+}
+.footerIconInst:before, .footerIconInst :after {
+    background: #570054
 }
 
 .footerInfoName a, .footerInfo a{
