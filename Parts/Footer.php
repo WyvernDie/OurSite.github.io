@@ -60,7 +60,7 @@
 
                     <a href="#">
                         <img src="../Image/FooterIcon/<? echo $footerDatas[3]['iconLink']; ?>"
-                             alt="<? echo $footerDatas[2]['iconAlt']; ?>">
+                             alt="<? echo $footerDatas[3]['iconAlt']; ?>">
                     </a>
                 </div>
             </div>
