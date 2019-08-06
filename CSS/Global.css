@@ -38,3 +38,11 @@ p, a {
 .flex{
     display: flex;
 }
+
+@font-face {
+    font-family: Roboto; /* Гарнитура шрифта */
+    src: url(Fonts/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+*{
+    font-family: Roboto Bold;
+}
