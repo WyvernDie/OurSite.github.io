@@ -88,8 +88,9 @@ padding: 10px 6px;
     margin-top: 30px;
 }
 .wrappIron h2{
-
     color: aliceblue;
+    margin-top: 60px;
+    font-size: 4rem;
 }
 .ironElements{
 
@@ -100,8 +101,8 @@ padding: 10px 6px;
 }
 .ironElements hr{
 
-    margin-bottom: 15px;
-    margin-top: 15px;
+    width: 80%;
+    margin: 15px auto;
 }
 .ironImg{
     position: relative;
@@ -197,15 +198,12 @@ padding: 10px 6px;
     z-index: 1;
     bottom: 0;
     transition-delay: 0.8s;
-    width: 100%;
-
 }
 #ironClose4{
     position: absolute;
     height: 50%;
     z-index: 1;
     bottom: 0px;
-    width: 100%;
     transition-delay: 0.8s;
 }
 #ironClose5{
@@ -235,15 +233,18 @@ padding: 10px 6px;
     position: relative;
 }
 .ironImgHelp{
-    display: flex;
-    position: relative;
-    min-height: 192px;
+   display: flex;
+position: relative;
+min-height: 480px;
+margin: 0 auto;
+justify-content: center;
+    padding: 0 4%;
 }
 #ironInfoDHelp{
     display: none;
 }
 #slide-controlTextHelp{
-    display: none;
+  display: none;
 }
 .prev{
     position: absolute;
@@ -316,8 +317,9 @@ color: coral;
     position: relative;
     color: white;
     margin: 0 auto;
-    width: 90%;
+    width: 61%;
     overflow: auto;
+    hyphens: auto;
 }
 #ironInfo2{
     position: relative;
@@ -401,9 +403,13 @@ transform: translateY(0%);
     width: 80%;
     margin: 0 auto;
 }
-.MNav{
-min-width: 100px;
-color: cornsilk;
+.MNav{ 
+min-width: 150px;
+color: cornsilk; 
+max-width: 190px;
+margin: 0 auto;
+    position: relative;
+    right: 12%;
 }
 #infoBlockDoubImg{
 display:none;
@@ -413,6 +419,7 @@ display:block;
 }
 .iimg{
     min-height: 400px;
+    width: 92%;
 }
  
 #imgNavElH21{

@@ -32,6 +32,7 @@ while ($i < $k) {
     <meta name="viewport" content="width= device-width, initial-scale=1.0"/>
     <meta name="format-detection" content="telephone=no">
 
+
     <title>Сайт</title>
 
     <link rel="stylesheet" href="../CSS/phone-menu-elements.css"/>
@@ -90,7 +91,7 @@ while ($i < $k) {
         </div>
         <div class="imag-m">
             <img src="../Image/menuBackground.png" alt="menu" id="fon-menu">
-             <a href="index.php" style="margin-right: 11%">
+             <a href="index.php" class="imag-mA">
                 <img src="../Image/shelter.png" class="graficlogo" id="imm" >
             </a>
             <nav class="header-block">
