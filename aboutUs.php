@@ -120,7 +120,7 @@ require 'Parts/Header.php';
                    <hr id="imgTextHr">
             <div class="imgNav">
 
-                <img src="../Image/navLeftImg.jpg" id="slideLeft" class="slide-controls__left">
+                <img src="../Image/LeftImg.png" id="slideLeft" class="slide-controls__left">
 
                     <div class="slide-controls-word">
 
@@ -140,7 +140,7 @@ require 'Parts/Header.php';
                         </div>
                     </div>
 
-                <img src="../Image/navRightImg.jpg" id="slideRight" class="slide-controls__right" alt="вправо">
+                <img src="../Image/RightImg.png" id="slideRight" class="slide-controls__right" alt="вправо">
 </div>
 <div class="wrappVideo">
     <h1></h1>
