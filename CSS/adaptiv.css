@@ -8,6 +8,9 @@
         width: 19%;
         cursor: pointer;
     }
+    .MNav{
+        right: 0;
+    }
     .novosti-on{
         
  
@@ -29,9 +32,32 @@
     }
     .owl-carousel .owl-stage {
     }
+    .imag-mA{
+        margin-right: 11%;
+    }
+     .infoBlockText h2 {}
+    .iimg{
+    }
 }
-   
+@media (max-width:1300px){
+    .infoGame p{
+        max-height: 260px;
+    }
+    .ironImgHelp{
+    min-height: 300px;
+    }
+    .iimg{
+        min-height: 200px;
+      
+    }
+}
+@media (max-width:1050px){
+    .infoGame p{
+        max-height: 200px;
+    }
+}
 @media (max-width:876px){ /*Медиа-запрос*/
+    
     html{
         width: 100%;
         height: 100%;
@@ -47,9 +73,11 @@
         position: fixed;
     }
     .ironImgHelp{
-      min-height: 250px;
+      max-height: 300px;
         max-width: 100%; 
         margin: 0 auto;
+      padding: 0;
+      min-height: 140px;
     }
     .iimg{
     min-height: 250px;
@@ -66,6 +94,9 @@
         margin-right: 7%;
 
         z-index: 245;
+    }
+    .imag-mA{
+        margin-right: 7%;
     }
     .graficlogo:not(:hover) {
         transform: rotate(0deg);
@@ -107,7 +138,6 @@
     }
     /*news*/
     .novosti-on{
-        
     margin-top: 66px;
     height: auto;
     }
@@ -206,9 +236,31 @@
         }
     #ironImg5{
         margin: 0px auto;
-        /*! width: 80%; */
-      }
-/*     #ironOpen2{height: 50%} */
+    }
+    .infoGame p{
+        max-height: 183px;
+    }
+ .infoBlockText h2 {font-size: 3.2rem;}
+    .iimg{
+        position: absolute;
+        margin: 39px auto;
+        min-height: 270px;
+    }
+    .slide-controls__left {
+        left:  35%;
+    }
+    .slide-controls__right {
+        right: 35%;
+    }
+    .ironClose{
+        width: 100%;
+    }
+    .ironOpen{
+        
+    }
+    .MNav{
+        right: 0;
+    }
 }
 @media (max-width:640px){
     .price{
@@ -343,8 +395,23 @@
         max-height: 250px;
     }
     .ironImgHelp{
-      min-height: 350px;
+      min-height: 540px; 
+      margin: 0 auto;
+      padding: 4%;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
          }
+     .infoBlockText h2 {font-size: 2.7rem;}
+     .slide-controls__left {
+       
+    left: 30%;
+    }
+    .slide-controls__right {
+        
+    right: 30%;
+    }
+
 }
 @media (max-width:480px){
     .gameBan{
@@ -678,16 +745,29 @@ height: auto;
         
     }
     .ironImgHelp{
-        min-height: 300px;
-        max-width: 90%;
+        max-width: 91%;
         margin: 0 auto;
+        min-height: 333px;
     }
     .infoBlockText h2{
         font-size: 3rem;
     }
-    .ironImgHelp{
-      min-height: 350px;
-      }
+     .infoBlockText h2 {}
+     .slide-controls__left {
+               left: 20%;
+    }
+    .slide-controls__right {
+        right: 20%;
+    }
+    .MNav{
+        
+    right: 14%;
+    }
+    .wrappIron h2{
+        
+    font-size: 3.7rem;
+    margin: 40px 0 0 0;
+    }
 }
 @media (max-width:320px){
     .gameBan{
@@ -974,8 +1054,18 @@ height: auto;
         right:20%;
     }
     .ironImgHelp{
-      min-height: 350px;
+      min-height: 310px;
       }
+     .infoBlockText h2 {}
+ .slide-controls__left {
+       
+    }
+    .slide-controls__right {
+        
+    }
+    .MNav{
+    right: 24%;
+    }
 }
 @media (max-width:240px){
     .novosti-icon{
@@ -1143,4 +1233,11 @@ height: auto;
 .ironImgHelp{
       min-height: 350px;
       }
+     .infoBlockText h2 {}
+     .slide-controls__left {
+       
+    }
+    .slide-controls__right {
+        
+    }
 }
