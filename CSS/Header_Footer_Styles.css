@@ -2,7 +2,6 @@
 html {
   height: 100%;
   width: 100%;
-
 }
 body {
   height: 100%;
@@ -64,14 +63,10 @@ header{ /*Задаем тот же фон для выпрыгивающего м
   margin-top: -8px;
 }
 #imm{
-  height: 150px;
+  height: 180px;
   z-index: 3;
-  margin-top: 15px;
-  margin-left: 13px;
-  flex-basis: 170px;
   flex: 0.2;
   margin-right: 11%;
-  max-width: 175px;
   animation-name: shelterImg;
   animation-duration: 15s;
   animation-delay: 5s; 

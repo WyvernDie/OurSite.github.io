@@ -2,9 +2,6 @@
     .price{
     }
     .news-button{
-        display: flex;
-        justify-content: center;
-        align-content: center;
         width: 19%;
         cursor: pointer;
     }
@@ -34,6 +31,7 @@
     }
     .imag-mA{
         margin-right: 11%;
+        display: inline-table;
     }
      .infoBlockText h2 {}
     .iimg{
@@ -54,6 +52,9 @@
 @media (max-width:1050px){
     .infoGame p{
         max-height: 200px;
+    }
+    .news-elements-h1{
+        padding-top: 1%;
     }
 }
 @media (max-width:876px){ /*Медиа-запрос*/
@@ -84,19 +85,12 @@
     }
     #imm{
         position: initial;
-        flex-basis: 0px;
-        height: 110px;
-        top: 0;
-        left: 0;
-        margin-top:10px;
-        margin-left: 3px;
-        max-width: 110px;
-        margin-right: 7%;
+        height: 150px;
 
         z-index: 245;
     }
     .imag-mA{
-        margin-right: 7%;
+        margin: -13px 5% 0 -17px;
     }
     .graficlogo:not(:hover) {
         transform: rotate(0deg);
@@ -296,8 +290,7 @@
     }
     #imm{
 
-        height: 97px;
-        max-width: 100px;
+        height: 125px;
     }
     /*news*/
     .novosti-on{
@@ -347,9 +340,7 @@
     width: 100%;
     }
     .news-button{
-        display: flex;
-        justify-content: center;
-        align-content: center;
+        display: block;
         width: 19%;
         max-height: 50px;
     }
@@ -411,7 +402,11 @@
         
     right: 30%;
     }
+.imag-mA {
 
+
+    margin: -9px 6% 0 -12px;
+}
 }
 @media (max-width:480px){
     .gameBan{
@@ -440,10 +435,9 @@
         height: 19px;
     }
     #imm{
-        height: 80px;
-        margin-left:-3px;
-        margin-top: 9px;
-        max-width: 85px;
+        height: 109px;
+        margin: 0;
+        max-width: inherit;
     }
     .graficlogo:not(:hover)
     {
@@ -564,8 +558,6 @@
     }
     .news-elements-h1 h1{
 
-    width: 100%;
-    margin: 10px 0 0 0;
     }
     .news-block{
 
@@ -591,6 +583,7 @@
     }
     .news-elements-h1{
 
+    max-width: 78%;
     }
     .news-text-data{
 
@@ -768,6 +761,9 @@ height: auto;
     font-size: 3.7rem;
     margin: 40px 0 0 0;
     }
+    .imag-mA {
+    margin: -9px 0 0 -14px;
+}
 }
 @media (max-width:320px){
     .gameBan{
@@ -797,11 +793,10 @@ height: auto;
         border-bottom: none;
     }
     #imm{
-        height: 60px;
-        max-width: 63px;
-        margin-top: 6px;
-        margin-left: -4px;
-        z-index: 99999999;
+        height: 85px;
+        /*! max-width: 63px; */
+        z-index: 999999;
+        margin: 0;
     }
     .graficlogo:not(:hover) {
         transform: rotate(0deg);
@@ -874,9 +869,6 @@ height: auto;
     }
     .news-elements-h1 h1{
 
-    margin: 7px 0;
-    height: auto;
-    margin-bottom: 0;
     font-size: 24px;
     }
     .news-block{
@@ -901,6 +893,8 @@ height: auto;
     }
     .news-elements-h1{
 
+    padding-top: 12px;
+    max-width: 77%;
     }
     .news-text-data{
 
@@ -920,8 +914,6 @@ height: auto;
     }
     .news-button{
         
-    margin: -1px -9px 0 0;
-    position: absolute;
     }
     #news-button-a1{
         font-size: 55px;
@@ -1067,6 +1059,12 @@ height: auto;
     .MNav{
     right: 24%;
     }
+    .imag-mA {
+
+    margin-right: 0;
+
+    margin: -6px 0 0 -16px;
+}
 }
 @media (max-width:240px){
     .novosti-icon{

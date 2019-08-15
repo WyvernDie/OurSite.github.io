@@ -16,7 +16,7 @@ while ($d < $m) {
             <img src="Image/background.png">
         </div>
     </div>
-    <div class="swiper-container wow bounceInUp" data-wow-delay="1s" data-wow-offset="40" style="width: 100%">
+    <div class="swiper-container wow bounceInUp" data-wow-delay="0s" data-wow-offset="40" style="width: 100%">
         <div class="swiper-wrapper">
             <?php foreach ($gameDatas as $gameData){?>
                 <div class="swiper-slide" >
@@ -40,7 +40,7 @@ while ($d < $m) {
     </div>
 
     <div class="map_container">
-        <div class="map wow zoomInDown"  data-wow-offset = "100">
+        <div class="map wow zoomInDown"  data-wow-offset = "70">
 
             <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9532bc7a5972bbf1351ba2cb1182859737c3ee6f9108bb84ab4d6ad1841ec1dc&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
 
