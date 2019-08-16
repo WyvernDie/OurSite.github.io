@@ -208,10 +208,10 @@
     width: 19%;
     height: 13%;
     position: relative;
-    padding: 12px 0 12px 0;
+    padding: 12px 0;
     border-radius: 5px;
     top: 10px;
-    right: 16px;
+    right: 10px;
     float: right;
 }
 #news-button-a{
@@ -230,19 +230,18 @@
     position: inherit;
 }
 .news-elements-h1{
-
-    width: 77%;
-    position: static;
-    height: 13%;
+    float: left;
+    padding: 3.4% 0 0 2%;
+    max-width: 79%;
+    display: inline;
 }
 .news-elements-h1 h1{
 
     padding: 0;
     font-size: 2rem;
-    margin: 10px 5px 10px 0;
     position: relative;
     color: black;
-    line-height: 32px;
+    line-height: 100%;
 }
 .news-element-text{
 
