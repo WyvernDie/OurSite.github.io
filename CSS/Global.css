@@ -48,8 +48,8 @@ p, a {
 
 @font-face {
     font-family: Roboto; /* Гарнитура шрифта */
-    src: url(Fonts/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
+    src: url(Fonts/OpenSans-Regular.ttf); /* Путь к файлу со шрифтом */
 }
 *{
-    font-family: Roboto Bold;
+    font-family: "Open Sans";
 }
