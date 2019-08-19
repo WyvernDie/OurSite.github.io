@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="footerInfoName">
-                <a href="<? echo $footerDatas[0]['infoDescription']; ?>"><h2><? echo $footerDatas[0]['description']; ?></h2></a>
+                <a href="<? echo $footerDatas[0]['infoDescription']; ?>"><h3><? echo $footerDatas[0]['description']; ?></h3></a>
             </div>
             <div class="footerInfo">
                 <a href="<? echo $footerDatas[0]['infoDescription']; ?>"><? echo $footerDatas[0]['infoLink']; ?></a>
@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="footerInfoName">
-                <a href="<? echo $footerDatas[1]['infoDescription']; ?>"><h2><? echo $footerDatas[1]['description']; ?></h2></a>
+                <a href="<? echo $footerDatas[1]['infoDescription']; ?>"><h3><? echo $footerDatas[1]['description']; ?></h3></a>
             </div>
             <div class="footerInfo">
 
@@ -48,7 +48,7 @@
                 </div>
             </div>
             <div class="footerInfoName">
-                <a href="<? echo $footerDatas[2]['infoDescription']; ?>"><h2><? echo $footerDatas[2]['description']; ?></h2></a>
+                <a href="<? echo $footerDatas[2]['infoDescription']; ?>"><h3><? echo $footerDatas[2]['description']; ?></h3></a>
             </div>
             <div class="footerInfo">
                 <a href="<? echo $footerDatas[2]['infoDescription']; ?>"><? echo $footerDatas[2]['infoLink']; ?></a>
@@ -65,7 +65,7 @@
                 </div>
             </div>
             <div class="footerInfoName">
-                <a href="<? echo $footerDatas[3]['infoDescription']; ?>"><h2><? echo $footerDatas[3]['description']; ?></h2></a>
+                <a href="<? echo $footerDatas[3]['infoDescription']; ?>"><h3><? echo $footerDatas[3]['description']; ?></h3></a>
             </div>
             <div class="footerInfo">
                 <a href="<? echo $footerDatas[3]['infoDescription']; ?>"><? echo $footerDatas[3]['infoLink']; ?></a>

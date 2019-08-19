@@ -30,7 +30,7 @@
     .owl-carousel .owl-stage {
     }
     .imag-mA{
-        margin-right: 11%;
+        margin-right: 10%;
         display: inline-table;
     }
      .infoBlockText h2 {}
@@ -39,7 +39,6 @@
 }
 @media (max-width:1300px){
     .infoGame p{
-        max-height: 260px;
     }
     .ironImgHelp{
     min-height: 300px;
@@ -50,8 +49,7 @@
     }
 }
 @media (max-width:1050px){
-    .infoGame p{
-        max-height: 200px;
+    .infoGame p{ 
     }
     .news-elements-h1{
         padding-top: 1%;

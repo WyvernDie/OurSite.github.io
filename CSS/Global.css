@@ -10,6 +10,12 @@ h1{
     font-size: 3rem;
     color: blueviolet;
 }
+.infoGame p{
+    max-height: 70%;
+    position: absolute;
+    width: 37%; 
+    overflow: auto;
+}
 h2{
     font-size: 2rem;
     margin-bottom: 15px;
@@ -36,7 +42,8 @@ p, a {
     }
 }
 .flex{
-    overflow: hidden; 
+    overflow: hidden;  
+    padding: 0 0 10px 0;
 }
 
 @font-face {
